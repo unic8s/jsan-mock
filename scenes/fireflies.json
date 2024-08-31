@@ -1,0 +1,79 @@
+{
+    "layers": [
+        {
+            "uid": "D6F4139A-1052-4FD6-9E2D-997E33EA29C2",
+            "name": "Particles",
+            "plugin": "com_unic8_elan_particles",
+            "config": {
+                "mode": 0,
+                "amount": 1000,
+                "speed": 20,
+                "duration": 2,
+                "texturize": false,
+                "colorize": true,
+                "color": "#3ae854",
+                "center": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                },
+                "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "805CE3D0-E193-45A8-88A4-CD0498D13CAE",
+            "name": "Color builder",
+            "plugin": "com_unic8_elan_color",
+            "config": {
+                "red": 0,
+                "green": 0,
+                "blue": 0,
+                "trigger": true,
+                "duration": 1,
+                "random": true
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "E4F7E167-E88B-4DB5-BE9B-6D2093A1F53E",
+            "name": "Timer",
+            "plugin": "com_unic8_elan_timer",
+            "config": {
+                "Cycles": 0,
+                "Delay": 1000,
+                "Active": true
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        }
+    ],
+    "variables": [],
+    "bindings": [
+        {
+            "id": "plugins.805CE3D0-E193-45A8-88A4-CD0498D13CAE.output.color_plugins.D6F4139A-1052-4FD6-9E2D-997E33EA29C2.input.color",
+            "from": "plugins.805CE3D0-E193-45A8-88A4-CD0498D13CAE.output.color",
+            "to": "plugins.D6F4139A-1052-4FD6-9E2D-997E33EA29C2.input.color"
+        },
+        {
+            "id": "plugins.E4F7E167-E88B-4DB5-BE9B-6D2093A1F53E.output.Toggle_plugins.805CE3D0-E193-45A8-88A4-CD0498D13CAE.input.trigger",
+            "from": "plugins.E4F7E167-E88B-4DB5-BE9B-6D2093A1F53E.output.Toggle",
+            "to": "plugins.805CE3D0-E193-45A8-88A4-CD0498D13CAE.input.trigger"
+        }
+    ],
+    "speed": 1
+}

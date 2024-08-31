@@ -1,0 +1,23 @@
+{
+    "layers": [
+        {
+            "uid": "842E3F94-34DA-42F6-9E55-4AA3CC6DE289",
+            "name": "Shader",
+            "plugin": "com_unic8_elan_shader",
+            "config": {
+                "red": false,
+                "green": false,
+                "blue": false,
+                "alpha": 0,
+                "index": 0
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        }
+    ],
+    "variables": [],
+    "bindings": [],
+    "speed": 1
+}

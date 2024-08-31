@@ -1,0 +1,53 @@
+{
+    "layers": [
+        {
+            "uid": "8C88CE63-3A7B-4ABB-8A51-E0C604339B8B",
+            "name": "Clock",
+            "plugin": "com_unic8_elan_clock",
+            "config": {
+                "time": -1,
+                "modern": false,
+                "smooth": false,
+                "hours": "#FFFFFF",
+                "minutes": "#FFFFFF",
+                "seconds": "#FFFFFF",
+                "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "EFA63BE0-DFB0-4377-8754-635C5AF805E2",
+            "name": "Clock",
+            "plugin": "com_unic8_elan_clock",
+            "config": {
+                "time": -1,
+                "modern": true,
+                "smooth": true,
+                "hours": "#FF0000",
+                "minutes": "#00FF00",
+                "seconds": "#0000FF",
+                "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            "alpha": 0.5,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        }
+    ],
+    "variables": [],
+    "bindings": [],
+    "speed": 1
+}

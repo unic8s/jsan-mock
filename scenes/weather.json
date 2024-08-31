@@ -1,0 +1,200 @@
+{
+    "layers": [
+        {
+            "uid": "A854C7C6-A921-4D03-A8D7-49C513789541",
+            "name": "Text",
+            "plugin": "com_unic8_elan_text",
+            "config": {
+                "label": 21.4,
+                "font": "Arial",
+                "size": 12,
+                "color": "#42424c",
+                "width": 0,
+                "scroll": true,
+                "smooth": true,
+                "speed": 10,
+                "bounds": {
+                    "x": 24,
+                    "y": 24,
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            "alpha": 1,
+            "blendMode": 2,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "F92309E2-0392-438F-B9C0-13095F0C7789",
+            "name": "Image",
+            "plugin": "com_unic8_elan_image",
+            "config": {
+                "path": {
+                    "fileID": "https://openweathermap.org/img/wn/04d.png",
+                    "path": "https://openweathermap.org/img/wn/04d.png"
+                },
+                "contains": false,
+                "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "1FDD479C-D87C-41DB-9EBE-6ABDBCD5824A",
+            "name": "String modifier",
+            "plugin": "com_unic8_elan_string",
+            "config": {
+                "Len": "",
+                "Has hay": "",
+                "Has ndl": "",
+                "Con A": 21.4,
+                "Con B": "°C",
+                "Con sep": "",
+                "Rep hay": "",
+                "Rep ndl": "",
+                "Rep new": "",
+                "Sub src": "",
+                "Sub bgn": 0,
+                "Sub end": 0
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "1E466864-F2B5-49D5-ABB2-B1D38AB09194",
+            "name": "Number calculator",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "Add A": 32,
+                "Add B": -8,
+                "Sub A": 32,
+                "Sub B": 8,
+                "Mlt A": 0,
+                "Mlt B": 0,
+                "Div A": 0,
+                "Div B": 0
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "71C72FFD-CA6F-45B9-B737-4FCADD50FA30",
+            "name": "Rectangle builder",
+            "plugin": "com_unic8_elan_rectangle_builder",
+            "config": {
+                "x": 24,
+                "y": 24,
+                "width": 0,
+                "height": 0
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "FD8956E2-E391-4E53-8E5F-32ED530D71C5",
+            "name": "Number calculator",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "Add A": 0,
+                "Add B": 0,
+                "Sub A": 0,
+                "Sub B": 0,
+                "Mlt A": 64,
+                "Mlt B": 0.5,
+                "Div A": 64,
+                "Div B": 2
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "AE8674FC-C6F0-44BC-BD10-33547DC7D254",
+            "name": "Weather",
+            "plugin": "com_unic8_elan_weather",
+            "config": {
+                "location": "Tamm,Germany",
+                "unit": "metric",
+                "precision": 1
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        }
+    ],
+    "variables": [],
+    "bindings": [
+        {
+            "id": "internals.canvasWidth_plugins.FD8956E2-E391-4E53-8E5F-32ED530D71C5.input.Mlt A",
+            "from": "internals.canvasWidth",
+            "to": "plugins.FD8956E2-E391-4E53-8E5F-32ED530D71C5.input.Mlt A"
+        },
+        {
+            "id": "internals.canvasHeight_plugins.FD8956E2-E391-4E53-8E5F-32ED530D71C5.input.Div A",
+            "from": "internals.canvasHeight",
+            "to": "plugins.FD8956E2-E391-4E53-8E5F-32ED530D71C5.input.Div A"
+        },
+        {
+            "id": "plugins.FD8956E2-E391-4E53-8E5F-32ED530D71C5.output.Mlt_plugins.1E466864-F2B5-49D5-ABB2-B1D38AB09194.input.Add A",
+            "from": "plugins.FD8956E2-E391-4E53-8E5F-32ED530D71C5.output.Mlt",
+            "to": "plugins.1E466864-F2B5-49D5-ABB2-B1D38AB09194.input.Add A"
+        },
+        {
+            "id": "plugins.FD8956E2-E391-4E53-8E5F-32ED530D71C5.output.Div_plugins.1E466864-F2B5-49D5-ABB2-B1D38AB09194.input.Sub A",
+            "from": "plugins.FD8956E2-E391-4E53-8E5F-32ED530D71C5.output.Div",
+            "to": "plugins.1E466864-F2B5-49D5-ABB2-B1D38AB09194.input.Sub A"
+        },
+        {
+            "id": "plugins.1E466864-F2B5-49D5-ABB2-B1D38AB09194.output.Add_plugins.71C72FFD-CA6F-45B9-B737-4FCADD50FA30.input.x",
+            "from": "plugins.1E466864-F2B5-49D5-ABB2-B1D38AB09194.output.Add",
+            "to": "plugins.71C72FFD-CA6F-45B9-B737-4FCADD50FA30.input.x"
+        },
+        {
+            "id": "plugins.1E466864-F2B5-49D5-ABB2-B1D38AB09194.output.Sub_plugins.71C72FFD-CA6F-45B9-B737-4FCADD50FA30.input.y",
+            "from": "plugins.1E466864-F2B5-49D5-ABB2-B1D38AB09194.output.Sub",
+            "to": "plugins.71C72FFD-CA6F-45B9-B737-4FCADD50FA30.input.y"
+        },
+        {
+            "id": "plugins.71C72FFD-CA6F-45B9-B737-4FCADD50FA30.output.bounds_plugins.A854C7C6-A921-4D03-A8D7-49C513789541.input.bounds",
+            "from": "plugins.71C72FFD-CA6F-45B9-B737-4FCADD50FA30.output.bounds",
+            "to": "plugins.A854C7C6-A921-4D03-A8D7-49C513789541.input.bounds"
+        },
+        {
+            "id": "plugins.AE8674FC-C6F0-44BC-BD10-33547DC7D254.output.temp_cur_plugins.A854C7C6-A921-4D03-A8D7-49C513789541.input.label",
+            "from": "plugins.AE8674FC-C6F0-44BC-BD10-33547DC7D254.output.temp_cur",
+            "to": "plugins.A854C7C6-A921-4D03-A8D7-49C513789541.input.label"
+        },
+        {
+            "id": "plugins.AE8674FC-C6F0-44BC-BD10-33547DC7D254.output.icon_plugins.F92309E2-0392-438F-B9C0-13095F0C7789.input.path",
+            "from": "plugins.AE8674FC-C6F0-44BC-BD10-33547DC7D254.output.icon",
+            "to": "plugins.F92309E2-0392-438F-B9C0-13095F0C7789.input.path"
+        },
+        {
+            "id": "plugins.AE8674FC-C6F0-44BC-BD10-33547DC7D254.output.temp_cur_plugins.1FDD479C-D87C-41DB-9EBE-6ABDBCD5824A.input.Con A",
+            "from": "plugins.AE8674FC-C6F0-44BC-BD10-33547DC7D254.output.temp_cur",
+            "to": "plugins.1FDD479C-D87C-41DB-9EBE-6ABDBCD5824A.input.Con A"
+        },
+        {
+            "id": "plugins.F92309E2-0392-438F-B9C0-13095F0C7789.output.accent_plugins.A854C7C6-A921-4D03-A8D7-49C513789541.input.color",
+            "from": "plugins.F92309E2-0392-438F-B9C0-13095F0C7789.output.accent",
+            "to": "plugins.A854C7C6-A921-4D03-A8D7-49C513789541.input.color"
+        }
+    ],
+    "speed": 1
+}

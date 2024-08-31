@@ -1,0 +1,30 @@
+{
+    "layers": [
+        {
+            "uid": "5806A215-4452-456D-80C0-0EFDBD799B68",
+            "name": "Image",
+            "plugin": "com_unic8_elan_image",
+            "config": {
+                "path": {
+                    "fileID": "http://localhost:8888/files?id=b3988a71-1090-4184-adce-3e1dd14ea950",
+                    "path": "C:\\Playground\\Software\\elan\\resources\\elan.png"
+                },
+                "contains": false,
+                "fade": 0,
+                "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        }
+    ],
+    "variables": [],
+    "bindings": [],
+    "speed": 1
+}

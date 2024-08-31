@@ -1,0 +1,65 @@
+{
+    "layers": [
+        {
+            "uid": "EEC87F14-B3B7-44D2-84CE-31AB8B0F7A55",
+            "name": "Shapes",
+            "plugin": "com_unic8_elan_shapes",
+            "config": {
+                "trigger": true,
+                "duration": 2,
+                "square": true,
+                "circle": true,
+                "star": true,
+                "line": 1,
+                "color": "#FFFFFF",
+                "outline": true,
+                "startSize": 0,
+                "endSize": 100,
+                "startAlpha": 1,
+                "endAlpha": 0,
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                },
+                "randomColor": true,
+                "randomPosition": true,
+                "randomRotation": true,
+                "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "D2DE791A-486F-4E3C-8D89-C1259223B522",
+            "name": "Timer",
+            "plugin": "com_unic8_elan_timer",
+            "config": {
+                "Cycles": 0,
+                "Delay": 500,
+                "Active": true
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        }
+    ],
+    "variables": [],
+    "bindings": [
+        {
+            "id": "plugins.D2DE791A-486F-4E3C-8D89-C1259223B522.output.Toggle_plugins.EEC87F14-B3B7-44D2-84CE-31AB8B0F7A55.input.trigger",
+            "from": "plugins.D2DE791A-486F-4E3C-8D89-C1259223B522.output.Toggle",
+            "to": "plugins.EEC87F14-B3B7-44D2-84CE-31AB8B0F7A55.input.trigger"
+        }
+    ],
+    "speed": 1
+}

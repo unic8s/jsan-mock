@@ -1,0 +1,64 @@
+{
+    "layers": [
+        {
+            "uid": "51E2AB62-ABF7-4F31-9AAF-AE14CA93E41B",
+            "name": "Image",
+            "plugin": "com_unic8_elan_image",
+            "config": {
+                "path": "",
+                "contains": false,
+                "fade": 1,
+                "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "0DA56904-F37D-4DC4-9228-D5F3FBF396ED",
+            "name": "Playlist",
+            "plugin": "com_unic8_elan_playlist",
+            "config": {
+                "list": {
+                    "fileID": null,
+                    "path": "C:\\Users\\erikl\\Pictures\\Wallpaper"
+                },
+                "interval": 5,
+                "index": 0
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        }
+    ],
+    "variables": [
+        {
+            "name": "wallpaper",
+            "value": {
+                "fileID": null,
+                "path": "C:\\Users\\erikl\\Pictures\\Wallpaper"
+            },
+            "type": "Directory"
+        }
+    ],
+    "bindings": [
+        {
+            "id": "plugins.0DA56904-F37D-4DC4-9228-D5F3FBF396ED.output.file_plugins.51E2AB62-ABF7-4F31-9AAF-AE14CA93E41B.input.path",
+            "from": "plugins.0DA56904-F37D-4DC4-9228-D5F3FBF396ED.output.file",
+            "to": "plugins.51E2AB62-ABF7-4F31-9AAF-AE14CA93E41B.input.path"
+        },
+        {
+            "id": "variables.wallpaper_plugins.0DA56904-F37D-4DC4-9228-D5F3FBF396ED.input.list",
+            "from": "variables.wallpaper",
+            "to": "plugins.0DA56904-F37D-4DC4-9228-D5F3FBF396ED.input.list"
+        }
+    ],
+    "speed": 1
+}

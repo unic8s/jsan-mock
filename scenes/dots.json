@@ -1,0 +1,27 @@
+{
+    "layers": [
+        {
+            "uid": "6C13181A-C375-45FC-9D89-3A74D0BCDF2D",
+            "name": "Dots",
+            "plugin": "com_unic8_elan_dots",
+            "config": {
+                "modulo": 3,
+                "duration": 8,
+                "scheme": 3,
+                "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        }
+    ],
+    "variables": [],
+    "bindings": [],
+    "speed": 1
+}

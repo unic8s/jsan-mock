@@ -1,0 +1,141 @@
+{
+    "layers": [
+        {
+            "uid": "A87DA342-8552-4A0A-B45F-8C03750E7758",
+            "name": "Progress",
+            "plugin": "com_unic8_elan_progress",
+            "config": {
+                "track": "#000000",
+                "fill": "#FFFFFF",
+                "minimum": 0,
+                "maximum": 159.752993,
+                "value": 6.728795,
+                "bounds": {
+                    "x": 2,
+                    "y": 60,
+                    "width": 60,
+                    "height": 2
+                }
+            },
+            "alpha": 0.5,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "7C2B51D7-9175-4D20-B3B8-E7756C800C7A",
+            "name": "Video",
+            "plugin": "com_unic8_elan_video",
+            "config": {
+                "path": {
+                    "fileID": "http://localhost:8888/files?id=242d07a0-c1a6-431a-a26b-357b5ffa50b4",
+                    "path": "C:\\Playground\\Software\\elan-prototype\\vid\\free_guy.mp4"
+                },
+                "contains": false,
+                "autoplay": true,
+                "loop": true,
+                "muted": true,
+                "paused": false,
+                "progress": 0,
+                "speed": 1,
+                "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "E8441E9A-706F-4E98-877C-BD0977768AC8",
+            "name": "Number calculator",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "Add A": 64,
+                "Add B": -4,
+                "Sub A": 64,
+                "Sub B": 4,
+                "Mlt A": 0,
+                "Mlt B": 0,
+                "Div A": 0,
+                "Div B": 0
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "AA71EADB-4EA5-4307-8590-D23554D1C71A",
+            "name": "Rectangle builder",
+            "plugin": "com_unic8_elan_rectangle_builder",
+            "config": {
+                "x": 2,
+                "y": 60,
+                "width": 60,
+                "height": 2
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        }
+    ],
+    "variables": [
+        {
+            "name": "video",
+            "value": {
+                "fileID": null,
+                "path": "C:\\Playground\\Software\\elan-prototype\\vid\\free_guy.mp4"
+            },
+            "type": "File"
+        }
+    ],
+    "bindings": [
+        {
+            "id": "variables.video_plugins.7C2B51D7-9175-4D20-B3B8-E7756C800C7A.input.path",
+            "from": "variables.video",
+            "to": "plugins.7C2B51D7-9175-4D20-B3B8-E7756C800C7A.input.path"
+        },
+        {
+            "id": "plugins.7C2B51D7-9175-4D20-B3B8-E7756C800C7A.output.progress_plugins.A87DA342-8552-4A0A-B45F-8C03750E7758.input.value",
+            "from": "plugins.7C2B51D7-9175-4D20-B3B8-E7756C800C7A.output.progress",
+            "to": "plugins.A87DA342-8552-4A0A-B45F-8C03750E7758.input.value"
+        },
+        {
+            "id": "plugins.7C2B51D7-9175-4D20-B3B8-E7756C800C7A.output.duration_plugins.A87DA342-8552-4A0A-B45F-8C03750E7758.input.maximum",
+            "from": "plugins.7C2B51D7-9175-4D20-B3B8-E7756C800C7A.output.duration",
+            "to": "plugins.A87DA342-8552-4A0A-B45F-8C03750E7758.input.maximum"
+        },
+        {
+            "id": "internals.canvasWidth_plugins.E8441E9A-706F-4E98-877C-BD0977768AC8.input.Add A",
+            "from": "internals.canvasWidth",
+            "to": "plugins.E8441E9A-706F-4E98-877C-BD0977768AC8.input.Add A"
+        },
+        {
+            "id": "internals.canvasHeight_plugins.E8441E9A-706F-4E98-877C-BD0977768AC8.input.Sub A",
+            "from": "internals.canvasHeight",
+            "to": "plugins.E8441E9A-706F-4E98-877C-BD0977768AC8.input.Sub A"
+        },
+        {
+            "id": "plugins.E8441E9A-706F-4E98-877C-BD0977768AC8.output.Add_plugins.AA71EADB-4EA5-4307-8590-D23554D1C71A.input.y",
+            "from": "plugins.E8441E9A-706F-4E98-877C-BD0977768AC8.output.Add",
+            "to": "plugins.AA71EADB-4EA5-4307-8590-D23554D1C71A.input.y"
+        },
+        {
+            "id": "plugins.E8441E9A-706F-4E98-877C-BD0977768AC8.output.Sub_plugins.AA71EADB-4EA5-4307-8590-D23554D1C71A.input.width",
+            "from": "plugins.E8441E9A-706F-4E98-877C-BD0977768AC8.output.Sub",
+            "to": "plugins.AA71EADB-4EA5-4307-8590-D23554D1C71A.input.width"
+        },
+        {
+            "id": "plugins.AA71EADB-4EA5-4307-8590-D23554D1C71A.output.bounds_plugins.A87DA342-8552-4A0A-B45F-8C03750E7758.input.bounds",
+            "from": "plugins.AA71EADB-4EA5-4307-8590-D23554D1C71A.output.bounds",
+            "to": "plugins.A87DA342-8552-4A0A-B45F-8C03750E7758.input.bounds"
+        }
+    ],
+    "speed": 1
+}

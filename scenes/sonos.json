@@ -1,0 +1,402 @@
+{
+    "layers": [
+        {
+            "uid": "37D24D12-3B1D-4B41-96AA-56A2ECA39870",
+            "name": "Artist",
+            "plugin": "com_unic8_elan_text",
+            "config": {
+                "label": "Markus Gardeweg",
+                "font": "Arial",
+                "size": 16,
+                "color": "#d0310e",
+                "width": 0,
+                "scroll": true,
+                "smooth": true,
+                "speed": 6,
+                "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            "alpha": 1,
+            "blendMode": 1,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "42399F43-64CA-47EA-A04C-2F102A030F48",
+            "name": "Song",
+            "plugin": "com_unic8_elan_text",
+            "config": {
+                "label": "Sky",
+                "font": "Arial",
+                "size": 32,
+                "color": "#f57501",
+                "width": 0,
+                "scroll": true,
+                "smooth": true,
+                "speed": 8,
+                "bounds": {
+                    "x": 0,
+                    "y": 16,
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            "alpha": 1,
+            "blendMode": 1,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "67C1E7D4-1676-46D5-92DA-5B254AE428CB",
+            "name": "Progress",
+            "plugin": "com_unic8_elan_progress",
+            "config": {
+                "track": "#000000",
+                "fill": "#f57501",
+                "minimum": 0,
+                "maximum": 400,
+                "value": 93,
+                "bounds": {
+                    "x": 2,
+                    "y": 60,
+                    "width": 60,
+                    "height": 2
+                }
+            },
+            "alpha": 0.5,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "772E7298-2B01-47EC-BF5E-EC1E3CDB4CC4",
+            "name": "Strobe",
+            "plugin": "com_unic8_elan_strobe",
+            "config": {
+                "trigger": true,
+                "color": "#d0310e",
+                "randomColor": false,
+                "duration": 0.25,
+                "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            "alpha": 0.33,
+            "blendMode": 1,
+            "rotation": 0,
+            "visible": false
+        },
+        {
+            "uid": "A8CC9CC1-07FF-4841-A15E-64F26C9ABDB1",
+            "name": "Visualizer",
+            "plugin": "com_unic8_elan_visualizer",
+            "config": {
+                "mode": 3,
+                "width": 1,
+                "gap": 1,
+                "speed": 1,
+                "scheme": -1,
+                "color": "#f57501",
+                "invert x": false,
+                "invert y": false,
+                "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            "alpha": 1,
+            "blendMode": 28,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "3DC87306-D540-4A76-B45A-2EC6B549B7CC",
+            "name": "Image",
+            "plugin": "com_unic8_elan_image",
+            "config": {
+                "path": {
+                    "fileID": "http://localhost:8888/files?id=d74ccd50-b2f3-4dcd-beff-096179f1e8b7",
+                    "path": "C:\\Playground\\elan\\resources\\elan.png"
+                },
+                "contains": true,
+                "fade": 0.5,
+                "frameDelay": -1,
+                "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "D6FB9B6A-22D8-48E6-8EA2-A44952569C92",
+            "name": "Number calculator",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "Add A": 64,
+                "Add B": -4,
+                "Sub A": 64,
+                "Sub B": 4,
+                "Mlt A": 0,
+                "Mlt B": 0,
+                "Div A": 0,
+                "Div B": 0
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "F24116EC-2650-4F3B-B423-1446DA2E0D0E",
+            "name": "Rectangle builder",
+            "plugin": "com_unic8_elan_rectangle_builder",
+            "config": {
+                "x": 2,
+                "y": 60,
+                "width": 60,
+                "height": 2
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "A9E3B07B-B354-47D8-A61F-BE5ED0DD311A",
+            "name": "Number calculator",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "Add A": 0,
+                "Add B": 0,
+                "Sub A": 0,
+                "Sub B": 0,
+                "Mlt A": 64,
+                "Mlt B": 0.5,
+                "Div A": 64,
+                "Div B": 4
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "52201288-F022-451D-80C1-2FD8430D5C0C",
+            "name": "Rectangle builder",
+            "plugin": "com_unic8_elan_rectangle_builder",
+            "config": {
+                "x": 0,
+                "y": 16,
+                "width": 0,
+                "height": 0
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "EFB50D84-4C31-4D08-BAA9-C7FC8066DC23",
+            "name": "Number calculator",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "Add A": 0,
+                "Add B": 0,
+                "Sub A": 0,
+                "Sub B": 0,
+                "Mlt A": 16,
+                "Mlt B": 0.5,
+                "Div A": 16,
+                "Div B": 3
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "A73F7411-8B39-4F1A-9206-042917263415",
+            "name": "Number operator",
+            "plugin": "com_unic8_elan_number_operator",
+            "config": {
+                "= A": 0,
+                "= B": 0,
+                "> A": 0,
+                "> B": 0,
+                "% A": 0,
+                "% B": 0,
+                "Floor": 0,
+                "Ceil": 5.333333333333333,
+                "Round": 0
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "79BF48A0-83F1-48A7-A8BA-70B5F9874CCF",
+            "name": "SONOS",
+            "plugin": "com_unic8_elan_sonos",
+            "config": {},
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        }
+    ],
+    "variables": [],
+    "bindings": [
+        {
+            "id": "plugins.3DC87306-D540-4A76-B45A-2EC6B549B7CC.output.accent_plugins.67C1E7D4-1676-46D5-92DA-5B254AE428CB.input.fill",
+            "from": "plugins.3DC87306-D540-4A76-B45A-2EC6B549B7CC.output.accent",
+            "to": "plugins.67C1E7D4-1676-46D5-92DA-5B254AE428CB.input.fill"
+        },
+        {
+            "id": "internals.canvasWidth_plugins.A9E3B07B-B354-47D8-A61F-BE5ED0DD311A.input.Mlt A",
+            "from": "internals.canvasWidth",
+            "to": "plugins.A9E3B07B-B354-47D8-A61F-BE5ED0DD311A.input.Mlt A"
+        },
+        {
+            "id": "plugins.A9E3B07B-B354-47D8-A61F-BE5ED0DD311A.output.Mlt_plugins.42399F43-64CA-47EA-A04C-2F102A030F48.input.size",
+            "from": "plugins.A9E3B07B-B354-47D8-A61F-BE5ED0DD311A.output.Mlt",
+            "to": "plugins.42399F43-64CA-47EA-A04C-2F102A030F48.input.size"
+        },
+        {
+            "id": "internals.canvasWidth_plugins.A9E3B07B-B354-47D8-A61F-BE5ED0DD311A.input.Div A",
+            "from": "internals.canvasWidth",
+            "to": "plugins.A9E3B07B-B354-47D8-A61F-BE5ED0DD311A.input.Div A"
+        },
+        {
+            "id": "plugins.A9E3B07B-B354-47D8-A61F-BE5ED0DD311A.output.Div_plugins.37D24D12-3B1D-4B41-96AA-56A2ECA39870.input.size",
+            "from": "plugins.A9E3B07B-B354-47D8-A61F-BE5ED0DD311A.output.Div",
+            "to": "plugins.37D24D12-3B1D-4B41-96AA-56A2ECA39870.input.size"
+        },
+        {
+            "id": "plugins.A9E3B07B-B354-47D8-A61F-BE5ED0DD311A.output.Div_plugins.52201288-F022-451D-80C1-2FD8430D5C0C.input.y",
+            "from": "plugins.A9E3B07B-B354-47D8-A61F-BE5ED0DD311A.output.Div",
+            "to": "plugins.52201288-F022-451D-80C1-2FD8430D5C0C.input.y"
+        },
+        {
+            "id": "plugins.52201288-F022-451D-80C1-2FD8430D5C0C.output.bounds_plugins.42399F43-64CA-47EA-A04C-2F102A030F48.input.bounds",
+            "from": "plugins.52201288-F022-451D-80C1-2FD8430D5C0C.output.bounds",
+            "to": "plugins.42399F43-64CA-47EA-A04C-2F102A030F48.input.bounds"
+        },
+        {
+            "id": "plugins.A9E3B07B-B354-47D8-A61F-BE5ED0DD311A.output.Div_plugins.EFB50D84-4C31-4D08-BAA9-C7FC8066DC23.input.Div A",
+            "from": "plugins.A9E3B07B-B354-47D8-A61F-BE5ED0DD311A.output.Div",
+            "to": "plugins.EFB50D84-4C31-4D08-BAA9-C7FC8066DC23.input.Div A"
+        },
+        {
+            "id": "plugins.A9E3B07B-B354-47D8-A61F-BE5ED0DD311A.output.Div_plugins.EFB50D84-4C31-4D08-BAA9-C7FC8066DC23.input.Mlt A",
+            "from": "plugins.A9E3B07B-B354-47D8-A61F-BE5ED0DD311A.output.Div",
+            "to": "plugins.EFB50D84-4C31-4D08-BAA9-C7FC8066DC23.input.Mlt A"
+        },
+        {
+            "id": "plugins.EFB50D84-4C31-4D08-BAA9-C7FC8066DC23.output.Mlt_plugins.42399F43-64CA-47EA-A04C-2F102A030F48.input.speed",
+            "from": "plugins.EFB50D84-4C31-4D08-BAA9-C7FC8066DC23.output.Mlt",
+            "to": "plugins.42399F43-64CA-47EA-A04C-2F102A030F48.input.speed"
+        },
+        {
+            "id": "plugins.EFB50D84-4C31-4D08-BAA9-C7FC8066DC23.output.Div_plugins.A73F7411-8B39-4F1A-9206-042917263415.input.Ceil",
+            "from": "plugins.EFB50D84-4C31-4D08-BAA9-C7FC8066DC23.output.Div",
+            "to": "plugins.A73F7411-8B39-4F1A-9206-042917263415.input.Ceil"
+        },
+        {
+            "id": "plugins.A73F7411-8B39-4F1A-9206-042917263415.output.Ceil_plugins.37D24D12-3B1D-4B41-96AA-56A2ECA39870.input.speed",
+            "from": "plugins.A73F7411-8B39-4F1A-9206-042917263415.output.Ceil",
+            "to": "plugins.37D24D12-3B1D-4B41-96AA-56A2ECA39870.input.speed"
+        },
+        {
+            "id": "plugins.3DC87306-D540-4A76-B45A-2EC6B549B7CC.output.accent_plugins.42399F43-64CA-47EA-A04C-2F102A030F48.input.color",
+            "from": "plugins.3DC87306-D540-4A76-B45A-2EC6B549B7CC.output.accent",
+            "to": "plugins.42399F43-64CA-47EA-A04C-2F102A030F48.input.color"
+        },
+        {
+            "id": "plugins.3DC87306-D540-4A76-B45A-2EC6B549B7CC.output.average_plugins.37D24D12-3B1D-4B41-96AA-56A2ECA39870.input.color",
+            "from": "plugins.3DC87306-D540-4A76-B45A-2EC6B549B7CC.output.average",
+            "to": "plugins.37D24D12-3B1D-4B41-96AA-56A2ECA39870.input.color"
+        },
+        {
+            "id": "plugins.F24116EC-2650-4F3B-B423-1446DA2E0D0E.output.bounds_plugins.67C1E7D4-1676-46D5-92DA-5B254AE428CB.input.bounds",
+            "from": "plugins.F24116EC-2650-4F3B-B423-1446DA2E0D0E.output.bounds",
+            "to": "plugins.67C1E7D4-1676-46D5-92DA-5B254AE428CB.input.bounds"
+        },
+        {
+            "id": "internals.canvasHeight_plugins.D6FB9B6A-22D8-48E6-8EA2-A44952569C92.input.Add A",
+            "from": "internals.canvasHeight",
+            "to": "plugins.D6FB9B6A-22D8-48E6-8EA2-A44952569C92.input.Add A"
+        },
+        {
+            "id": "internals.canvasHeight_plugins.D6FB9B6A-22D8-48E6-8EA2-A44952569C92.input.Sub A",
+            "from": "internals.canvasHeight",
+            "to": "plugins.D6FB9B6A-22D8-48E6-8EA2-A44952569C92.input.Sub A"
+        },
+        {
+            "id": "plugins.D6FB9B6A-22D8-48E6-8EA2-A44952569C92.output.Add_plugins.F24116EC-2650-4F3B-B423-1446DA2E0D0E.input.width",
+            "from": "plugins.D6FB9B6A-22D8-48E6-8EA2-A44952569C92.output.Add",
+            "to": "plugins.F24116EC-2650-4F3B-B423-1446DA2E0D0E.input.width"
+        },
+        {
+            "id": "plugins.D6FB9B6A-22D8-48E6-8EA2-A44952569C92.output.Sub_plugins.F24116EC-2650-4F3B-B423-1446DA2E0D0E.input.y",
+            "from": "plugins.D6FB9B6A-22D8-48E6-8EA2-A44952569C92.output.Sub",
+            "to": "plugins.F24116EC-2650-4F3B-B423-1446DA2E0D0E.input.y"
+        },
+        {
+            "id": "internals.audioTrigger_plugins.772E7298-2B01-47EC-BF5E-EC1E3CDB4CC4.input.trigger",
+            "from": "internals.audioTrigger",
+            "to": "plugins.772E7298-2B01-47EC-BF5E-EC1E3CDB4CC4.input.trigger"
+        },
+        {
+            "id": "plugins.3DC87306-D540-4A76-B45A-2EC6B549B7CC.output.accent_plugins.A8CC9CC1-07FF-4841-A15E-64F26C9ABDB1.input.color",
+            "from": "plugins.3DC87306-D540-4A76-B45A-2EC6B549B7CC.output.accent",
+            "to": "plugins.A8CC9CC1-07FF-4841-A15E-64F26C9ABDB1.input.color"
+        },
+        {
+            "id": "plugins.3DC87306-D540-4A76-B45A-2EC6B549B7CC.output.average_plugins.772E7298-2B01-47EC-BF5E-EC1E3CDB4CC4.input.color",
+            "from": "plugins.3DC87306-D540-4A76-B45A-2EC6B549B7CC.output.average",
+            "to": "plugins.772E7298-2B01-47EC-BF5E-EC1E3CDB4CC4.input.color"
+        },
+        {
+            "id": "plugins.79BF48A0-83F1-48A7-A8BA-70B5F9874CCF.output.song_plugins.42399F43-64CA-47EA-A04C-2F102A030F48.input.label",
+            "from": "plugins.79BF48A0-83F1-48A7-A8BA-70B5F9874CCF.output.song",
+            "to": "plugins.42399F43-64CA-47EA-A04C-2F102A030F48.input.label"
+        },
+        {
+            "id": "plugins.79BF48A0-83F1-48A7-A8BA-70B5F9874CCF.output.artist_plugins.37D24D12-3B1D-4B41-96AA-56A2ECA39870.input.label",
+            "from": "plugins.79BF48A0-83F1-48A7-A8BA-70B5F9874CCF.output.artist",
+            "to": "plugins.37D24D12-3B1D-4B41-96AA-56A2ECA39870.input.label"
+        },
+        {
+            "id": "plugins.79BF48A0-83F1-48A7-A8BA-70B5F9874CCF.output.progress_plugins.67C1E7D4-1676-46D5-92DA-5B254AE428CB.input.value",
+            "from": "plugins.79BF48A0-83F1-48A7-A8BA-70B5F9874CCF.output.progress",
+            "to": "plugins.67C1E7D4-1676-46D5-92DA-5B254AE428CB.input.value"
+        },
+        {
+            "id": "plugins.79BF48A0-83F1-48A7-A8BA-70B5F9874CCF.output.duration_plugins.67C1E7D4-1676-46D5-92DA-5B254AE428CB.input.maximum",
+            "from": "plugins.79BF48A0-83F1-48A7-A8BA-70B5F9874CCF.output.duration",
+            "to": "plugins.67C1E7D4-1676-46D5-92DA-5B254AE428CB.input.maximum"
+        },
+        {
+            "id": "plugins.79BF48A0-83F1-48A7-A8BA-70B5F9874CCF.output.cover_plugins.3DC87306-D540-4A76-B45A-2EC6B549B7CC.input.path",
+            "from": "plugins.79BF48A0-83F1-48A7-A8BA-70B5F9874CCF.output.cover",
+            "to": "plugins.3DC87306-D540-4A76-B45A-2EC6B549B7CC.input.path"
+        }
+    ],
+    "speed": 1
+}

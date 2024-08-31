@@ -1,0 +1,41 @@
+{
+    "scene": "(empty)",
+    "devices": [],
+    "media": {
+        "video": "",
+        "audio": "default",
+        "screen": "screen:0:0"
+    },
+    "canvas": {
+        "width": 64,
+        "height": 64,
+        "background": "#000000",
+        "multiplier2d": 4,
+        "multiplier3d": 1,
+        "contains": false
+    },
+    "render": {
+        "frameLimit": "60",
+        "antiAlias": true
+    },
+    "edit": {
+        "dropCentral": true,
+        "typeCasting": true
+    },
+    "view": {
+        "renderActive": true,
+        "scalePreview": true,
+        "variableIcons": true,
+        "detailedTooltips": true,
+        "mediaPreview": true
+    },
+    "services": {
+        "mqtt": false,
+        "webhooks": false
+    },
+    "options": {
+        "developer": true,
+        "autoSave": false,
+        "gpuSync": true
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "layers": [
+        {
+            "uid": "B50FBF48-C26F-4B4E-9423-8AF525D5E64F",
+            "name": "Torus",
+            "plugin": "com_unic8_elan_torus",
+            "config": {
+                "rotationX": 96.660759,
+                "rotationY": 150.151759,
+                "rotationZ": 202.476,
+                "color": "#FFFFFF",
+                "auto": true,
+                "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        }
+    ],
+    "variables": [],
+    "bindings": [],
+    "speed": 1
+}

@@ -1,0 +1,383 @@
+{
+    "layers": [
+        {
+            "uid": "E01624BB-375F-435B-821E-58C95A3FC8E8",
+            "name": "CamBR",
+            "plugin": "com_unic8_elan_camera",
+            "config": {
+                "contains": false,
+                "bounds": {
+                    "x": 64,
+                    "y": 64,
+                    "width": 64,
+                    "height": 64
+                }
+            },
+            "alpha": 1,
+            "blendMode": 2,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "6D882DD3-8DF6-4316-836E-F7DE698CFD7A",
+            "name": "ColorBR",
+            "plugin": "com_unic8_elan_colorrectangle",
+            "config": {
+                "color": "#FFFFFF",
+                "radius": 64,
+                "chamfer": true,
+                "bounds": {
+                    "x": 64,
+                    "y": 64,
+                    "width": 64,
+                    "height": 64
+                }
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "723CCF36-0712-48DF-8039-871A35C05807",
+            "name": "CamBL",
+            "plugin": "com_unic8_elan_camera",
+            "config": {
+                "contains": false,
+                "bounds": {
+                    "x": 0,
+                    "y": 64,
+                    "width": 64,
+                    "height": 64
+                }
+            },
+            "alpha": 1,
+            "blendMode": 2,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "46D97D5F-A8F7-4DAD-A0BE-4F4912C086F6",
+            "name": "ColorBL",
+            "plugin": "com_unic8_elan_colorrectangle",
+            "config": {
+                "color": "#0000FF",
+                "radius": -16,
+                "chamfer": false,
+                "bounds": {
+                    "x": 0,
+                    "y": 64,
+                    "width": 64,
+                    "height": 64
+                }
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "DB2C06DD-8C86-47EA-9311-4738415BF0A5",
+            "name": "CamTR",
+            "plugin": "com_unic8_elan_camera",
+            "config": {
+                "contains": false,
+                "bounds": {
+                    "x": 64,
+                    "y": 0,
+                    "width": 64,
+                    "height": 64
+                }
+            },
+            "alpha": 1,
+            "blendMode": 2,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "A75E39BD-8944-4AF0-9A09-06A00A461968",
+            "name": "ColorTR",
+            "plugin": "com_unic8_elan_colorrectangle",
+            "config": {
+                "color": "#00FF00",
+                "radius": 64,
+                "chamfer": false,
+                "bounds": {
+                    "x": 64,
+                    "y": 0,
+                    "width": 64,
+                    "height": 64
+                }
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "B4738489-0F9B-4C59-B608-8DF555F20F8D",
+            "name": "CamTL",
+            "plugin": "com_unic8_elan_camera",
+            "config": {
+                "contains": false,
+                "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 64,
+                    "height": 64
+                }
+            },
+            "alpha": 1,
+            "blendMode": 2,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "15D52313-0779-4FCC-B742-6550E343CA0F",
+            "name": "ColorTL",
+            "plugin": "com_unic8_elan_colorrectangle",
+            "config": {
+                "color": "#FF0000",
+                "radius": 0,
+                "chamfer": false,
+                "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 64,
+                    "height": 64
+                }
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "A5360F2F-7349-41C0-B41C-287A27197C3E",
+            "name": "Number calculator",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "Add A": 0,
+                "Add B": 0,
+                "Sub A": 0,
+                "Sub B": 0,
+                "Mlt A": 128,
+                "Mlt B": 0.5,
+                "Div A": 128,
+                "Div B": 2
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "3F05173D-FC4D-4A49-B8A7-FC80C9ABC638",
+            "name": "RectTL",
+            "plugin": "com_unic8_elan_rectangle_builder",
+            "config": {
+                "x": 0,
+                "y": 0,
+                "width": 64,
+                "height": 64
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "8993408F-42FB-4BA3-958C-DB191AB8826C",
+            "name": "RectTR",
+            "plugin": "com_unic8_elan_rectangle_builder",
+            "config": {
+                "x": 64,
+                "y": 0,
+                "width": 64,
+                "height": 64
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "B4B8583F-D588-4A3F-A3B4-DE55325264C2",
+            "name": "RectBL",
+            "plugin": "com_unic8_elan_rectangle_builder",
+            "config": {
+                "x": 0,
+                "y": 64,
+                "width": 64,
+                "height": 64
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "FADE6CAE-CCC1-41FB-B95E-64E2ECCC82F2",
+            "name": "RectBR",
+            "plugin": "com_unic8_elan_rectangle_builder",
+            "config": {
+                "x": 64,
+                "y": 64,
+                "width": 64,
+                "height": 64
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "37EC3784-F577-4ADB-8791-5CC6C2BB03DC",
+            "name": "Number calculator",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "Add A": 0,
+                "Add B": 0,
+                "Sub A": 0,
+                "Sub B": 0,
+                "Mlt A": 64,
+                "Mlt B": -1,
+                "Div A": 0,
+                "Div B": 0
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        }
+    ],
+    "variables": [],
+    "bindings": [
+        {
+            "id": "internals.canvasWidth_plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.input.Mlt A",
+            "from": "internals.canvasWidth",
+            "to": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.input.Mlt A"
+        },
+        {
+            "id": "internals.canvasHeight_plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.input.Div A",
+            "from": "internals.canvasHeight",
+            "to": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.input.Div A"
+        },
+        {
+            "id": "plugins.3F05173D-FC4D-4A49-B8A7-FC80C9ABC638.output.bounds_plugins.B4738489-0F9B-4C59-B608-8DF555F20F8D.input.bounds",
+            "from": "plugins.3F05173D-FC4D-4A49-B8A7-FC80C9ABC638.output.bounds",
+            "to": "plugins.B4738489-0F9B-4C59-B608-8DF555F20F8D.input.bounds"
+        },
+        {
+            "id": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.output.Mlt_plugins.3F05173D-FC4D-4A49-B8A7-FC80C9ABC638.input.width",
+            "from": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.output.Mlt",
+            "to": "plugins.3F05173D-FC4D-4A49-B8A7-FC80C9ABC638.input.width"
+        },
+        {
+            "id": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.output.Div_plugins.3F05173D-FC4D-4A49-B8A7-FC80C9ABC638.input.height",
+            "from": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.output.Div",
+            "to": "plugins.3F05173D-FC4D-4A49-B8A7-FC80C9ABC638.input.height"
+        },
+        {
+            "id": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.output.Mlt_plugins.8993408F-42FB-4BA3-958C-DB191AB8826C.input.width",
+            "from": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.output.Mlt",
+            "to": "plugins.8993408F-42FB-4BA3-958C-DB191AB8826C.input.width"
+        },
+        {
+            "id": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.output.Div_plugins.8993408F-42FB-4BA3-958C-DB191AB8826C.input.height",
+            "from": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.output.Div",
+            "to": "plugins.8993408F-42FB-4BA3-958C-DB191AB8826C.input.height"
+        },
+        {
+            "id": "plugins.8993408F-42FB-4BA3-958C-DB191AB8826C.output.bounds_plugins.DB2C06DD-8C86-47EA-9311-4738415BF0A5.input.bounds",
+            "from": "plugins.8993408F-42FB-4BA3-958C-DB191AB8826C.output.bounds",
+            "to": "plugins.DB2C06DD-8C86-47EA-9311-4738415BF0A5.input.bounds"
+        },
+        {
+            "id": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.output.Mlt_plugins.8993408F-42FB-4BA3-958C-DB191AB8826C.input.x",
+            "from": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.output.Mlt",
+            "to": "plugins.8993408F-42FB-4BA3-958C-DB191AB8826C.input.x"
+        },
+        {
+            "id": "plugins.B4B8583F-D588-4A3F-A3B4-DE55325264C2.output.bounds_plugins.723CCF36-0712-48DF-8039-871A35C05807.input.bounds",
+            "from": "plugins.B4B8583F-D588-4A3F-A3B4-DE55325264C2.output.bounds",
+            "to": "plugins.723CCF36-0712-48DF-8039-871A35C05807.input.bounds"
+        },
+        {
+            "id": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.output.Mlt_plugins.B4B8583F-D588-4A3F-A3B4-DE55325264C2.input.width",
+            "from": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.output.Mlt",
+            "to": "plugins.B4B8583F-D588-4A3F-A3B4-DE55325264C2.input.width"
+        },
+        {
+            "id": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.output.Div_plugins.B4B8583F-D588-4A3F-A3B4-DE55325264C2.input.height",
+            "from": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.output.Div",
+            "to": "plugins.B4B8583F-D588-4A3F-A3B4-DE55325264C2.input.height"
+        },
+        {
+            "id": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.output.Div_plugins.B4B8583F-D588-4A3F-A3B4-DE55325264C2.input.y",
+            "from": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.output.Div",
+            "to": "plugins.B4B8583F-D588-4A3F-A3B4-DE55325264C2.input.y"
+        },
+        {
+            "id": "plugins.FADE6CAE-CCC1-41FB-B95E-64E2ECCC82F2.output.bounds_plugins.E01624BB-375F-435B-821E-58C95A3FC8E8.input.bounds",
+            "from": "plugins.FADE6CAE-CCC1-41FB-B95E-64E2ECCC82F2.output.bounds",
+            "to": "plugins.E01624BB-375F-435B-821E-58C95A3FC8E8.input.bounds"
+        },
+        {
+            "id": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.output.Mlt_plugins.FADE6CAE-CCC1-41FB-B95E-64E2ECCC82F2.input.width",
+            "from": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.output.Mlt",
+            "to": "plugins.FADE6CAE-CCC1-41FB-B95E-64E2ECCC82F2.input.width"
+        },
+        {
+            "id": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.output.Div_plugins.FADE6CAE-CCC1-41FB-B95E-64E2ECCC82F2.input.height",
+            "from": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.output.Div",
+            "to": "plugins.FADE6CAE-CCC1-41FB-B95E-64E2ECCC82F2.input.height"
+        },
+        {
+            "id": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.output.Mlt_plugins.FADE6CAE-CCC1-41FB-B95E-64E2ECCC82F2.input.x",
+            "from": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.output.Mlt",
+            "to": "plugins.FADE6CAE-CCC1-41FB-B95E-64E2ECCC82F2.input.x"
+        },
+        {
+            "id": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.output.Div_plugins.FADE6CAE-CCC1-41FB-B95E-64E2ECCC82F2.input.y",
+            "from": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.output.Div",
+            "to": "plugins.FADE6CAE-CCC1-41FB-B95E-64E2ECCC82F2.input.y"
+        },
+        {
+            "id": "plugins.3F05173D-FC4D-4A49-B8A7-FC80C9ABC638.output.bounds_plugins.15D52313-0779-4FCC-B742-6550E343CA0F.input.bounds",
+            "from": "plugins.3F05173D-FC4D-4A49-B8A7-FC80C9ABC638.output.bounds",
+            "to": "plugins.15D52313-0779-4FCC-B742-6550E343CA0F.input.bounds"
+        },
+        {
+            "id": "plugins.8993408F-42FB-4BA3-958C-DB191AB8826C.output.bounds_plugins.A75E39BD-8944-4AF0-9A09-06A00A461968.input.bounds",
+            "from": "plugins.8993408F-42FB-4BA3-958C-DB191AB8826C.output.bounds",
+            "to": "plugins.A75E39BD-8944-4AF0-9A09-06A00A461968.input.bounds"
+        },
+        {
+            "id": "plugins.B4B8583F-D588-4A3F-A3B4-DE55325264C2.output.bounds_plugins.46D97D5F-A8F7-4DAD-A0BE-4F4912C086F6.input.bounds",
+            "from": "plugins.B4B8583F-D588-4A3F-A3B4-DE55325264C2.output.bounds",
+            "to": "plugins.46D97D5F-A8F7-4DAD-A0BE-4F4912C086F6.input.bounds"
+        },
+        {
+            "id": "plugins.FADE6CAE-CCC1-41FB-B95E-64E2ECCC82F2.output.bounds_plugins.6D882DD3-8DF6-4316-836E-F7DE698CFD7A.input.bounds",
+            "from": "plugins.FADE6CAE-CCC1-41FB-B95E-64E2ECCC82F2.output.bounds",
+            "to": "plugins.6D882DD3-8DF6-4316-836E-F7DE698CFD7A.input.bounds"
+        },
+        {
+            "id": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.output.Mlt_plugins.A75E39BD-8944-4AF0-9A09-06A00A461968.input.radius",
+            "from": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.output.Mlt",
+            "to": "plugins.A75E39BD-8944-4AF0-9A09-06A00A461968.input.radius"
+        },
+        {
+            "id": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.output.Mlt_plugins.6D882DD3-8DF6-4316-836E-F7DE698CFD7A.input.radius",
+            "from": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.output.Mlt",
+            "to": "plugins.6D882DD3-8DF6-4316-836E-F7DE698CFD7A.input.radius"
+        },
+        {
+            "id": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.output.Mlt_plugins.37EC3784-F577-4ADB-8791-5CC6C2BB03DC.input.Mlt A",
+            "from": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.output.Mlt",
+            "to": "plugins.37EC3784-F577-4ADB-8791-5CC6C2BB03DC.input.Mlt A"
+        }
+    ],
+    "speed": 1
+}
