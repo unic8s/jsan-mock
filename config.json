@@ -36,6 +36,7 @@
     "options": {
         "developer": true,
         "autoSave": false,
-        "gpuSync": true
+        "gpuSync": true,
+        "autoSync": false
     }
 }
