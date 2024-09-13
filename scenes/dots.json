@@ -5,7 +5,7 @@
             "name": "Dots",
             "plugin": "com_unic8_elan_dots",
             "config": {
-                "modulo": 3,
+                "modulo": 4,
                 "duration": 8,
                 "scheme": 3,
                 "bounds": {
