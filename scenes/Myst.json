@@ -1,0 +1,70 @@
+{
+    "layers": [
+        {
+            "uid": "07DB1B73-17C4-4D4E-AC6A-DD7FBDE03D18",
+            "name": "Mystify",
+            "plugin": "com_unic8_elan_mystify",
+            "config": {
+                "Points": 10,
+                "Color": "#8f9563",
+                "Speed": 1,
+                "Trail": 100,
+                "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "265AAF59-3A71-4701-87B0-F8557D3BCAE1",
+            "name": "Color builder",
+            "plugin": "com_unic8_elan_color",
+            "config": {
+                "red": 0,
+                "green": 0,
+                "blue": 0,
+                "trigger": true,
+                "duration": 2,
+                "random": true
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "46D16CA1-7515-479F-B653-96C72851F861",
+            "name": "Timer",
+            "plugin": "com_unic8_elan_timer",
+            "config": {
+                "Cycles": 0,
+                "Delay": 2000,
+                "Active": true
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        }
+    ],
+    "variables": [],
+    "bindings": [
+        {
+            "id": "plugins.265AAF59-3A71-4701-87B0-F8557D3BCAE1.output.color_plugins.07DB1B73-17C4-4D4E-AC6A-DD7FBDE03D18.input.Color",
+            "from": "plugins.265AAF59-3A71-4701-87B0-F8557D3BCAE1.output.color",
+            "to": "plugins.07DB1B73-17C4-4D4E-AC6A-DD7FBDE03D18.input.Color"
+        },
+        {
+            "id": "plugins.46D16CA1-7515-479F-B653-96C72851F861.output.Toggle_plugins.265AAF59-3A71-4701-87B0-F8557D3BCAE1.input.trigger",
+            "from": "plugins.46D16CA1-7515-479F-B653-96C72851F861.output.Toggle",
+            "to": "plugins.265AAF59-3A71-4701-87B0-F8557D3BCAE1.input.trigger"
+        }
+    ],
+    "speed": 1
+}
