@@ -9,6 +9,7 @@
                 "duration": 8,
                 "scheme": 3,
                 "trail": 10,
+                "random": true,
                 "bounds": {
                     "x": 0,
                     "y": 0,
