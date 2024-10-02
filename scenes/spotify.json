@@ -7,12 +7,12 @@
             "config": {
                 "label": "",
                 "font": "Arial",
-                "size": 16,
-                "color": "#19cb59",
+                "size": 32,
+                "color": "#1bca5a",
                 "width": 0,
                 "scroll": true,
                 "smooth": true,
-                "speed": 6,
+                "speed": 11,
                 "bounds": {
                     "x": 0,
                     "y": 0,
@@ -32,15 +32,15 @@
             "config": {
                 "label": "",
                 "font": "Arial",
-                "size": 32,
-                "color": "#129249",
+                "size": 64,
+                "color": "#12a449",
                 "width": 0,
                 "scroll": true,
                 "smooth": true,
-                "speed": 8,
+                "speed": 16,
                 "bounds": {
                     "x": 0,
-                    "y": 16,
+                    "y": 32,
                     "width": 0,
                     "height": 0
                 }
@@ -56,14 +56,14 @@
             "plugin": "com_unic8_elan_progress",
             "config": {
                 "track": "#000000",
-                "fill": "#129249",
+                "fill": "#12a449",
                 "minimum": 0,
                 "maximum": 0,
                 "value": 0,
                 "bounds": {
                     "x": 2,
-                    "y": 60,
-                    "width": 60,
+                    "y": 124,
+                    "width": 124,
                     "height": 2
                 }
             },
@@ -77,8 +77,8 @@
             "name": "Strobe",
             "plugin": "com_unic8_elan_strobe",
             "config": {
-                "trigger": true,
-                "color": "#19cb59",
+                "trigger": false,
+                "color": "#1bca5a",
                 "randomColor": false,
                 "duration": 0.25,
                 "bounds": {
@@ -101,9 +101,10 @@
                 "mode": 3,
                 "width": 1,
                 "gap": 1,
-                "speed": 1,
+                "speed": 0.5,
+                "trail": 20,
                 "scheme": -1,
-                "color": "#129249",
+                "color": "#12a449",
                 "invert x": false,
                 "invert y": false,
                 "bounds": {
@@ -124,7 +125,7 @@
             "plugin": "com_unic8_elan_image",
             "config": {
                 "path": {
-                    "fileID": "http://localhost:8888/files?id=31846a45-ef88-410f-bec7-ea2a126df003",
+                    "fileID": "http://localhost:8888/files?id=5afbb5ec-f8ff-4b1a-9007-6e3a53f93b74",
                     "path": "assets/spotify.png"
                 },
                 "contains": false,
@@ -143,18 +144,19 @@
             "visible": true
         },
         {
-            "uid": "D6FB9B6A-22D8-48E6-8EA2-A44952569C92",
-            "name": "Number calculator",
-            "plugin": "com_unic8_elan_number_calculator",
+            "uid": "A73F7411-8B39-4F1A-9206-042917263415",
+            "name": "Number operator",
+            "plugin": "com_unic8_elan_number_operator",
             "config": {
-                "Add A": 64,
-                "Add B": -4,
-                "Sub A": 64,
-                "Sub B": 4,
-                "Mlt A": 0,
-                "Mlt B": 0,
-                "Div A": 0,
-                "Div B": 0
+                "= A": 0,
+                "= B": 0,
+                "> A": 0,
+                "> B": 0,
+                "% A": 0,
+                "% B": 0,
+                "Floor": 0,
+                "Ceil": 10.666666666666666,
+                "Round": 0
             },
             "alpha": 1,
             "blendMode": 0,
@@ -162,14 +164,52 @@
             "visible": true
         },
         {
-            "uid": "F24116EC-2650-4F3B-B423-1446DA2E0D0E",
+            "uid": "EFB50D84-4C31-4D08-BAA9-C7FC8066DC23",
+            "name": "Number calculator",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "Add A": 0,
+                "Add B": 0,
+                "Sub A": 0,
+                "Sub B": 0,
+                "Mlt A": 32,
+                "Mlt B": 0.5,
+                "Div A": 32,
+                "Div B": 3
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "52201288-F022-451D-80C1-2FD8430D5C0C",
             "name": "Rectangle builder",
             "plugin": "com_unic8_elan_rectangle_builder",
             "config": {
-                "x": 2,
-                "y": 60,
-                "width": 60,
-                "height": 2
+                "x": 0,
+                "y": 32,
+                "width": 0,
+                "height": 0
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "A9E3B07B-B354-47D8-A61F-BE5ED0DD311A",
+            "name": "Number calculator",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "Add A": 0,
+                "Add B": 0,
+                "Sub A": 0,
+                "Sub B": 0,
+                "Mlt A": 128,
+                "Mlt B": 0.5,
+                "Div A": 128,
+                "Div B": 4
             },
             "alpha": 1,
             "blendMode": 0,
@@ -193,33 +233,14 @@
             "visible": true
         },
         {
-            "uid": "A9E3B07B-B354-47D8-A61F-BE5ED0DD311A",
-            "name": "Number calculator",
-            "plugin": "com_unic8_elan_number_calculator",
-            "config": {
-                "Add A": 0,
-                "Add B": 0,
-                "Sub A": 0,
-                "Sub B": 0,
-                "Mlt A": 64,
-                "Mlt B": 0.5,
-                "Div A": 64,
-                "Div B": 4
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "52201288-F022-451D-80C1-2FD8430D5C0C",
+            "uid": "F24116EC-2650-4F3B-B423-1446DA2E0D0E",
             "name": "Rectangle builder",
             "plugin": "com_unic8_elan_rectangle_builder",
             "config": {
-                "x": 0,
-                "y": 16,
-                "width": 0,
-                "height": 0
+                "x": 2,
+                "y": 124,
+                "width": 124,
+                "height": 2
             },
             "alpha": 1,
             "blendMode": 0,
@@ -227,38 +248,18 @@
             "visible": true
         },
         {
-            "uid": "EFB50D84-4C31-4D08-BAA9-C7FC8066DC23",
+            "uid": "D6FB9B6A-22D8-48E6-8EA2-A44952569C92",
             "name": "Number calculator",
             "plugin": "com_unic8_elan_number_calculator",
             "config": {
-                "Add A": 0,
-                "Add B": 0,
-                "Sub A": 0,
-                "Sub B": 0,
-                "Mlt A": 16,
-                "Mlt B": 0.5,
-                "Div A": 16,
-                "Div B": 3
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "A73F7411-8B39-4F1A-9206-042917263415",
-            "name": "Number operator",
-            "plugin": "com_unic8_elan_number_operator",
-            "config": {
-                "= A": 0,
-                "= B": 0,
-                "> A": 0,
-                "> B": 0,
-                "% A": 0,
-                "% B": 0,
-                "Floor": 0,
-                "Ceil": 5.333333333333333,
-                "Round": 0
+                "Add A": 128,
+                "Add B": -4,
+                "Sub A": 128,
+                "Sub B": 4,
+                "Mlt A": 0,
+                "Mlt B": 0,
+                "Div A": 0,
+                "Div B": 0
             },
             "alpha": 1,
             "blendMode": 0,
