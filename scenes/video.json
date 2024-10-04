@@ -8,12 +8,12 @@
                 "track": "#000000",
                 "fill": "#FFFFFF",
                 "minimum": 0,
-                "maximum": 159.752993,
-                "value": 6.728795,
+                "maximum": 123.321179,
+                "value": 6.621261,
                 "bounds": {
                     "x": 2,
-                    "y": 60,
-                    "width": 60,
+                    "y": 124,
+                    "width": 124,
                     "height": 2
                 }
             },
@@ -28,13 +28,13 @@
             "plugin": "com_unic8_elan_video",
             "config": {
                 "path": {
-                    "fileID": "http://localhost:8888/files?id=242d07a0-c1a6-431a-a26b-357b5ffa50b4",
-                    "path": "C:\\Playground\\Software\\elan-prototype\\vid\\free_guy.mp4"
+                    "fileID": "http://localhost:8888/files?id=a1597a90-d159-42d3-9bff-f55d9db3652e",
+                    "path": "C:\\Playground\\Software\\elan-prototype\\vid\\raya.mp4"
                 },
                 "contains": false,
                 "autoplay": true,
                 "loop": true,
-                "muted": true,
+                "muted": false,
                 "paused": false,
                 "progress": 0,
                 "speed": 1,
@@ -51,18 +51,14 @@
             "visible": true
         },
         {
-            "uid": "E8441E9A-706F-4E98-877C-BD0977768AC8",
-            "name": "Number calculator",
-            "plugin": "com_unic8_elan_number_calculator",
+            "uid": "AA71EADB-4EA5-4307-8590-D23554D1C71A",
+            "name": "Rectangle builder",
+            "plugin": "com_unic8_elan_rectangle_builder",
             "config": {
-                "Add A": 64,
-                "Add B": -4,
-                "Sub A": 64,
-                "Sub B": 4,
-                "Mlt A": 0,
-                "Mlt B": 0,
-                "Div A": 0,
-                "Div B": 0
+                "x": 2,
+                "y": 124,
+                "width": 124,
+                "height": 2
             },
             "alpha": 1,
             "blendMode": 0,
@@ -70,14 +66,18 @@
             "visible": true
         },
         {
-            "uid": "AA71EADB-4EA5-4307-8590-D23554D1C71A",
-            "name": "Rectangle builder",
-            "plugin": "com_unic8_elan_rectangle_builder",
+            "uid": "E8441E9A-706F-4E98-877C-BD0977768AC8",
+            "name": "Number calculator",
+            "plugin": "com_unic8_elan_number_calculator",
             "config": {
-                "x": 2,
-                "y": 60,
-                "width": 60,
-                "height": 2
+                "Add A": 128,
+                "Add B": -4,
+                "Sub A": 128,
+                "Sub B": 4,
+                "Mlt A": 0,
+                "Mlt B": 0,
+                "Div A": 0,
+                "Div B": 0
             },
             "alpha": 1,
             "blendMode": 0,
@@ -90,7 +90,7 @@
             "name": "video",
             "value": {
                 "fileID": null,
-                "path": "C:\\Playground\\Software\\elan-prototype\\vid\\free_guy.mp4"
+                "path": "C:\\Playground\\Software\\elan-prototype\\vid\\blade.mp4"
             },
             "type": "File"
         }

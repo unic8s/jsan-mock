@@ -5,17 +5,18 @@
             "name": "Text",
             "plugin": "com_unic8_elan_text",
             "config": {
-                "label": 21.4,
+                "label": 11.5,
                 "font": "Arial",
                 "size": 12,
-                "color": "#42424c",
+                "color": "#ff0000",
                 "width": 0,
                 "scroll": true,
                 "smooth": true,
                 "speed": 10,
+                "vertical": false,
                 "bounds": {
-                    "x": 24,
-                    "y": 24,
+                    "x": 56,
+                    "y": 56,
                     "width": 0,
                     "height": 0
                 }
@@ -31,92 +32,18 @@
             "plugin": "com_unic8_elan_image",
             "config": {
                 "path": {
-                    "fileID": "https://openweathermap.org/img/wn/04d.png",
-                    "path": "https://openweathermap.org/img/wn/04d.png"
+                    "fileID": "https://openweathermap.org/img/wn/10d.png",
+                    "path": "https://openweathermap.org/img/wn/10d.png"
                 },
                 "contains": false,
+                "fade": 0,
+                "frameDelay": -1,
                 "bounds": {
-                    "x": 0,
+                    "x": 32,
                     "y": 0,
-                    "width": 0,
-                    "height": 0
+                    "width": 64,
+                    "height": 64
                 }
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "1FDD479C-D87C-41DB-9EBE-6ABDBCD5824A",
-            "name": "String modifier",
-            "plugin": "com_unic8_elan_string",
-            "config": {
-                "Len": "",
-                "Has hay": "",
-                "Has ndl": "",
-                "Con A": 21.4,
-                "Con B": "°C",
-                "Con sep": "",
-                "Rep hay": "",
-                "Rep ndl": "",
-                "Rep new": "",
-                "Sub src": "",
-                "Sub bgn": 0,
-                "Sub end": 0
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "1E466864-F2B5-49D5-ABB2-B1D38AB09194",
-            "name": "Number calculator",
-            "plugin": "com_unic8_elan_number_calculator",
-            "config": {
-                "Add A": 32,
-                "Add B": -8,
-                "Sub A": 32,
-                "Sub B": 8,
-                "Mlt A": 0,
-                "Mlt B": 0,
-                "Div A": 0,
-                "Div B": 0
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "71C72FFD-CA6F-45B9-B737-4FCADD50FA30",
-            "name": "Rectangle builder",
-            "plugin": "com_unic8_elan_rectangle_builder",
-            "config": {
-                "x": 24,
-                "y": 24,
-                "width": 0,
-                "height": 0
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "FD8956E2-E391-4E53-8E5F-32ED530D71C5",
-            "name": "Number calculator",
-            "plugin": "com_unic8_elan_number_calculator",
-            "config": {
-                "Add A": 0,
-                "Add B": 0,
-                "Sub A": 0,
-                "Sub B": 0,
-                "Mlt A": 64,
-                "Mlt B": 0.5,
-                "Div A": 64,
-                "Div B": 2
             },
             "alpha": 1,
             "blendMode": 0,
@@ -136,9 +63,163 @@
             "blendMode": 0,
             "rotation": 0,
             "visible": true
+        },
+        {
+            "uid": "FD8956E2-E391-4E53-8E5F-32ED530D71C5",
+            "name": "Number calculator",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "Add A": 0,
+                "Add B": 0,
+                "Sub A": 0,
+                "Sub B": 0,
+                "Mlt A": 128,
+                "Mlt B": 0.5,
+                "Div A": 128,
+                "Div B": 2
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "71C72FFD-CA6F-45B9-B737-4FCADD50FA30",
+            "name": "Rectangle builder",
+            "plugin": "com_unic8_elan_rectangle_builder",
+            "config": {
+                "x": 56,
+                "y": 56,
+                "width": 0,
+                "height": 0
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "1E466864-F2B5-49D5-ABB2-B1D38AB09194",
+            "name": "Number calculator",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "Add A": 64,
+                "Add B": -8,
+                "Sub A": 64,
+                "Sub B": 8,
+                "Mlt A": 0,
+                "Mlt B": 0,
+                "Div A": 0,
+                "Div B": 0
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "1FDD479C-D87C-41DB-9EBE-6ABDBCD5824A",
+            "name": "String modifier",
+            "plugin": "com_unic8_elan_string",
+            "config": {
+                "Len": "",
+                "Has hay": "",
+                "Has ndl": "",
+                "Con A": 11.5,
+                "Con B": "°C",
+                "Con sep": "",
+                "Rep hay": "",
+                "Rep ndl": "",
+                "Rep new": "",
+                "Sub src": "",
+                "Sub bgn": 0,
+                "Sub end": 0
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "19FA0BE4-93D8-4628-8B9D-19D1080ED5AA",
+            "name": "Rectangle builder",
+            "plugin": "com_unic8_elan_rectangle_builder",
+            "config": {
+                "x": 32,
+                "y": 0,
+                "width": 64,
+                "height": 64
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "D9041460-9186-48EE-9E56-54D149C11508",
+            "name": "Number calculator",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "Add A": 0,
+                "Add B": 0,
+                "Sub A": 0,
+                "Sub B": 0,
+                "Mlt A": 64,
+                "Mlt B": 0.5,
+                "Div A": 0,
+                "Div B": 0
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "75C48748-7CB0-4F62-9592-E06C9A323B30",
+            "name": "Number calculator",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "Add A": 0,
+                "Add B": 0,
+                "Sub A": 64,
+                "Sub B": 32,
+                "Mlt A": 0,
+                "Mlt B": 0,
+                "Div A": 0,
+                "Div B": 0
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "D84D1C71-6F10-4128-B324-3E9E4D57BFC6",
+            "name": "Number calculator",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "Add A": 0,
+                "Add B": 0,
+                "Sub A": 0,
+                "Sub B": 0,
+                "Mlt A": 0,
+                "Mlt B": 0,
+                "Div A": 0,
+                "Div B": 0
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
         }
     ],
-    "variables": [],
+    "variables": [
+        {
+            "name": "iconSize",
+            "value": 64,
+            "type": "Number"
+        }
+    ],
     "bindings": [
         {
             "id": "internals.canvasWidth_plugins.FD8956E2-E391-4E53-8E5F-32ED530D71C5.input.Mlt A",
@@ -194,6 +275,56 @@
             "id": "plugins.F92309E2-0392-438F-B9C0-13095F0C7789.output.accent_plugins.A854C7C6-A921-4D03-A8D7-49C513789541.input.color",
             "from": "plugins.F92309E2-0392-438F-B9C0-13095F0C7789.output.accent",
             "to": "plugins.A854C7C6-A921-4D03-A8D7-49C513789541.input.color"
+        },
+        {
+            "id": "plugins.19FA0BE4-93D8-4628-8B9D-19D1080ED5AA.output.bounds_plugins.F92309E2-0392-438F-B9C0-13095F0C7789.input.bounds",
+            "from": "plugins.19FA0BE4-93D8-4628-8B9D-19D1080ED5AA.output.bounds",
+            "to": "plugins.F92309E2-0392-438F-B9C0-13095F0C7789.input.bounds"
+        },
+        {
+            "id": "variables.iconSize_plugins.19FA0BE4-93D8-4628-8B9D-19D1080ED5AA.input.width",
+            "from": "variables.iconSize",
+            "to": "plugins.19FA0BE4-93D8-4628-8B9D-19D1080ED5AA.input.width"
+        },
+        {
+            "id": "variables.iconSize_plugins.19FA0BE4-93D8-4628-8B9D-19D1080ED5AA.input.height",
+            "from": "variables.iconSize",
+            "to": "plugins.19FA0BE4-93D8-4628-8B9D-19D1080ED5AA.input.height"
+        },
+        {
+            "id": "variables.iconSize_plugins.D9041460-9186-48EE-9E56-54D149C11508.input.Mlt A",
+            "from": "variables.iconSize",
+            "to": "plugins.D9041460-9186-48EE-9E56-54D149C11508.input.Mlt A"
+        },
+        {
+            "id": "plugins.75C48748-7CB0-4F62-9592-E06C9A323B30.output.Sub_plugins.19FA0BE4-93D8-4628-8B9D-19D1080ED5AA.input.x",
+            "from": "plugins.75C48748-7CB0-4F62-9592-E06C9A323B30.output.Sub",
+            "to": "plugins.19FA0BE4-93D8-4628-8B9D-19D1080ED5AA.input.x"
+        },
+        {
+            "id": "plugins.FD8956E2-E391-4E53-8E5F-32ED530D71C5.output.Mlt_plugins.75C48748-7CB0-4F62-9592-E06C9A323B30.input.Sub A",
+            "from": "plugins.FD8956E2-E391-4E53-8E5F-32ED530D71C5.output.Mlt",
+            "to": "plugins.75C48748-7CB0-4F62-9592-E06C9A323B30.input.Sub A"
+        },
+        {
+            "id": "plugins.FD8956E2-E391-4E53-8E5F-32ED530D71C5.output.Div_plugins.D84D1C71-6F10-4128-B324-3E9E4D57BFC6.input.Sub A",
+            "from": "plugins.FD8956E2-E391-4E53-8E5F-32ED530D71C5.output.Div",
+            "to": "plugins.D84D1C71-6F10-4128-B324-3E9E4D57BFC6.input.Sub A"
+        },
+        {
+            "id": "plugins.D9041460-9186-48EE-9E56-54D149C11508.output.Mlt_plugins.75C48748-7CB0-4F62-9592-E06C9A323B30.input.Sub B",
+            "from": "plugins.D9041460-9186-48EE-9E56-54D149C11508.output.Mlt",
+            "to": "plugins.75C48748-7CB0-4F62-9592-E06C9A323B30.input.Sub B"
+        },
+        {
+            "id": "plugins.D9041460-9186-48EE-9E56-54D149C11508.output.Mlt_plugins.D84D1C71-6F10-4128-B324-3E9E4D57BFC6.input.Sub B",
+            "from": "plugins.D9041460-9186-48EE-9E56-54D149C11508.output.Mlt",
+            "to": "plugins.D84D1C71-6F10-4128-B324-3E9E4D57BFC6.input.Sub B"
+        },
+        {
+            "id": "plugins.D84D1C71-6F10-4128-B324-3E9E4D57BFC6.output.Sub_plugins.19FA0BE4-93D8-4628-8B9D-19D1080ED5AA.input.y",
+            "from": "plugins.D84D1C71-6F10-4128-B324-3E9E4D57BFC6.output.Sub",
+            "to": "plugins.19FA0BE4-93D8-4628-8B9D-19D1080ED5AA.input.y"
         }
     ],
     "speed": 1

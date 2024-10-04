@@ -7,12 +7,13 @@
             "config": {
                 "label": "hello, world...",
                 "font": "Arial",
-                "size": 102.4,
+                "size": 115.2,
                 "color": "#FFFFFF",
                 "width": 0,
                 "scroll": true,
                 "smooth": true,
                 "speed": 25.6,
+                "vertical": false,
                 "bounds": {
                     "x": 0,
                     "y": 0,
@@ -35,7 +36,7 @@
                 "Sub A": 0,
                 "Sub B": 0,
                 "Mlt A": 128,
-                "Mlt B": 0.8,
+                "Mlt B": 0.9,
                 "Div A": 128,
                 "Div B": 5
             },
