@@ -11,7 +11,7 @@
                 "speed": 1,
                 "trail": 1,
                 "scheme": -1,
-                "color": "#556337",
+                "color": "#555555",
                 "invert x": false,
                 "invert y": false,
                 "bounds": {
@@ -21,7 +21,7 @@
                     "height": 0
                 }
             },
-            "alpha": 0.25,
+            "alpha": 0.75,
             "blendMode": 0,
             "rotation": 0,
             "visible": true
@@ -32,10 +32,10 @@
             "plugin": "com_unic8_elan_turntable",
             "config": {
                 "cover": {
-                    "fileID": "https://i.scdn.co/image/ab67616d00001e021ea2215ef4a98a759b4c3aa8",
-                    "path": "https://i.scdn.co/image/ab67616d00001e021ea2215ef4a98a759b4c3aa8"
+                    "fileID": "https://i.scdn.co/image/ab67616d00001e0291113e5a10d92959ee12e3e6",
+                    "path": "https://i.scdn.co/image/ab67616d00001e0291113e5a10d92959ee12e3e6"
                 },
-                "progress": 0.7945883852711062,
+                "progress": 0.17716550364077674,
                 "playing": true,
                 "bounds": {
                     "x": -64,
@@ -55,8 +55,8 @@
             "plugin": "com_unic8_elan_image",
             "config": {
                 "path": {
-                    "fileID": "https://i.scdn.co/image/ab67616d00001e021ea2215ef4a98a759b4c3aa8",
-                    "path": "https://i.scdn.co/image/ab67616d00001e021ea2215ef4a98a759b4c3aa8"
+                    "fileID": "https://i.scdn.co/image/ab67616d00001e0291113e5a10d92959ee12e3e6",
+                    "path": "https://i.scdn.co/image/ab67616d00001e0291113e5a10d92959ee12e3e6"
                 },
                 "contains": false,
                 "fade": 0,
@@ -74,15 +74,18 @@
             "visible": false
         },
         {
-            "uid": "5CB8B6D1-0EA7-42BB-963B-84CE6CB63C60",
-            "name": "Spotify",
-            "plugin": "com_unic8_elan_spotify",
+            "uid": "E5FE9118-E6FE-44BC-B10B-FE9145E7FDD2",
+            "name": "Number calculator",
+            "plugin": "com_unic8_elan_number_calculator",
             "config": {
-                "Image size": -1,
-                "play": false,
-                "pause": false,
-                "previous": false,
-                "next": false
+                "Add A": 0,
+                "Add B": 0,
+                "Sub A": 0,
+                "Sub B": 0,
+                "Mlt A": 128,
+                "Mlt B": -0.5,
+                "Div A": 128,
+                "Div B": -2
             },
             "alpha": 1,
             "blendMode": 0,
@@ -90,15 +93,14 @@
             "visible": true
         },
         {
-            "uid": "F018AFF3-30A0-4987-9BCB-A37BE48EAB2C",
-            "name": "Mapping",
-            "plugin": "com_unic8_elan_mapping",
+            "uid": "0012F6E8-5B8A-486E-9D44-680F92607666",
+            "name": "Rectangle builder",
+            "plugin": "com_unic8_elan_rectangle_builder",
             "config": {
-                "Value": 113.441,
-                "From low": 0,
-                "From high": 142.767,
-                "To low": 0,
-                "To high": 1
+                "x": -64,
+                "y": -64,
+                "width": 192,
+                "height": 191.04477611940297
             },
             "alpha": 1,
             "blendMode": 0,
@@ -125,14 +127,15 @@
             "visible": true
         },
         {
-            "uid": "0012F6E8-5B8A-486E-9D44-680F92607666",
-            "name": "Rectangle builder",
-            "plugin": "com_unic8_elan_rectangle_builder",
+            "uid": "F018AFF3-30A0-4987-9BCB-A37BE48EAB2C",
+            "name": "Mapping",
+            "plugin": "com_unic8_elan_mapping",
             "config": {
-                "x": -64,
-                "y": -64,
-                "width": 192,
-                "height": 191.04477611940297
+                "Value": 37.372,
+                "From low": 0,
+                "From high": 210.944,
+                "To low": 0,
+                "To high": 1
             },
             "alpha": 1,
             "blendMode": 0,
@@ -140,18 +143,15 @@
             "visible": true
         },
         {
-            "uid": "E5FE9118-E6FE-44BC-B10B-FE9145E7FDD2",
-            "name": "Number calculator",
-            "plugin": "com_unic8_elan_number_calculator",
+            "uid": "5CB8B6D1-0EA7-42BB-963B-84CE6CB63C60",
+            "name": "Spotify",
+            "plugin": "com_unic8_elan_spotify",
             "config": {
-                "Add A": 0,
-                "Add B": 0,
-                "Sub A": 0,
-                "Sub B": 0,
-                "Mlt A": 128,
-                "Mlt B": -0.5,
-                "Div A": 128,
-                "Div B": -2
+                "Image size": -1,
+                "play": false,
+                "pause": false,
+                "previous": false,
+                "next": false
             },
             "alpha": 1,
             "blendMode": 0,
