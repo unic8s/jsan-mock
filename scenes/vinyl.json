@@ -1,12 +1,66 @@
 {
     "layers": [
         {
+            "uid": "51053F85-B127-4A85-8046-0CB019F76F8C",
+            "name": "Visualizer",
+            "plugin": "com_unic8_elan_visualizer",
+            "config": {
+                "mode": 0,
+                "width": 1,
+                "gap": 1,
+                "speed": 1,
+                "trail": 1,
+                "scheme": -1,
+                "color": "#556337",
+                "invert x": false,
+                "invert y": false,
+                "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            "alpha": 0.25,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
             "uid": "AF8A527C-54DC-450F-B98D-2BA73F619972",
             "name": "Turntable",
             "plugin": "com_unic8_elan_turntable",
             "config": {
-                "cover": "",
-                "progress": 0,
+                "cover": {
+                    "fileID": "https://i.scdn.co/image/ab67616d00001e021ea2215ef4a98a759b4c3aa8",
+                    "path": "https://i.scdn.co/image/ab67616d00001e021ea2215ef4a98a759b4c3aa8"
+                },
+                "progress": 0.7945883852711062,
+                "playing": true,
+                "bounds": {
+                    "x": -64,
+                    "y": -64,
+                    "width": 192,
+                    "height": 191.04477611940297
+                }
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "3D6A6A7F-67F8-4A8B-9CCA-75FA8C01728B",
+            "name": "Image",
+            "plugin": "com_unic8_elan_image",
+            "config": {
+                "path": {
+                    "fileID": "https://i.scdn.co/image/ab67616d00001e021ea2215ef4a98a759b4c3aa8",
+                    "path": "https://i.scdn.co/image/ab67616d00001e021ea2215ef4a98a759b4c3aa8"
+                },
+                "contains": false,
+                "fade": 0,
+                "frameDelay": -1,
                 "bounds": {
                     "x": 0,
                     "y": 0,
@@ -17,23 +71,7 @@
             "alpha": 1,
             "blendMode": 0,
             "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "F018AFF3-30A0-4987-9BCB-A37BE48EAB2C",
-            "name": "Mapping",
-            "plugin": "com_unic8_elan_mapping",
-            "config": {
-                "Value": 0,
-                "From low": 0,
-                "From high": 1,
-                "To low": 0,
-                "To high": 1
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
+            "visible": false
         },
         {
             "uid": "5CB8B6D1-0EA7-42BB-963B-84CE6CB63C60",
@@ -45,6 +83,75 @@
                 "pause": false,
                 "previous": false,
                 "next": false
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "F018AFF3-30A0-4987-9BCB-A37BE48EAB2C",
+            "name": "Mapping",
+            "plugin": "com_unic8_elan_mapping",
+            "config": {
+                "Value": 113.441,
+                "From low": 0,
+                "From high": 142.767,
+                "To low": 0,
+                "To high": 1
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "C892F1E0-B87B-4C6C-BB44-DD80CCDD2E48",
+            "name": "Number calculator",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "Add A": 0,
+                "Add B": 0,
+                "Sub A": 0,
+                "Sub B": 0,
+                "Mlt A": 128,
+                "Mlt B": 1.5,
+                "Div A": 128,
+                "Div B": 0.67
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "0012F6E8-5B8A-486E-9D44-680F92607666",
+            "name": "Rectangle builder",
+            "plugin": "com_unic8_elan_rectangle_builder",
+            "config": {
+                "x": -64,
+                "y": -64,
+                "width": 192,
+                "height": 191.04477611940297
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "E5FE9118-E6FE-44BC-B10B-FE9145E7FDD2",
+            "name": "Number calculator",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "Add A": 0,
+                "Add B": 0,
+                "Sub A": 0,
+                "Sub B": 0,
+                "Mlt A": 128,
+                "Mlt B": -0.5,
+                "Div A": 128,
+                "Div B": -2
             },
             "alpha": 1,
             "blendMode": 0,
@@ -78,6 +185,61 @@
             "id": "plugins.5CB8B6D1-0EA7-42BB-963B-84CE6CB63C60.output.playing_plugins.AF8A527C-54DC-450F-B98D-2BA73F619972.input.playing",
             "from": "plugins.5CB8B6D1-0EA7-42BB-963B-84CE6CB63C60.output.playing",
             "to": "plugins.AF8A527C-54DC-450F-B98D-2BA73F619972.input.playing"
+        },
+        {
+            "id": "internals.canvasWidth_plugins.C892F1E0-B87B-4C6C-BB44-DD80CCDD2E48.input.Mlt A",
+            "from": "internals.canvasWidth",
+            "to": "plugins.C892F1E0-B87B-4C6C-BB44-DD80CCDD2E48.input.Mlt A"
+        },
+        {
+            "id": "internals.canvasHeight_plugins.C892F1E0-B87B-4C6C-BB44-DD80CCDD2E48.input.Div A",
+            "from": "internals.canvasHeight",
+            "to": "plugins.C892F1E0-B87B-4C6C-BB44-DD80CCDD2E48.input.Div A"
+        },
+        {
+            "id": "plugins.C892F1E0-B87B-4C6C-BB44-DD80CCDD2E48.output.Mlt_plugins.0012F6E8-5B8A-486E-9D44-680F92607666.input.width",
+            "from": "plugins.C892F1E0-B87B-4C6C-BB44-DD80CCDD2E48.output.Mlt",
+            "to": "plugins.0012F6E8-5B8A-486E-9D44-680F92607666.input.width"
+        },
+        {
+            "id": "plugins.C892F1E0-B87B-4C6C-BB44-DD80CCDD2E48.output.Div_plugins.0012F6E8-5B8A-486E-9D44-680F92607666.input.height",
+            "from": "plugins.C892F1E0-B87B-4C6C-BB44-DD80CCDD2E48.output.Div",
+            "to": "plugins.0012F6E8-5B8A-486E-9D44-680F92607666.input.height"
+        },
+        {
+            "id": "plugins.0012F6E8-5B8A-486E-9D44-680F92607666.output.bounds_plugins.AF8A527C-54DC-450F-B98D-2BA73F619972.input.bounds",
+            "from": "plugins.0012F6E8-5B8A-486E-9D44-680F92607666.output.bounds",
+            "to": "plugins.AF8A527C-54DC-450F-B98D-2BA73F619972.input.bounds"
+        },
+        {
+            "id": "internals.canvasWidth_plugins.E5FE9118-E6FE-44BC-B10B-FE9145E7FDD2.input.Mlt A",
+            "from": "internals.canvasWidth",
+            "to": "plugins.E5FE9118-E6FE-44BC-B10B-FE9145E7FDD2.input.Mlt A"
+        },
+        {
+            "id": "internals.canvasHeight_plugins.E5FE9118-E6FE-44BC-B10B-FE9145E7FDD2.input.Div A",
+            "from": "internals.canvasHeight",
+            "to": "plugins.E5FE9118-E6FE-44BC-B10B-FE9145E7FDD2.input.Div A"
+        },
+        {
+            "id": "plugins.E5FE9118-E6FE-44BC-B10B-FE9145E7FDD2.output.Mlt_plugins.0012F6E8-5B8A-486E-9D44-680F92607666.input.x",
+            "from": "plugins.E5FE9118-E6FE-44BC-B10B-FE9145E7FDD2.output.Mlt",
+            "to": "plugins.0012F6E8-5B8A-486E-9D44-680F92607666.input.x"
+        },
+        {
+            "id": "plugins.E5FE9118-E6FE-44BC-B10B-FE9145E7FDD2.output.Div_plugins.0012F6E8-5B8A-486E-9D44-680F92607666.input.y",
+            "from": "plugins.E5FE9118-E6FE-44BC-B10B-FE9145E7FDD2.output.Div",
+            "to": "plugins.0012F6E8-5B8A-486E-9D44-680F92607666.input.y"
+        },
+        {
+            "id": "plugins.5CB8B6D1-0EA7-42BB-963B-84CE6CB63C60.output.cover_plugins.3D6A6A7F-67F8-4A8B-9CCA-75FA8C01728B.input.path",
+            "from": "plugins.5CB8B6D1-0EA7-42BB-963B-84CE6CB63C60.output.cover",
+            "to": "plugins.3D6A6A7F-67F8-4A8B-9CCA-75FA8C01728B.input.path"
+        },
+        {
+            "id": "plugins.3D6A6A7F-67F8-4A8B-9CCA-75FA8C01728B.output.accent_plugins.51053F85-B127-4A85-8046-0CB019F76F8C.input.color",
+            "from": "plugins.3D6A6A7F-67F8-4A8B-9CCA-75FA8C01728B.output.accent",
+            "to": "plugins.51053F85-B127-4A85-8046-0CB019F76F8C.input.color"
         }
     ],
     "speed": 1
