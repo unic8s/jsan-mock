@@ -1,0 +1,84 @@
+{
+    "layers": [
+        {
+            "uid": "AF8A527C-54DC-450F-B98D-2BA73F619972",
+            "name": "Turntable",
+            "plugin": "com_unic8_elan_turntable",
+            "config": {
+                "cover": "",
+                "progress": 0,
+                "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "F018AFF3-30A0-4987-9BCB-A37BE48EAB2C",
+            "name": "Mapping",
+            "plugin": "com_unic8_elan_mapping",
+            "config": {
+                "Value": 0,
+                "From low": 0,
+                "From high": 1,
+                "To low": 0,
+                "To high": 1
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "5CB8B6D1-0EA7-42BB-963B-84CE6CB63C60",
+            "name": "Spotify",
+            "plugin": "com_unic8_elan_spotify",
+            "config": {
+                "Image size": -1,
+                "play": false,
+                "pause": false,
+                "previous": false,
+                "next": false
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        }
+    ],
+    "variables": [],
+    "bindings": [
+        {
+            "id": "plugins.5CB8B6D1-0EA7-42BB-963B-84CE6CB63C60.output.progress_plugins.F018AFF3-30A0-4987-9BCB-A37BE48EAB2C.input.Value",
+            "from": "plugins.5CB8B6D1-0EA7-42BB-963B-84CE6CB63C60.output.progress",
+            "to": "plugins.F018AFF3-30A0-4987-9BCB-A37BE48EAB2C.input.Value"
+        },
+        {
+            "id": "plugins.5CB8B6D1-0EA7-42BB-963B-84CE6CB63C60.output.duration_plugins.F018AFF3-30A0-4987-9BCB-A37BE48EAB2C.input.From high",
+            "from": "plugins.5CB8B6D1-0EA7-42BB-963B-84CE6CB63C60.output.duration",
+            "to": "plugins.F018AFF3-30A0-4987-9BCB-A37BE48EAB2C.input.From high"
+        },
+        {
+            "id": "plugins.F018AFF3-30A0-4987-9BCB-A37BE48EAB2C.output.Output_plugins.AF8A527C-54DC-450F-B98D-2BA73F619972.input.progress",
+            "from": "plugins.F018AFF3-30A0-4987-9BCB-A37BE48EAB2C.output.Output",
+            "to": "plugins.AF8A527C-54DC-450F-B98D-2BA73F619972.input.progress"
+        },
+        {
+            "id": "plugins.5CB8B6D1-0EA7-42BB-963B-84CE6CB63C60.output.cover_plugins.AF8A527C-54DC-450F-B98D-2BA73F619972.input.cover",
+            "from": "plugins.5CB8B6D1-0EA7-42BB-963B-84CE6CB63C60.output.cover",
+            "to": "plugins.AF8A527C-54DC-450F-B98D-2BA73F619972.input.cover"
+        },
+        {
+            "id": "plugins.5CB8B6D1-0EA7-42BB-963B-84CE6CB63C60.output.playing_plugins.AF8A527C-54DC-450F-B98D-2BA73F619972.input.playing",
+            "from": "plugins.5CB8B6D1-0EA7-42BB-963B-84CE6CB63C60.output.playing",
+            "to": "plugins.AF8A527C-54DC-450F-B98D-2BA73F619972.input.playing"
+        }
+    ],
+    "speed": 1
+}
