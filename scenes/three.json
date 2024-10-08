@@ -5,10 +5,13 @@
             "name": "Primitive",
             "plugin": "com_unic8_elan_primitive",
             "config": {
+                "shape": 4,
+                "color": "#FFFFFF",
+                "image": "",
+                "opacity": 1,
                 "rotationX": 96.660759,
                 "rotationY": 150.151759,
                 "rotationZ": 202.476,
-                "color": "#FFFFFF",
                 "auto": true,
                 "bounds": {
                     "x": 0,
