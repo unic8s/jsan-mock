@@ -5,23 +5,23 @@
             "name": "Text",
             "plugin": "com_unic8_elan_text",
             "config": {
-                "label": "Floating In Space - Nicolello",
+                "label": "Don't Tell Me I Can't Have It - Sons Of Maria",
                 "font": "Roboto",
-                "size": 16,
-                "color": "#120806",
+                "size": 32,
+                "color": "#c2bdc1",
                 "width": 0,
                 "scroll": true,
                 "smooth": true,
-                "speed": 12.8,
+                "speed": 25.6,
                 "vertical": false,
                 "bounds": {
                     "x": 0,
-                    "y": 45,
+                    "y": 90,
                     "width": 0,
                     "height": 0
                 }
             },
-            "alpha": 0.5,
+            "alpha": 0.75,
             "blendMode": 3,
             "rotation": 0,
             "visible": true
@@ -32,19 +32,19 @@
             "plugin": "com_unic8_elan_visualizer",
             "config": {
                 "mode": 0,
-                "width": 7,
+                "width": 4,
                 "gap": 1,
                 "speed": 1,
                 "trail": 1,
                 "scheme": -1,
-                "color": "#134c60",
+                "color": "#c6a5a2",
                 "invert x": false,
                 "invert y": false,
                 "bounds": {
                     "x": 0,
-                    "y": 32,
+                    "y": 64,
                     "width": 0,
-                    "height": 32
+                    "height": 64
                 }
             },
             "alpha": 0.5,
@@ -58,16 +58,16 @@
             "plugin": "com_unic8_elan_turntable",
             "config": {
                 "cover": {
-                    "fileID": "https://i.scdn.co/image/ab67616d000048511e4281fd8469614fae4f74b5",
-                    "path": "https://i.scdn.co/image/ab67616d000048511e4281fd8469614fae4f74b5"
+                    "fileID": "https://i.scdn.co/image/ab67616d00001e02351859cd30c5fa7826784c70",
+                    "path": "https://i.scdn.co/image/ab67616d00001e02351859cd30c5fa7826784c70"
                 },
-                "progress": 0.535255568396722,
+                "progress": 0.08547067720426901,
                 "playing": true,
                 "bounds": {
-                    "x": -32,
-                    "y": -32,
-                    "width": 96,
-                    "height": 95.52238805970148
+                    "x": -64,
+                    "y": -64,
+                    "width": 192,
+                    "height": 191.04477611940297
                 }
             },
             "alpha": 1,
@@ -81,8 +81,8 @@
             "plugin": "com_unic8_elan_image",
             "config": {
                 "path": {
-                    "fileID": "https://i.scdn.co/image/ab67616d000048511e4281fd8469614fae4f74b5",
-                    "path": "https://i.scdn.co/image/ab67616d000048511e4281fd8469614fae4f74b5"
+                    "fileID": "https://i.scdn.co/image/ab67616d00001e02351859cd30c5fa7826784c70",
+                    "path": "https://i.scdn.co/image/ab67616d00001e02351859cd30c5fa7826784c70"
                 },
                 "contains": false,
                 "fade": 0,
@@ -100,7 +100,7 @@
             "visible": false
         },
         {
-            "uid": "106E9A3B-1EE5-40B0-BB0F-6CC957A5B262",
+            "uid": "A6F7BF96-A414-409B-986A-2935BF349D2B",
             "name": "Number calculator",
             "plugin": "com_unic8_elan_number_calculator",
             "config": {
@@ -110,7 +110,7 @@
                 "Sub B": 0,
                 "Mlt A": 0,
                 "Mlt B": 0,
-                "Div A": 64,
+                "Div A": 11.313708498984761,
                 "Div B": 2
             },
             "alpha": 1,
@@ -119,14 +119,201 @@
             "visible": true
         },
         {
-            "uid": "55FC7F99-722E-4248-AB70-8A921720227A",
+            "uid": "A7475D95-DE59-4DD0-9F3F-6DB112E7F04D",
+            "name": "Number calculator",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "Add A": 0,
+                "Add B": 0,
+                "Sub A": 5,
+                "Sub B": 1,
+                "Mlt A": 0,
+                "Mlt B": 0,
+                "Div A": 0,
+                "Div B": 0
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "E3F350CF-584B-409E-8417-EFB6769D5FDF",
+            "name": "Math",
+            "plugin": "com_unic8_elan_math",
+            "config": {
+                "abs": 0,
+                "ceil": 0,
+                "cos": 0,
+                "floor": 5.656854249492381,
+                "pow base": 0,
+                "pow exp": 0,
+                "round": 0,
+                "sin": 0,
+                "sqrt": 0
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "26E112CD-53DA-4754-B221-7402C24B5A81",
+            "name": "Math",
+            "plugin": "com_unic8_elan_math",
+            "config": {
+                "abs": 0,
+                "ceil": 0,
+                "cos": 0,
+                "floor": 0,
+                "pow base": 0,
+                "pow exp": 0,
+                "round": 11.313708498984761,
+                "sin": 0,
+                "sqrt": 128
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "AA5FD841-FD8A-49A0-B02A-94740B39EB43",
             "name": "Rectangle builder",
             "plugin": "com_unic8_elan_rectangle_builder",
             "config": {
                 "x": 0,
-                "y": 32,
+                "y": 90,
                 "width": 0,
-                "height": 32
+                "height": 0
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "B97F5347-834C-4C02-AC21-8EE5068B1C32",
+            "name": "Number calculator",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "Add A": 0,
+                "Add B": 0,
+                "Sub A": 128,
+                "Sub B": 38,
+                "Mlt A": 128,
+                "Mlt B": 0.25,
+                "Div A": 128,
+                "Div B": 5
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "DB14E3E4-6649-42EC-BDCB-A434244ABF51",
+            "name": "Rectangle splitter",
+            "plugin": "com_unic8_elan_rectangle_splitter",
+            "config": {
+                "rectangle": {
+                    "x": 128,
+                    "y": 0,
+                    "width": 611,
+                    "height": 38
+                }
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "44096A7F-CEE2-45DD-9EF1-41DB64562D19",
+            "name": "String modifier",
+            "plugin": "com_unic8_elan_string",
+            "config": {
+                "Len": "",
+                "Has hay": "",
+                "Has ndl": "",
+                "Con A": "Don't Tell Me I Can't Have It",
+                "Con B": "Sons Of Maria",
+                "Con sep": " - ",
+                "Rep hay": "",
+                "Rep ndl": "",
+                "Rep new": "",
+                "Sub src": "",
+                "Sub bgn": 0,
+                "Sub end": 0
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "E5FE9118-E6FE-44BC-B10B-FE9145E7FDD2",
+            "name": "Number calculator",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "Add A": 0,
+                "Add B": 0,
+                "Sub A": 0,
+                "Sub B": 0,
+                "Mlt A": 128,
+                "Mlt B": -0.5,
+                "Div A": 128,
+                "Div B": -2
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "0012F6E8-5B8A-486E-9D44-680F92607666",
+            "name": "Rectangle builder",
+            "plugin": "com_unic8_elan_rectangle_builder",
+            "config": {
+                "x": -64,
+                "y": -64,
+                "width": 192,
+                "height": 191.04477611940297
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "C892F1E0-B87B-4C6C-BB44-DD80CCDD2E48",
+            "name": "Number calculator",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "Add A": 0,
+                "Add B": 0,
+                "Sub A": 0,
+                "Sub B": 0,
+                "Mlt A": 128,
+                "Mlt B": 1.5,
+                "Div A": 128,
+                "Div B": 0.67
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "F018AFF3-30A0-4987-9BCB-A37BE48EAB2C",
+            "name": "Mapping",
+            "plugin": "com_unic8_elan_mapping",
+            "config": {
+                "Value": 16.049,
+                "From low": 0,
+                "From high": 187.772,
+                "To low": 0,
+                "To high": 1
             },
             "alpha": 1,
             "blendMode": 0,
@@ -150,142 +337,14 @@
             "visible": true
         },
         {
-            "uid": "F018AFF3-30A0-4987-9BCB-A37BE48EAB2C",
-            "name": "Mapping",
-            "plugin": "com_unic8_elan_mapping",
-            "config": {
-                "Value": 81.513,
-                "From low": 0,
-                "From high": 152.288,
-                "To low": 0,
-                "To high": 1
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "C892F1E0-B87B-4C6C-BB44-DD80CCDD2E48",
-            "name": "Number calculator",
-            "plugin": "com_unic8_elan_number_calculator",
-            "config": {
-                "Add A": 0,
-                "Add B": 0,
-                "Sub A": 0,
-                "Sub B": 0,
-                "Mlt A": 64,
-                "Mlt B": 1.5,
-                "Div A": 64,
-                "Div B": 0.67
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "0012F6E8-5B8A-486E-9D44-680F92607666",
-            "name": "Rectangle builder",
-            "plugin": "com_unic8_elan_rectangle_builder",
-            "config": {
-                "x": -32,
-                "y": -32,
-                "width": 96,
-                "height": 95.52238805970148
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "E5FE9118-E6FE-44BC-B10B-FE9145E7FDD2",
-            "name": "Number calculator",
-            "plugin": "com_unic8_elan_number_calculator",
-            "config": {
-                "Add A": 0,
-                "Add B": 0,
-                "Sub A": 0,
-                "Sub B": 0,
-                "Mlt A": 64,
-                "Mlt B": -0.5,
-                "Div A": 64,
-                "Div B": -2
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "44096A7F-CEE2-45DD-9EF1-41DB64562D19",
-            "name": "String modifier",
-            "plugin": "com_unic8_elan_string",
-            "config": {
-                "Len": "",
-                "Has hay": "",
-                "Has ndl": "",
-                "Con A": "Floating In Space",
-                "Con B": "Nicolello",
-                "Con sep": " - ",
-                "Rep hay": "",
-                "Rep ndl": "",
-                "Rep new": "",
-                "Sub src": "",
-                "Sub bgn": 0,
-                "Sub end": 0
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "DB14E3E4-6649-42EC-BDCB-A434244ABF51",
-            "name": "Rectangle splitter",
-            "plugin": "com_unic8_elan_rectangle_splitter",
-            "config": {
-                "rectangle": {
-                    "x": 64,
-                    "y": 0,
-                    "width": 197,
-                    "height": 19
-                }
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "B97F5347-834C-4C02-AC21-8EE5068B1C32",
-            "name": "Number calculator",
-            "plugin": "com_unic8_elan_number_calculator",
-            "config": {
-                "Add A": 0,
-                "Add B": 0,
-                "Sub A": 64,
-                "Sub B": 19,
-                "Mlt A": 64,
-                "Mlt B": 0.25,
-                "Div A": 64,
-                "Div B": 5
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "AA5FD841-FD8A-49A0-B02A-94740B39EB43",
+            "uid": "55FC7F99-722E-4248-AB70-8A921720227A",
             "name": "Rectangle builder",
             "plugin": "com_unic8_elan_rectangle_builder",
             "config": {
                 "x": 0,
-                "y": 45,
+                "y": 64,
                 "width": 0,
-                "height": 0
+                "height": 64
             },
             "alpha": 1,
             "blendMode": 0,
@@ -293,66 +352,7 @@
             "visible": true
         },
         {
-            "uid": "26E112CD-53DA-4754-B221-7402C24B5A81",
-            "name": "Math",
-            "plugin": "com_unic8_elan_math",
-            "config": {
-                "abs": 0,
-                "ceil": 0,
-                "cos": 0,
-                "floor": 0,
-                "pow base": 0,
-                "pow exp": 0,
-                "round": 11.313708498984761,
-                "sin": 0,
-                "sqrt": 64
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "E3F350CF-584B-409E-8417-EFB6769D5FDF",
-            "name": "Math",
-            "plugin": "com_unic8_elan_math",
-            "config": {
-                "abs": 0,
-                "ceil": 0,
-                "cos": 0,
-                "floor": 8,
-                "pow base": 0,
-                "pow exp": 0,
-                "round": 0,
-                "sin": 0,
-                "sqrt": 0
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "A7475D95-DE59-4DD0-9F3F-6DB112E7F04D",
-            "name": "Number calculator",
-            "plugin": "com_unic8_elan_number_calculator",
-            "config": {
-                "Add A": 0,
-                "Add B": 0,
-                "Sub A": 8,
-                "Sub B": 1,
-                "Mlt A": 0,
-                "Mlt B": 0,
-                "Div A": 0,
-                "Div B": 0
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "A6F7BF96-A414-409B-986A-2935BF349D2B",
+            "uid": "106E9A3B-1EE5-40B0-BB0F-6CC957A5B262",
             "name": "Number calculator",
             "plugin": "com_unic8_elan_number_calculator",
             "config": {
@@ -362,7 +362,7 @@
                 "Sub B": 0,
                 "Mlt A": 0,
                 "Mlt B": 0,
-                "Div A": 7,
+                "Div A": 128,
                 "Div B": 2
             },
             "alpha": 1,
