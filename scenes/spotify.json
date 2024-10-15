@@ -148,12 +148,12 @@
             "name": "Number operator",
             "plugin": "com_unic8_elan_number_operator",
             "config": {
-                "= A": 0,
-                "= B": 0,
-                "> A": 0,
-                "> B": 0,
-                "% A": 0,
-                "% B": 0,
+                "EqA": 0,
+                "EqB": 0,
+                "GtA": 0,
+                "GtB": 0,
+                "ModA": 0,
+                "ModB": 0,
                 "Floor": 0,
                 "Ceil": 10.666666666666666,
                 "Round": 0
