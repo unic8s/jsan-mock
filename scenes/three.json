@@ -6,7 +6,7 @@
             "plugin": "com_unic8_elan_primitive",
             "config": {
                 "shape": 4,
-                "color": "#FFFFFF",
+                "color": "#6f5ab2",
                 "image": "",
                 "opacity": 1,
                 "rotationX": 96.660759,
@@ -24,9 +24,51 @@
             "blendMode": 0,
             "rotation": 0,
             "visible": true
+        },
+        {
+            "uid": "228BE9AB-98E5-4810-B65E-221AD2FC42B9",
+            "name": "Color builder",
+            "plugin": "com_unic8_elan_color",
+            "config": {
+                "red": 0,
+                "green": 0,
+                "blue": 0,
+                "trigger": true,
+                "duration": 5,
+                "random": true
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "C3D716D5-102D-4AF9-A170-81B6B420017F",
+            "name": "Timer",
+            "plugin": "com_unic8_elan_timer",
+            "config": {
+                "Cycles": 0,
+                "Delay": 5000,
+                "Active": true
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
         }
     ],
     "variables": [],
-    "bindings": [],
+    "bindings": [
+        {
+            "id": "plugins.228BE9AB-98E5-4810-B65E-221AD2FC42B9.output.color_plugins.B50FBF48-C26F-4B4E-9423-8AF525D5E64F.input.color",
+            "from": "plugins.228BE9AB-98E5-4810-B65E-221AD2FC42B9.output.color",
+            "to": "plugins.B50FBF48-C26F-4B4E-9423-8AF525D5E64F.input.color"
+        },
+        {
+            "id": "plugins.C3D716D5-102D-4AF9-A170-81B6B420017F.output.Toggle_plugins.228BE9AB-98E5-4810-B65E-221AD2FC42B9.input.trigger",
+            "from": "plugins.C3D716D5-102D-4AF9-A170-81B6B420017F.output.Toggle",
+            "to": "plugins.228BE9AB-98E5-4810-B65E-221AD2FC42B9.input.trigger"
+        }
+    ],
     "speed": 1
 }
