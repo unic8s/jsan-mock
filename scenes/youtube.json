@@ -98,14 +98,14 @@
             "name": "Number calculator",
             "plugin": "com_unic8_elan_number_calculator",
             "config": {
-                "Add A": 0,
-                "Add B": 0,
-                "Sub A": 64,
-                "Sub B": 48,
-                "Mlt A": 0,
-                "Mlt B": 0,
-                "Div A": 0,
-                "Div B": 0
+                "addA": 0,
+                "addB": 0,
+                "subA": 64,
+                "subB": 48,
+                "mltA": 0,
+                "mltB": 0,
+                "divA": 0,
+                "divB": 0
             },
             "alpha": 1,
             "blendMode": 0,
@@ -117,14 +117,14 @@
             "name": "Number calculator",
             "plugin": "com_unic8_elan_number_calculator",
             "config": {
-                "Add A": 0,
-                "Add B": 0,
-                "Sub A": 64,
-                "Sub B": 15,
-                "Mlt A": 0,
-                "Mlt B": 0,
-                "Div A": 0,
-                "Div B": 0
+                "addA": 0,
+                "addB": 0,
+                "subA": 64,
+                "subB": 15,
+                "mltA": 0,
+                "mltB": 0,
+                "divA": 0,
+                "divB": 0
             },
             "alpha": 1,
             "blendMode": 0,
@@ -150,14 +150,14 @@
             "to": "plugins.4D3C32F9-3202-4238-84D7-9229A78AEEDB.input.rectangle"
         },
         {
-            "id": "internals.canvasWidth_plugins.DB9F6CBD-1749-4971-9C3C-E09CBEDD329A.input.Sub A",
+            "id": "internals.canvasWidth_plugins.DB9F6CBD-1749-4971-9C3C-E09CBEDD329A.input.subA",
             "from": "internals.canvasWidth",
-            "to": "plugins.DB9F6CBD-1749-4971-9C3C-E09CBEDD329A.input.Sub A"
+            "to": "plugins.DB9F6CBD-1749-4971-9C3C-E09CBEDD329A.input.subA"
         },
         {
-            "id": "plugins.4D3C32F9-3202-4238-84D7-9229A78AEEDB.output.width_plugins.DB9F6CBD-1749-4971-9C3C-E09CBEDD329A.input.Sub B",
+            "id": "plugins.4D3C32F9-3202-4238-84D7-9229A78AEEDB.output.width_plugins.DB9F6CBD-1749-4971-9C3C-E09CBEDD329A.input.subB",
             "from": "plugins.4D3C32F9-3202-4238-84D7-9229A78AEEDB.output.width",
-            "to": "plugins.DB9F6CBD-1749-4971-9C3C-E09CBEDD329A.input.Sub B"
+            "to": "plugins.DB9F6CBD-1749-4971-9C3C-E09CBEDD329A.input.subB"
         },
         {
             "id": "plugins.DB9F6CBD-1749-4971-9C3C-E09CBEDD329A.output.Sub_plugins.D81AC5CA-74A6-4AC7-85C2-F38E71F4CC95.input.x",
@@ -170,14 +170,14 @@
             "to": "plugins.3750FF61-F690-401B-B9A5-B6E6FD425574.input.bounds"
         },
         {
-            "id": "internals.canvasHeight_plugins.A0661C25-26B7-4D2D-BFCF-6C3C23E02F84.input.Sub A",
+            "id": "internals.canvasHeight_plugins.A0661C25-26B7-4D2D-BFCF-6C3C23E02F84.input.subA",
             "from": "internals.canvasHeight",
-            "to": "plugins.A0661C25-26B7-4D2D-BFCF-6C3C23E02F84.input.Sub A"
+            "to": "plugins.A0661C25-26B7-4D2D-BFCF-6C3C23E02F84.input.subA"
         },
         {
-            "id": "plugins.4D3C32F9-3202-4238-84D7-9229A78AEEDB.output.height_plugins.A0661C25-26B7-4D2D-BFCF-6C3C23E02F84.input.Sub B",
+            "id": "plugins.4D3C32F9-3202-4238-84D7-9229A78AEEDB.output.height_plugins.A0661C25-26B7-4D2D-BFCF-6C3C23E02F84.input.subB",
             "from": "plugins.4D3C32F9-3202-4238-84D7-9229A78AEEDB.output.height",
-            "to": "plugins.A0661C25-26B7-4D2D-BFCF-6C3C23E02F84.input.Sub B"
+            "to": "plugins.A0661C25-26B7-4D2D-BFCF-6C3C23E02F84.input.subB"
         },
         {
             "id": "plugins.A0661C25-26B7-4D2D-BFCF-6C3C23E02F84.output.Sub_plugins.D81AC5CA-74A6-4AC7-85C2-F38E71F4CC95.input.y",

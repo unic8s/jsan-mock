@@ -31,14 +31,14 @@
             "name": "Number calculator",
             "plugin": "com_unic8_elan_number_calculator",
             "config": {
-                "Add A": 0,
-                "Add B": 0,
-                "Sub A": 0,
-                "Sub B": 0,
-                "Mlt A": 128,
-                "Mlt B": 0.9,
-                "Div A": 128,
-                "Div B": 5
+                "addA": 0,
+                "addB": 0,
+                "subA": 0,
+                "subB": 0,
+                "mltA": 128,
+                "mltB": 0.9,
+                "divA": 128,
+                "divB": 5
             },
             "alpha": 1,
             "blendMode": 0,
@@ -49,9 +49,9 @@
     "variables": [],
     "bindings": [
         {
-            "id": "internals.canvasHeight_plugins.D0DF28CD-59E9-4B77-A978-C2404E7064B0.input.Mlt A",
+            "id": "internals.canvasHeight_plugins.D0DF28CD-59E9-4B77-A978-C2404E7064B0.input.mltA",
             "from": "internals.canvasHeight",
-            "to": "plugins.D0DF28CD-59E9-4B77-A978-C2404E7064B0.input.Mlt A"
+            "to": "plugins.D0DF28CD-59E9-4B77-A978-C2404E7064B0.input.mltA"
         },
         {
             "id": "plugins.D0DF28CD-59E9-4B77-A978-C2404E7064B0.output.Mlt_plugins.E0BE62DE-F8D1-4AB3-9BC7-F1F2A03AD94A.input.size",
@@ -59,9 +59,9 @@
             "to": "plugins.E0BE62DE-F8D1-4AB3-9BC7-F1F2A03AD94A.input.size"
         },
         {
-            "id": "internals.canvasWidth_plugins.D0DF28CD-59E9-4B77-A978-C2404E7064B0.input.Div A",
+            "id": "internals.canvasWidth_plugins.D0DF28CD-59E9-4B77-A978-C2404E7064B0.input.divA",
             "from": "internals.canvasWidth",
-            "to": "plugins.D0DF28CD-59E9-4B77-A978-C2404E7064B0.input.Div A"
+            "to": "plugins.D0DF28CD-59E9-4B77-A978-C2404E7064B0.input.divA"
         },
         {
             "id": "plugins.D0DF28CD-59E9-4B77-A978-C2404E7064B0.output.Div_plugins.E0BE62DE-F8D1-4AB3-9BC7-F1F2A03AD94A.input.speed",

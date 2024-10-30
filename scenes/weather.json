@@ -69,14 +69,14 @@
             "name": "Number calculator",
             "plugin": "com_unic8_elan_number_calculator",
             "config": {
-                "Add A": 0,
-                "Add B": 0,
-                "Sub A": 0,
-                "Sub B": 0,
-                "Mlt A": 128,
-                "Mlt B": 0.5,
-                "Div A": 128,
-                "Div B": 2
+                "addA": 0,
+                "addB": 0,
+                "subA": 0,
+                "subB": 0,
+                "mltA": 128,
+                "mltB": 0.5,
+                "divA": 128,
+                "divB": 2
             },
             "alpha": 1,
             "blendMode": 0,
@@ -103,14 +103,14 @@
             "name": "Number calculator",
             "plugin": "com_unic8_elan_number_calculator",
             "config": {
-                "Add A": 64,
-                "Add B": -8,
-                "Sub A": 64,
-                "Sub B": 8,
-                "Mlt A": 0,
-                "Mlt B": 0,
-                "Div A": 0,
-                "Div B": 0
+                "addA": 64,
+                "addB": -8,
+                "subA": 64,
+                "subB": 8,
+                "mltA": 0,
+                "mltB": 0,
+                "divA": 0,
+                "divB": 0
             },
             "alpha": 1,
             "blendMode": 0,
@@ -123,17 +123,17 @@
             "plugin": "com_unic8_elan_string",
             "config": {
                 "Len": "",
-                "Has hay": "",
-                "Has ndl": "",
-                "Con A": 11.5,
-                "Con B": "°C",
-                "Con sep": "",
-                "Rep hay": "",
-                "Rep ndl": "",
-                "Rep new": "",
-                "Sub src": "",
-                "Sub bgn": 0,
-                "Sub end": 0
+                "hasHay": "",
+                "hasNdl": "",
+                "conA": 11.5,
+                "conB": "°C",
+                "conSep": "",
+                "repHay": "",
+                "repNdl": "",
+                "repNew": "",
+                "subSrc": "",
+                "subBgn": 0,
+                "subEnd": 0
             },
             "alpha": 1,
             "blendMode": 0,
@@ -160,14 +160,14 @@
             "name": "Number calculator",
             "plugin": "com_unic8_elan_number_calculator",
             "config": {
-                "Add A": 0,
-                "Add B": 0,
-                "Sub A": 0,
-                "Sub B": 0,
-                "Mlt A": 64,
-                "Mlt B": 0.5,
-                "Div A": 0,
-                "Div B": 0
+                "addA": 0,
+                "addB": 0,
+                "subA": 0,
+                "subB": 0,
+                "mltA": 64,
+                "mltB": 0.5,
+                "divA": 0,
+                "divB": 0
             },
             "alpha": 1,
             "blendMode": 0,
@@ -179,14 +179,14 @@
             "name": "Number calculator",
             "plugin": "com_unic8_elan_number_calculator",
             "config": {
-                "Add A": 0,
-                "Add B": 0,
-                "Sub A": 64,
-                "Sub B": 32,
-                "Mlt A": 0,
-                "Mlt B": 0,
-                "Div A": 0,
-                "Div B": 0
+                "addA": 0,
+                "addB": 0,
+                "subA": 64,
+                "subB": 32,
+                "mltA": 0,
+                "mltB": 0,
+                "divA": 0,
+                "divB": 0
             },
             "alpha": 1,
             "blendMode": 0,
@@ -198,14 +198,14 @@
             "name": "Number calculator",
             "plugin": "com_unic8_elan_number_calculator",
             "config": {
-                "Add A": 0,
-                "Add B": 0,
-                "Sub A": 0,
-                "Sub B": 0,
-                "Mlt A": 0,
-                "Mlt B": 0,
-                "Div A": 0,
-                "Div B": 0
+                "addA": 0,
+                "addB": 0,
+                "subA": 0,
+                "subB": 0,
+                "mltA": 0,
+                "mltB": 0,
+                "divA": 0,
+                "divB": 0
             },
             "alpha": 1,
             "blendMode": 0,
@@ -222,24 +222,24 @@
     ],
     "bindings": [
         {
-            "id": "internals.canvasWidth_plugins.FD8956E2-E391-4E53-8E5F-32ED530D71C5.input.Mlt A",
+            "id": "internals.canvasWidth_plugins.FD8956E2-E391-4E53-8E5F-32ED530D71C5.input.mltA",
             "from": "internals.canvasWidth",
-            "to": "plugins.FD8956E2-E391-4E53-8E5F-32ED530D71C5.input.Mlt A"
+            "to": "plugins.FD8956E2-E391-4E53-8E5F-32ED530D71C5.input.mltA"
         },
         {
-            "id": "internals.canvasHeight_plugins.FD8956E2-E391-4E53-8E5F-32ED530D71C5.input.Div A",
+            "id": "internals.canvasHeight_plugins.FD8956E2-E391-4E53-8E5F-32ED530D71C5.input.divA",
             "from": "internals.canvasHeight",
-            "to": "plugins.FD8956E2-E391-4E53-8E5F-32ED530D71C5.input.Div A"
+            "to": "plugins.FD8956E2-E391-4E53-8E5F-32ED530D71C5.input.divA"
         },
         {
-            "id": "plugins.FD8956E2-E391-4E53-8E5F-32ED530D71C5.output.Mlt_plugins.1E466864-F2B5-49D5-ABB2-B1D38AB09194.input.Add A",
+            "id": "plugins.FD8956E2-E391-4E53-8E5F-32ED530D71C5.output.Mlt_plugins.1E466864-F2B5-49D5-ABB2-B1D38AB09194.input.addA",
             "from": "plugins.FD8956E2-E391-4E53-8E5F-32ED530D71C5.output.Mlt",
-            "to": "plugins.1E466864-F2B5-49D5-ABB2-B1D38AB09194.input.Add A"
+            "to": "plugins.1E466864-F2B5-49D5-ABB2-B1D38AB09194.input.addA"
         },
         {
-            "id": "plugins.FD8956E2-E391-4E53-8E5F-32ED530D71C5.output.Div_plugins.1E466864-F2B5-49D5-ABB2-B1D38AB09194.input.Sub A",
+            "id": "plugins.FD8956E2-E391-4E53-8E5F-32ED530D71C5.output.Div_plugins.1E466864-F2B5-49D5-ABB2-B1D38AB09194.input.subA",
             "from": "plugins.FD8956E2-E391-4E53-8E5F-32ED530D71C5.output.Div",
-            "to": "plugins.1E466864-F2B5-49D5-ABB2-B1D38AB09194.input.Sub A"
+            "to": "plugins.1E466864-F2B5-49D5-ABB2-B1D38AB09194.input.subA"
         },
         {
             "id": "plugins.1E466864-F2B5-49D5-ABB2-B1D38AB09194.output.Add_plugins.71C72FFD-CA6F-45B9-B737-4FCADD50FA30.input.x",
@@ -267,9 +267,9 @@
             "to": "plugins.F92309E2-0392-438F-B9C0-13095F0C7789.input.path"
         },
         {
-            "id": "plugins.AE8674FC-C6F0-44BC-BD10-33547DC7D254.output.temp_cur_plugins.1FDD479C-D87C-41DB-9EBE-6ABDBCD5824A.input.Con A",
+            "id": "plugins.AE8674FC-C6F0-44BC-BD10-33547DC7D254.output.temp_cur_plugins.1FDD479C-D87C-41DB-9EBE-6ABDBCD5824A.input.conA",
             "from": "plugins.AE8674FC-C6F0-44BC-BD10-33547DC7D254.output.temp_cur",
-            "to": "plugins.1FDD479C-D87C-41DB-9EBE-6ABDBCD5824A.input.Con A"
+            "to": "plugins.1FDD479C-D87C-41DB-9EBE-6ABDBCD5824A.input.conA"
         },
         {
             "id": "plugins.F92309E2-0392-438F-B9C0-13095F0C7789.output.accent_plugins.A854C7C6-A921-4D03-A8D7-49C513789541.input.color",
@@ -292,9 +292,9 @@
             "to": "plugins.19FA0BE4-93D8-4628-8B9D-19D1080ED5AA.input.height"
         },
         {
-            "id": "variables.iconSize_plugins.D9041460-9186-48EE-9E56-54D149C11508.input.Mlt A",
+            "id": "variables.iconSize_plugins.D9041460-9186-48EE-9E56-54D149C11508.input.mltA",
             "from": "variables.iconSize",
-            "to": "plugins.D9041460-9186-48EE-9E56-54D149C11508.input.Mlt A"
+            "to": "plugins.D9041460-9186-48EE-9E56-54D149C11508.input.mltA"
         },
         {
             "id": "plugins.75C48748-7CB0-4F62-9592-E06C9A323B30.output.Sub_plugins.19FA0BE4-93D8-4628-8B9D-19D1080ED5AA.input.x",
@@ -302,24 +302,24 @@
             "to": "plugins.19FA0BE4-93D8-4628-8B9D-19D1080ED5AA.input.x"
         },
         {
-            "id": "plugins.FD8956E2-E391-4E53-8E5F-32ED530D71C5.output.Mlt_plugins.75C48748-7CB0-4F62-9592-E06C9A323B30.input.Sub A",
+            "id": "plugins.FD8956E2-E391-4E53-8E5F-32ED530D71C5.output.Mlt_plugins.75C48748-7CB0-4F62-9592-E06C9A323B30.input.subA",
             "from": "plugins.FD8956E2-E391-4E53-8E5F-32ED530D71C5.output.Mlt",
-            "to": "plugins.75C48748-7CB0-4F62-9592-E06C9A323B30.input.Sub A"
+            "to": "plugins.75C48748-7CB0-4F62-9592-E06C9A323B30.input.subA"
         },
         {
-            "id": "plugins.FD8956E2-E391-4E53-8E5F-32ED530D71C5.output.Div_plugins.D84D1C71-6F10-4128-B324-3E9E4D57BFC6.input.Sub A",
+            "id": "plugins.FD8956E2-E391-4E53-8E5F-32ED530D71C5.output.Div_plugins.D84D1C71-6F10-4128-B324-3E9E4D57BFC6.input.subA",
             "from": "plugins.FD8956E2-E391-4E53-8E5F-32ED530D71C5.output.Div",
-            "to": "plugins.D84D1C71-6F10-4128-B324-3E9E4D57BFC6.input.Sub A"
+            "to": "plugins.D84D1C71-6F10-4128-B324-3E9E4D57BFC6.input.subA"
         },
         {
-            "id": "plugins.D9041460-9186-48EE-9E56-54D149C11508.output.Mlt_plugins.75C48748-7CB0-4F62-9592-E06C9A323B30.input.Sub B",
+            "id": "plugins.D9041460-9186-48EE-9E56-54D149C11508.output.Mlt_plugins.75C48748-7CB0-4F62-9592-E06C9A323B30.input.subB",
             "from": "plugins.D9041460-9186-48EE-9E56-54D149C11508.output.Mlt",
-            "to": "plugins.75C48748-7CB0-4F62-9592-E06C9A323B30.input.Sub B"
+            "to": "plugins.75C48748-7CB0-4F62-9592-E06C9A323B30.input.subB"
         },
         {
-            "id": "plugins.D9041460-9186-48EE-9E56-54D149C11508.output.Mlt_plugins.D84D1C71-6F10-4128-B324-3E9E4D57BFC6.input.Sub B",
+            "id": "plugins.D9041460-9186-48EE-9E56-54D149C11508.output.Mlt_plugins.D84D1C71-6F10-4128-B324-3E9E4D57BFC6.input.subB",
             "from": "plugins.D9041460-9186-48EE-9E56-54D149C11508.output.Mlt",
-            "to": "plugins.D84D1C71-6F10-4128-B324-3E9E4D57BFC6.input.Sub B"
+            "to": "plugins.D84D1C71-6F10-4128-B324-3E9E4D57BFC6.input.subB"
         },
         {
             "id": "plugins.D84D1C71-6F10-4128-B324-3E9E4D57BFC6.output.Sub_plugins.19FA0BE4-93D8-4628-8B9D-19D1080ED5AA.input.y",

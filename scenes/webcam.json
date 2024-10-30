@@ -157,14 +157,14 @@
             "name": "Number calculator",
             "plugin": "com_unic8_elan_number_calculator",
             "config": {
-                "Add A": 0,
-                "Add B": 0,
-                "Sub A": 0,
-                "Sub B": 0,
-                "Mlt A": 128,
-                "Mlt B": 0.5,
-                "Div A": 128,
-                "Div B": 2
+                "addA": 0,
+                "addB": 0,
+                "subA": 0,
+                "subB": 0,
+                "mltA": 128,
+                "mltB": 0.5,
+                "divA": 128,
+                "divB": 2
             },
             "alpha": 1,
             "blendMode": 0,
@@ -236,14 +236,14 @@
             "name": "Number calculator",
             "plugin": "com_unic8_elan_number_calculator",
             "config": {
-                "Add A": 0,
-                "Add B": 0,
-                "Sub A": 0,
-                "Sub B": 0,
-                "Mlt A": 64,
-                "Mlt B": -1,
-                "Div A": 0,
-                "Div B": 0
+                "addA": 0,
+                "addB": 0,
+                "subA": 0,
+                "subB": 0,
+                "mltA": 64,
+                "mltB": -1,
+                "divA": 0,
+                "divB": 0
             },
             "alpha": 1,
             "blendMode": 0,
@@ -254,14 +254,14 @@
     "variables": [],
     "bindings": [
         {
-            "id": "internals.canvasWidth_plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.input.Mlt A",
+            "id": "internals.canvasWidth_plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.input.mltA",
             "from": "internals.canvasWidth",
-            "to": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.input.Mlt A"
+            "to": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.input.mltA"
         },
         {
-            "id": "internals.canvasHeight_plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.input.Div A",
+            "id": "internals.canvasHeight_plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.input.divA",
             "from": "internals.canvasHeight",
-            "to": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.input.Div A"
+            "to": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.input.divA"
         },
         {
             "id": "plugins.3F05173D-FC4D-4A49-B8A7-FC80C9ABC638.output.bounds_plugins.B4738489-0F9B-4C59-B608-8DF555F20F8D.input.bounds",
@@ -374,9 +374,9 @@
             "to": "plugins.6D882DD3-8DF6-4316-836E-F7DE698CFD7A.input.radius"
         },
         {
-            "id": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.output.Mlt_plugins.37EC3784-F577-4ADB-8791-5CC6C2BB03DC.input.Mlt A",
+            "id": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.output.Mlt_plugins.37EC3784-F577-4ADB-8791-5CC6C2BB03DC.input.mltA",
             "from": "plugins.A5360F2F-7349-41C0-B41C-287A27197C3E.output.Mlt",
-            "to": "plugins.37EC3784-F577-4ADB-8791-5CC6C2BB03DC.input.Mlt A"
+            "to": "plugins.37EC3784-F577-4ADB-8791-5CC6C2BB03DC.input.mltA"
         }
     ],
     "speed": 1

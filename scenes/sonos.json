@@ -189,14 +189,14 @@
             "name": "Number calculator",
             "plugin": "com_unic8_elan_number_calculator",
             "config": {
-                "Add A": 0,
-                "Add B": 0,
-                "Sub A": 0,
-                "Sub B": 0,
-                "Mlt A": 32,
-                "Mlt B": 0.5,
-                "Div A": 32,
-                "Div B": 3
+                "addA": 0,
+                "addB": 0,
+                "subA": 0,
+                "subB": 0,
+                "mltA": 32,
+                "mltB": 0.5,
+                "divA": 32,
+                "divB": 3
             },
             "alpha": 1,
             "blendMode": 0,
@@ -223,14 +223,14 @@
             "name": "Number calculator",
             "plugin": "com_unic8_elan_number_calculator",
             "config": {
-                "Add A": 0,
-                "Add B": 0,
-                "Sub A": 0,
-                "Sub B": 0,
-                "Mlt A": 128,
-                "Mlt B": 0.5,
-                "Div A": 128,
-                "Div B": 4
+                "addA": 0,
+                "addB": 0,
+                "subA": 0,
+                "subB": 0,
+                "mltA": 128,
+                "mltB": 0.5,
+                "divA": 128,
+                "divB": 4
             },
             "alpha": 1,
             "blendMode": 0,
@@ -257,14 +257,14 @@
             "name": "Number calculator",
             "plugin": "com_unic8_elan_number_calculator",
             "config": {
-                "Add A": 128,
-                "Add B": -4,
-                "Sub A": 128,
-                "Sub B": 4,
-                "Mlt A": 0,
-                "Mlt B": 0,
-                "Div A": 0,
-                "Div B": 0
+                "addA": 128,
+                "addB": -4,
+                "subA": 128,
+                "subB": 4,
+                "mltA": 0,
+                "mltB": 0,
+                "divA": 0,
+                "divB": 0
             },
             "alpha": 1,
             "blendMode": 0,
@@ -300,14 +300,14 @@
             "to": "plugins.42399F43-64CA-47EA-A04C-2F102A030F48.input.bounds"
         },
         {
-            "id": "plugins.A9E3B07B-B354-47D8-A61F-BE5ED0DD311A.output.Div_plugins.EFB50D84-4C31-4D08-BAA9-C7FC8066DC23.input.Div A",
+            "id": "plugins.A9E3B07B-B354-47D8-A61F-BE5ED0DD311A.output.Div_plugins.EFB50D84-4C31-4D08-BAA9-C7FC8066DC23.input.divA",
             "from": "plugins.A9E3B07B-B354-47D8-A61F-BE5ED0DD311A.output.Div",
-            "to": "plugins.EFB50D84-4C31-4D08-BAA9-C7FC8066DC23.input.Div A"
+            "to": "plugins.EFB50D84-4C31-4D08-BAA9-C7FC8066DC23.input.divA"
         },
         {
-            "id": "plugins.A9E3B07B-B354-47D8-A61F-BE5ED0DD311A.output.Div_plugins.EFB50D84-4C31-4D08-BAA9-C7FC8066DC23.input.Mlt A",
+            "id": "plugins.A9E3B07B-B354-47D8-A61F-BE5ED0DD311A.output.Div_plugins.EFB50D84-4C31-4D08-BAA9-C7FC8066DC23.input.mltA",
             "from": "plugins.A9E3B07B-B354-47D8-A61F-BE5ED0DD311A.output.Div",
-            "to": "plugins.EFB50D84-4C31-4D08-BAA9-C7FC8066DC23.input.Mlt A"
+            "to": "plugins.EFB50D84-4C31-4D08-BAA9-C7FC8066DC23.input.mltA"
         },
         {
             "id": "plugins.EFB50D84-4C31-4D08-BAA9-C7FC8066DC23.output.Mlt_plugins.42399F43-64CA-47EA-A04C-2F102A030F48.input.speed",
@@ -400,24 +400,24 @@
             "to": "plugins.A73F7411-8B39-4F1A-9206-042917263415.input.MinB"
         },
         {
-            "id": "plugins.A73F7411-8B39-4F1A-9206-042917263415.output.Min_plugins.A9E3B07B-B354-47D8-A61F-BE5ED0DD311A.input.Mlt A",
+            "id": "plugins.A73F7411-8B39-4F1A-9206-042917263415.output.Min_plugins.A9E3B07B-B354-47D8-A61F-BE5ED0DD311A.input.mltA",
             "from": "plugins.A73F7411-8B39-4F1A-9206-042917263415.output.Min",
-            "to": "plugins.A9E3B07B-B354-47D8-A61F-BE5ED0DD311A.input.Mlt A"
+            "to": "plugins.A9E3B07B-B354-47D8-A61F-BE5ED0DD311A.input.mltA"
         },
         {
-            "id": "plugins.A73F7411-8B39-4F1A-9206-042917263415.output.Min_plugins.A9E3B07B-B354-47D8-A61F-BE5ED0DD311A.input.Div A",
+            "id": "plugins.A73F7411-8B39-4F1A-9206-042917263415.output.Min_plugins.A9E3B07B-B354-47D8-A61F-BE5ED0DD311A.input.divA",
             "from": "plugins.A73F7411-8B39-4F1A-9206-042917263415.output.Min",
-            "to": "plugins.A9E3B07B-B354-47D8-A61F-BE5ED0DD311A.input.Div A"
+            "to": "plugins.A9E3B07B-B354-47D8-A61F-BE5ED0DD311A.input.divA"
         },
         {
-            "id": "plugins.A73F7411-8B39-4F1A-9206-042917263415.output.Min_plugins.D6FB9B6A-22D8-48E6-8EA2-A44952569C92.input.Add A",
+            "id": "plugins.A73F7411-8B39-4F1A-9206-042917263415.output.Min_plugins.D6FB9B6A-22D8-48E6-8EA2-A44952569C92.input.addA",
             "from": "plugins.A73F7411-8B39-4F1A-9206-042917263415.output.Min",
-            "to": "plugins.D6FB9B6A-22D8-48E6-8EA2-A44952569C92.input.Add A"
+            "to": "plugins.D6FB9B6A-22D8-48E6-8EA2-A44952569C92.input.addA"
         },
         {
-            "id": "plugins.A73F7411-8B39-4F1A-9206-042917263415.output.Min_plugins.D6FB9B6A-22D8-48E6-8EA2-A44952569C92.input.Sub A",
+            "id": "plugins.A73F7411-8B39-4F1A-9206-042917263415.output.Min_plugins.D6FB9B6A-22D8-48E6-8EA2-A44952569C92.input.subA",
             "from": "plugins.A73F7411-8B39-4F1A-9206-042917263415.output.Min",
-            "to": "plugins.D6FB9B6A-22D8-48E6-8EA2-A44952569C92.input.Sub A"
+            "to": "plugins.D6FB9B6A-22D8-48E6-8EA2-A44952569C92.input.subA"
         }
     ],
     "speed": 1
