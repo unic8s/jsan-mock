@@ -5,14 +5,14 @@
             "name": "Text",
             "plugin": "com_unic8_elan_text",
             "config": {
-                "label": "Don't Tell Me I Can't Have It - Sons Of Maria",
+                "label": " - ",
                 "font": "Roboto",
                 "size": 32,
-                "color": "#c2bdc1",
+                "color": "#18c755",
                 "width": 0,
                 "scroll": true,
                 "smooth": true,
-                "speed": 25.6,
+                "speed": 38.400000000000006,
                 "vertical": false,
                 "bounds": {
                     "x": 0,
@@ -32,12 +32,12 @@
             "plugin": "com_unic8_elan_visualizer",
             "config": {
                 "mode": 0,
-                "width": 4,
+                "width": 5,
                 "gap": 1,
                 "speed": 1,
                 "trail": 1,
                 "scheme": -1,
-                "color": "#c6a5a2",
+                "color": "#129249",
                 "invert x": false,
                 "invert y": false,
                 "bounds": {
@@ -58,15 +58,15 @@
             "plugin": "com_unic8_elan_turntable",
             "config": {
                 "cover": {
-                    "fileID": "https://i.scdn.co/image/ab67616d00001e02351859cd30c5fa7826784c70",
-                    "path": "https://i.scdn.co/image/ab67616d00001e02351859cd30c5fa7826784c70"
+                    "fileID": "http://localhost:8888/files?id=90c5fe44-e730-4f62-ab6c-8c07fece69ee",
+                    "path": "assets/spotify.png"
                 },
-                "progress": 0.08547067720426901,
-                "playing": true,
+                "progress": 0,
+                "playing": false,
                 "bounds": {
-                    "x": -64,
+                    "x": -96,
                     "y": -64,
-                    "width": 192,
+                    "width": 288,
                     "height": 191.04477611940297
                 }
             },
@@ -81,8 +81,8 @@
             "plugin": "com_unic8_elan_image",
             "config": {
                 "path": {
-                    "fileID": "https://i.scdn.co/image/ab67616d00001e02351859cd30c5fa7826784c70",
-                    "path": "https://i.scdn.co/image/ab67616d00001e02351859cd30c5fa7826784c70"
+                    "fileID": "http://localhost:8888/files?id=90c5fe44-e730-4f62-ab6c-8c07fece69ee",
+                    "path": "assets/spotify.png"
                 },
                 "contains": false,
                 "fade": 0,
@@ -100,7 +100,7 @@
             "visible": false
         },
         {
-            "uid": "A6F7BF96-A414-409B-986A-2935BF349D2B",
+            "uid": "106E9A3B-1EE5-40B0-BB0F-6CC957A5B262",
             "name": "Number calculator",
             "plugin": "com_unic8_elan_number_calculator",
             "config": {
@@ -110,7 +110,7 @@
                 "Sub B": 0,
                 "Mlt A": 0,
                 "Mlt B": 0,
-                "Div A": 11.313708498984761,
+                "Div A": 128,
                 "Div B": 2
             },
             "alpha": 1,
@@ -119,201 +119,14 @@
             "visible": true
         },
         {
-            "uid": "A7475D95-DE59-4DD0-9F3F-6DB112E7F04D",
-            "name": "Number calculator",
-            "plugin": "com_unic8_elan_number_calculator",
-            "config": {
-                "Add A": 0,
-                "Add B": 0,
-                "Sub A": 5,
-                "Sub B": 1,
-                "Mlt A": 0,
-                "Mlt B": 0,
-                "Div A": 0,
-                "Div B": 0
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "E3F350CF-584B-409E-8417-EFB6769D5FDF",
-            "name": "Math",
-            "plugin": "com_unic8_elan_math",
-            "config": {
-                "abs": 0,
-                "ceil": 0,
-                "cos": 0,
-                "floor": 5.656854249492381,
-                "pow base": 0,
-                "pow exp": 0,
-                "round": 0,
-                "sin": 0,
-                "sqrt": 0
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "26E112CD-53DA-4754-B221-7402C24B5A81",
-            "name": "Math",
-            "plugin": "com_unic8_elan_math",
-            "config": {
-                "abs": 0,
-                "ceil": 0,
-                "cos": 0,
-                "floor": 0,
-                "pow base": 0,
-                "pow exp": 0,
-                "round": 11.313708498984761,
-                "sin": 0,
-                "sqrt": 128
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "AA5FD841-FD8A-49A0-B02A-94740B39EB43",
+            "uid": "55FC7F99-722E-4248-AB70-8A921720227A",
             "name": "Rectangle builder",
             "plugin": "com_unic8_elan_rectangle_builder",
             "config": {
                 "x": 0,
-                "y": 90,
+                "y": 64,
                 "width": 0,
-                "height": 0
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "B97F5347-834C-4C02-AC21-8EE5068B1C32",
-            "name": "Number calculator",
-            "plugin": "com_unic8_elan_number_calculator",
-            "config": {
-                "Add A": 0,
-                "Add B": 0,
-                "Sub A": 128,
-                "Sub B": 38,
-                "Mlt A": 128,
-                "Mlt B": 0.25,
-                "Div A": 128,
-                "Div B": 5
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "DB14E3E4-6649-42EC-BDCB-A434244ABF51",
-            "name": "Rectangle splitter",
-            "plugin": "com_unic8_elan_rectangle_splitter",
-            "config": {
-                "rectangle": {
-                    "x": 128,
-                    "y": 0,
-                    "width": 611,
-                    "height": 38
-                }
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "44096A7F-CEE2-45DD-9EF1-41DB64562D19",
-            "name": "String modifier",
-            "plugin": "com_unic8_elan_string",
-            "config": {
-                "Len": "",
-                "Has hay": "",
-                "Has ndl": "",
-                "Con A": "Don't Tell Me I Can't Have It",
-                "Con B": "Sons Of Maria",
-                "Con sep": " - ",
-                "Rep hay": "",
-                "Rep ndl": "",
-                "Rep new": "",
-                "Sub src": "",
-                "Sub bgn": 0,
-                "Sub end": 0
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "E5FE9118-E6FE-44BC-B10B-FE9145E7FDD2",
-            "name": "Number calculator",
-            "plugin": "com_unic8_elan_number_calculator",
-            "config": {
-                "Add A": 0,
-                "Add B": 0,
-                "Sub A": 0,
-                "Sub B": 0,
-                "Mlt A": 128,
-                "Mlt B": -0.5,
-                "Div A": 128,
-                "Div B": -2
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "0012F6E8-5B8A-486E-9D44-680F92607666",
-            "name": "Rectangle builder",
-            "plugin": "com_unic8_elan_rectangle_builder",
-            "config": {
-                "x": -64,
-                "y": -64,
-                "width": 192,
-                "height": 191.04477611940297
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "C892F1E0-B87B-4C6C-BB44-DD80CCDD2E48",
-            "name": "Number calculator",
-            "plugin": "com_unic8_elan_number_calculator",
-            "config": {
-                "Add A": 0,
-                "Add B": 0,
-                "Sub A": 0,
-                "Sub B": 0,
-                "Mlt A": 128,
-                "Mlt B": 1.5,
-                "Div A": 128,
-                "Div B": 0.67
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "F018AFF3-30A0-4987-9BCB-A37BE48EAB2C",
-            "name": "Mapping",
-            "plugin": "com_unic8_elan_mapping",
-            "config": {
-                "Value": 16.049,
-                "From low": 0,
-                "From high": 187.772,
-                "To low": 0,
-                "To high": 1
+                "height": 64
             },
             "alpha": 1,
             "blendMode": 0,
@@ -337,14 +150,15 @@
             "visible": true
         },
         {
-            "uid": "55FC7F99-722E-4248-AB70-8A921720227A",
-            "name": "Rectangle builder",
-            "plugin": "com_unic8_elan_rectangle_builder",
+            "uid": "F018AFF3-30A0-4987-9BCB-A37BE48EAB2C",
+            "name": "Mapping",
+            "plugin": "com_unic8_elan_mapping",
             "config": {
-                "x": 0,
-                "y": 64,
-                "width": 0,
-                "height": 64
+                "Value": 0,
+                "From low": 0,
+                "From high": 0,
+                "To low": 0,
+                "To high": 1
             },
             "alpha": 1,
             "blendMode": 0,
@@ -352,7 +166,193 @@
             "visible": true
         },
         {
-            "uid": "106E9A3B-1EE5-40B0-BB0F-6CC957A5B262",
+            "uid": "C892F1E0-B87B-4C6C-BB44-DD80CCDD2E48",
+            "name": "Number calculator",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "Add A": 0,
+                "Add B": 0,
+                "Sub A": 0,
+                "Sub B": 0,
+                "Mlt A": 192,
+                "Mlt B": 1.5,
+                "Div A": 128,
+                "Div B": 0.67
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "0012F6E8-5B8A-486E-9D44-680F92607666",
+            "name": "Rectangle builder",
+            "plugin": "com_unic8_elan_rectangle_builder",
+            "config": {
+                "x": -96,
+                "y": -64,
+                "width": 288,
+                "height": 191.04477611940297
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "E5FE9118-E6FE-44BC-B10B-FE9145E7FDD2",
+            "name": "Number calculator",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "Add A": 0,
+                "Add B": 0,
+                "Sub A": 0,
+                "Sub B": 0,
+                "Mlt A": 192,
+                "Mlt B": -0.5,
+                "Div A": 128,
+                "Div B": -2
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "44096A7F-CEE2-45DD-9EF1-41DB64562D19",
+            "name": "String modifier",
+            "plugin": "com_unic8_elan_string",
+            "config": {
+                "Len": "",
+                "Has hay": "",
+                "Has ndl": "",
+                "Con A": "",
+                "Con B": "",
+                "Con sep": " - ",
+                "Rep hay": "",
+                "Rep ndl": "",
+                "Rep new": "",
+                "Sub src": "",
+                "Sub bgn": 0,
+                "Sub end": 0
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "DB14E3E4-6649-42EC-BDCB-A434244ABF51",
+            "name": "Rectangle splitter",
+            "plugin": "com_unic8_elan_rectangle_splitter",
+            "config": {
+                "rectangle": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 25,
+                    "height": 38
+                }
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "B97F5347-834C-4C02-AC21-8EE5068B1C32",
+            "name": "Number calculator",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "Add A": 0,
+                "Add B": 0,
+                "Sub A": 128,
+                "Sub B": 38,
+                "Mlt A": 128,
+                "Mlt B": 0.25,
+                "Div A": 192,
+                "Div B": 5
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "AA5FD841-FD8A-49A0-B02A-94740B39EB43",
+            "name": "Rectangle builder",
+            "plugin": "com_unic8_elan_rectangle_builder",
+            "config": {
+                "x": 0,
+                "y": 90,
+                "width": 0,
+                "height": 0
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "26E112CD-53DA-4754-B221-7402C24B5A81",
+            "name": "Math",
+            "plugin": "com_unic8_elan_math",
+            "config": {
+                "abs": 0,
+                "ceil": 0,
+                "cos": 0,
+                "floor": 0,
+                "pow base": 0,
+                "pow exp": 0,
+                "round": 11.313708498984761,
+                "sin": 0,
+                "sqrt": 192
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "E3F350CF-584B-409E-8417-EFB6769D5FDF",
+            "name": "Math",
+            "plugin": "com_unic8_elan_math",
+            "config": {
+                "abs": 0,
+                "ceil": 0,
+                "cos": 0,
+                "floor": 6.928203230275509,
+                "pow base": 0,
+                "pow exp": 0,
+                "round": 0,
+                "sin": 0,
+                "sqrt": 0
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "A7475D95-DE59-4DD0-9F3F-6DB112E7F04D",
+            "name": "Number calculator",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "Add A": 0,
+                "Add B": 0,
+                "Sub A": 6,
+                "Sub B": 1,
+                "Mlt A": 0,
+                "Mlt B": 0,
+                "Div A": 0,
+                "Div B": 0
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "A6F7BF96-A414-409B-986A-2935BF349D2B",
             "name": "Number calculator",
             "plugin": "com_unic8_elan_number_calculator",
             "config": {
@@ -362,8 +362,32 @@
                 "Sub B": 0,
                 "Mlt A": 0,
                 "Mlt B": 0,
-                "Div A": 128,
+                "Div A": 13.856406460551018,
                 "Div B": 2
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "882B1909-B482-4E11-BF03-EF3AAFCE0389",
+            "name": "Number operator",
+            "plugin": "com_unic8_elan_number_operator",
+            "config": {
+                "EqA": 0,
+                "EqB": 0,
+                "GtA": 0,
+                "GtB": 0,
+                "ModA": 0,
+                "ModB": 0,
+                "Floor": 0,
+                "Ceil": 0,
+                "Round": 0,
+                "MinA": 0,
+                "MinB": 0,
+                "MaxA": 0,
+                "MaxB": 0
             },
             "alpha": 1,
             "blendMode": 0,
@@ -399,16 +423,6 @@
             "to": "plugins.AF8A527C-54DC-450F-B98D-2BA73F619972.input.playing"
         },
         {
-            "id": "internals.canvasWidth_plugins.C892F1E0-B87B-4C6C-BB44-DD80CCDD2E48.input.Mlt A",
-            "from": "internals.canvasWidth",
-            "to": "plugins.C892F1E0-B87B-4C6C-BB44-DD80CCDD2E48.input.Mlt A"
-        },
-        {
-            "id": "internals.canvasHeight_plugins.C892F1E0-B87B-4C6C-BB44-DD80CCDD2E48.input.Div A",
-            "from": "internals.canvasHeight",
-            "to": "plugins.C892F1E0-B87B-4C6C-BB44-DD80CCDD2E48.input.Div A"
-        },
-        {
             "id": "plugins.C892F1E0-B87B-4C6C-BB44-DD80CCDD2E48.output.Mlt_plugins.0012F6E8-5B8A-486E-9D44-680F92607666.input.width",
             "from": "plugins.C892F1E0-B87B-4C6C-BB44-DD80CCDD2E48.output.Mlt",
             "to": "plugins.0012F6E8-5B8A-486E-9D44-680F92607666.input.width"
@@ -422,16 +436,6 @@
             "id": "plugins.0012F6E8-5B8A-486E-9D44-680F92607666.output.bounds_plugins.AF8A527C-54DC-450F-B98D-2BA73F619972.input.bounds",
             "from": "plugins.0012F6E8-5B8A-486E-9D44-680F92607666.output.bounds",
             "to": "plugins.AF8A527C-54DC-450F-B98D-2BA73F619972.input.bounds"
-        },
-        {
-            "id": "internals.canvasWidth_plugins.E5FE9118-E6FE-44BC-B10B-FE9145E7FDD2.input.Mlt A",
-            "from": "internals.canvasWidth",
-            "to": "plugins.E5FE9118-E6FE-44BC-B10B-FE9145E7FDD2.input.Mlt A"
-        },
-        {
-            "id": "internals.canvasHeight_plugins.E5FE9118-E6FE-44BC-B10B-FE9145E7FDD2.input.Div A",
-            "from": "internals.canvasHeight",
-            "to": "plugins.E5FE9118-E6FE-44BC-B10B-FE9145E7FDD2.input.Div A"
         },
         {
             "id": "plugins.E5FE9118-E6FE-44BC-B10B-FE9145E7FDD2.output.Mlt_plugins.0012F6E8-5B8A-486E-9D44-680F92607666.input.x",
@@ -474,11 +478,6 @@
             "to": "plugins.DB14E3E4-6649-42EC-BDCB-A434244ABF51.input.rectangle"
         },
         {
-            "id": "internals.canvasHeight_plugins.B97F5347-834C-4C02-AC21-8EE5068B1C32.input.Sub A",
-            "from": "internals.canvasHeight",
-            "to": "plugins.B97F5347-834C-4C02-AC21-8EE5068B1C32.input.Sub A"
-        },
-        {
             "id": "plugins.DB14E3E4-6649-42EC-BDCB-A434244ABF51.output.height_plugins.B97F5347-834C-4C02-AC21-8EE5068B1C32.input.Sub B",
             "from": "plugins.DB14E3E4-6649-42EC-BDCB-A434244ABF51.output.height",
             "to": "plugins.B97F5347-834C-4C02-AC21-8EE5068B1C32.input.Sub B"
@@ -494,11 +493,6 @@
             "to": "plugins.98D46EE4-9FC8-4639-8E22-0CB0CAA5A863.input.bounds"
         },
         {
-            "id": "internals.canvasHeight_plugins.B97F5347-834C-4C02-AC21-8EE5068B1C32.input.Mlt A",
-            "from": "internals.canvasHeight",
-            "to": "plugins.B97F5347-834C-4C02-AC21-8EE5068B1C32.input.Mlt A"
-        },
-        {
             "id": "plugins.B97F5347-834C-4C02-AC21-8EE5068B1C32.output.Mlt_plugins.98D46EE4-9FC8-4639-8E22-0CB0CAA5A863.input.size",
             "from": "plugins.B97F5347-834C-4C02-AC21-8EE5068B1C32.output.Mlt",
             "to": "plugins.98D46EE4-9FC8-4639-8E22-0CB0CAA5A863.input.size"
@@ -509,19 +503,9 @@
             "to": "plugins.98D46EE4-9FC8-4639-8E22-0CB0CAA5A863.input.color"
         },
         {
-            "id": "internals.canvasWidth_plugins.B97F5347-834C-4C02-AC21-8EE5068B1C32.input.Div A",
-            "from": "internals.canvasWidth",
-            "to": "plugins.B97F5347-834C-4C02-AC21-8EE5068B1C32.input.Div A"
-        },
-        {
             "id": "plugins.B97F5347-834C-4C02-AC21-8EE5068B1C32.output.Div_plugins.98D46EE4-9FC8-4639-8E22-0CB0CAA5A863.input.speed",
             "from": "plugins.B97F5347-834C-4C02-AC21-8EE5068B1C32.output.Div",
             "to": "plugins.98D46EE4-9FC8-4639-8E22-0CB0CAA5A863.input.speed"
-        },
-        {
-            "id": "internals.canvasHeight_plugins.106E9A3B-1EE5-40B0-BB0F-6CC957A5B262.input.Div A",
-            "from": "internals.canvasHeight",
-            "to": "plugins.106E9A3B-1EE5-40B0-BB0F-6CC957A5B262.input.Div A"
         },
         {
             "id": "plugins.106E9A3B-1EE5-40B0-BB0F-6CC957A5B262.output.Div_plugins.55FC7F99-722E-4248-AB70-8A921720227A.input.height",
@@ -537,11 +521,6 @@
             "id": "plugins.55FC7F99-722E-4248-AB70-8A921720227A.output.bounds_plugins.51053F85-B127-4A85-8046-0CB019F76F8C.input.bounds",
             "from": "plugins.55FC7F99-722E-4248-AB70-8A921720227A.output.bounds",
             "to": "plugins.51053F85-B127-4A85-8046-0CB019F76F8C.input.bounds"
-        },
-        {
-            "id": "internals.canvasWidth_plugins.26E112CD-53DA-4754-B221-7402C24B5A81.input.sqrt",
-            "from": "internals.canvasWidth",
-            "to": "plugins.26E112CD-53DA-4754-B221-7402C24B5A81.input.sqrt"
         },
         {
             "id": "plugins.A7475D95-DE59-4DD0-9F3F-6DB112E7F04D.output.Sub_plugins.51053F85-B127-4A85-8046-0CB019F76F8C.input.width",
@@ -562,6 +541,61 @@
             "id": "plugins.E3F350CF-584B-409E-8417-EFB6769D5FDF.output.floor_plugins.A7475D95-DE59-4DD0-9F3F-6DB112E7F04D.input.Sub A",
             "from": "plugins.E3F350CF-584B-409E-8417-EFB6769D5FDF.output.floor",
             "to": "plugins.A7475D95-DE59-4DD0-9F3F-6DB112E7F04D.input.Sub A"
+        },
+        {
+            "id": "internals.canvasWidth_plugins.882B1909-B482-4E11-BF03-EF3AAFCE0389.input.MinA",
+            "from": "internals.canvasWidth",
+            "to": "plugins.882B1909-B482-4E11-BF03-EF3AAFCE0389.input.MinA"
+        },
+        {
+            "id": "internals.canvasHeight_plugins.882B1909-B482-4E11-BF03-EF3AAFCE0389.input.MinB",
+            "from": "internals.canvasHeight",
+            "to": "plugins.882B1909-B482-4E11-BF03-EF3AAFCE0389.input.MinB"
+        },
+        {
+            "id": "plugins.882B1909-B482-4E11-BF03-EF3AAFCE0389.output.Min_plugins.C892F1E0-B87B-4C6C-BB44-DD80CCDD2E48.input.Mlt A",
+            "from": "plugins.882B1909-B482-4E11-BF03-EF3AAFCE0389.output.Min",
+            "to": "plugins.C892F1E0-B87B-4C6C-BB44-DD80CCDD2E48.input.Mlt A"
+        },
+        {
+            "id": "plugins.882B1909-B482-4E11-BF03-EF3AAFCE0389.output.Min_plugins.C892F1E0-B87B-4C6C-BB44-DD80CCDD2E48.input.Div A",
+            "from": "plugins.882B1909-B482-4E11-BF03-EF3AAFCE0389.output.Min",
+            "to": "plugins.C892F1E0-B87B-4C6C-BB44-DD80CCDD2E48.input.Div A"
+        },
+        {
+            "id": "plugins.882B1909-B482-4E11-BF03-EF3AAFCE0389.output.Min_plugins.106E9A3B-1EE5-40B0-BB0F-6CC957A5B262.input.Div A",
+            "from": "plugins.882B1909-B482-4E11-BF03-EF3AAFCE0389.output.Min",
+            "to": "plugins.106E9A3B-1EE5-40B0-BB0F-6CC957A5B262.input.Div A"
+        },
+        {
+            "id": "plugins.882B1909-B482-4E11-BF03-EF3AAFCE0389.output.Min_plugins.E5FE9118-E6FE-44BC-B10B-FE9145E7FDD2.input.Div A",
+            "from": "plugins.882B1909-B482-4E11-BF03-EF3AAFCE0389.output.Min",
+            "to": "plugins.E5FE9118-E6FE-44BC-B10B-FE9145E7FDD2.input.Div A"
+        },
+        {
+            "id": "plugins.882B1909-B482-4E11-BF03-EF3AAFCE0389.output.Min_plugins.E5FE9118-E6FE-44BC-B10B-FE9145E7FDD2.input.Mlt A",
+            "from": "plugins.882B1909-B482-4E11-BF03-EF3AAFCE0389.output.Min",
+            "to": "plugins.E5FE9118-E6FE-44BC-B10B-FE9145E7FDD2.input.Mlt A"
+        },
+        {
+            "id": "plugins.882B1909-B482-4E11-BF03-EF3AAFCE0389.output.Min_plugins.B97F5347-834C-4C02-AC21-8EE5068B1C32.input.Sub A",
+            "from": "plugins.882B1909-B482-4E11-BF03-EF3AAFCE0389.output.Min",
+            "to": "plugins.B97F5347-834C-4C02-AC21-8EE5068B1C32.input.Sub A"
+        },
+        {
+            "id": "plugins.882B1909-B482-4E11-BF03-EF3AAFCE0389.output.Min_plugins.B97F5347-834C-4C02-AC21-8EE5068B1C32.input.Mlt A",
+            "from": "plugins.882B1909-B482-4E11-BF03-EF3AAFCE0389.output.Min",
+            "to": "plugins.B97F5347-834C-4C02-AC21-8EE5068B1C32.input.Mlt A"
+        },
+        {
+            "id": "plugins.882B1909-B482-4E11-BF03-EF3AAFCE0389.output.Min_plugins.B97F5347-834C-4C02-AC21-8EE5068B1C32.input.Div A",
+            "from": "plugins.882B1909-B482-4E11-BF03-EF3AAFCE0389.output.Min",
+            "to": "plugins.B97F5347-834C-4C02-AC21-8EE5068B1C32.input.Div A"
+        },
+        {
+            "id": "plugins.882B1909-B482-4E11-BF03-EF3AAFCE0389.output.Min_plugins.26E112CD-53DA-4754-B221-7402C24B5A81.input.sqrt",
+            "from": "plugins.882B1909-B482-4E11-BF03-EF3AAFCE0389.output.Min",
+            "to": "plugins.26E112CD-53DA-4754-B221-7402C24B5A81.input.sqrt"
         }
     ],
     "speed": 1
