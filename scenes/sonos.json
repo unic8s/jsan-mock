@@ -5,10 +5,10 @@
             "name": "Artist",
             "plugin": "com_unic8_elan_text",
             "config": {
-                "label": "Nicolello",
+                "label": "",
                 "font": "Arial",
                 "size": 32,
-                "color": "#100608",
+                "color": "#030000",
                 "width": 0,
                 "scroll": true,
                 "smooth": true,
@@ -31,10 +31,10 @@
             "name": "Song",
             "plugin": "com_unic8_elan_text",
             "config": {
-                "label": "Floating In Space",
+                "label": "",
                 "font": "Arial",
                 "size": 64,
-                "color": "#104a60",
+                "color": "#070505",
                 "width": 0,
                 "scroll": true,
                 "smooth": true,
@@ -58,10 +58,10 @@
             "plugin": "com_unic8_elan_progress",
             "config": {
                 "track": "#000000",
-                "fill": "#104a60",
+                "fill": "#070505",
                 "minimum": 0,
-                "maximum": 152,
-                "value": 4,
+                "maximum": 1,
+                "value": 0,
                 "bounds": {
                     "x": 2,
                     "y": 124,
@@ -75,27 +75,6 @@
             "visible": true
         },
         {
-            "uid": "772E7298-2B01-47EC-BF5E-EC1E3CDB4CC4",
-            "name": "Strobe",
-            "plugin": "com_unic8_elan_strobe",
-            "config": {
-                "trigger": false,
-                "color": "#100608",
-                "randomColor": false,
-                "duration": 0.25,
-                "bounds": {
-                    "x": 0,
-                    "y": 0,
-                    "width": 0,
-                    "height": 0
-                }
-            },
-            "alpha": 0.33,
-            "blendMode": 1,
-            "rotation": 0,
-            "visible": false
-        },
-        {
             "uid": "A8CC9CC1-07FF-4841-A15E-64F26C9ABDB1",
             "name": "Visualizer",
             "plugin": "com_unic8_elan_visualizer",
@@ -106,7 +85,7 @@
                 "speed": 0.5,
                 "trail": 20,
                 "scheme": -1,
-                "color": "#104a60",
+                "color": "#070505",
                 "invert x": false,
                 "invert y": false,
                 "bounds": {
@@ -127,8 +106,8 @@
             "plugin": "com_unic8_elan_image",
             "config": {
                 "path": {
-                    "fileID": "https://i.scdn.co/image/ab67616d0000b2731e4281fd8469614fae4f74b5",
-                    "path": "https://i.scdn.co/image/ab67616d0000b2731e4281fd8469614fae4f74b5"
+                    "fileID": "http://localhost:8888/files?id=157ba5fc-6330-4993-8ac7-1ead5a0da4e0",
+                    "path": "http://localhost:8888/files?id=157ba5fc-6330-4993-8ac7-1ead5a0da4e0"
                 },
                 "contains": false,
                 "fade": 0.5,
@@ -146,57 +125,18 @@
             "visible": true
         },
         {
-            "uid": "79BF48A0-83F1-48A7-A8BA-70B5F9874CCF",
-            "name": "SONOS",
-            "plugin": "com_unic8_elan_sonos",
-            "config": {
-                "play": false,
-                "pause": false,
-                "previous": false,
-                "next": false
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "A73F7411-8B39-4F1A-9206-042917263415",
-            "name": "Number operator",
-            "plugin": "com_unic8_elan_number_operator",
-            "config": {
-                "EqA": 0,
-                "EqB": 0,
-                "GtA": 0,
-                "GtB": 0,
-                "ModA": 0,
-                "ModB": 0,
-                "Floor": 0,
-                "Ceil": 10.666666666666666,
-                "Round": 0,
-                "MinA": 192,
-                "MinB": 128,
-                "MaxA": 0,
-                "MaxB": 0
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "EFB50D84-4C31-4D08-BAA9-C7FC8066DC23",
+            "uid": "D6FB9B6A-22D8-48E6-8EA2-A44952569C92",
             "name": "Number calculator",
             "plugin": "com_unic8_elan_number_calculator",
             "config": {
-                "addA": 0,
-                "addB": 0,
-                "subA": 0,
-                "subB": 0,
-                "mltA": 32,
-                "mltB": 0.5,
-                "divA": 32,
-                "divB": 3
+                "addA": 128,
+                "addB": -4,
+                "subA": 128,
+                "subB": 4,
+                "mltA": 0,
+                "mltB": 0,
+                "divA": 0,
+                "divB": 0
             },
             "alpha": 1,
             "blendMode": 0,
@@ -204,14 +144,14 @@
             "visible": true
         },
         {
-            "uid": "52201288-F022-451D-80C1-2FD8430D5C0C",
+            "uid": "F24116EC-2650-4F3B-B423-1446DA2E0D0E",
             "name": "Rectangle builder",
             "plugin": "com_unic8_elan_rectangle_builder",
             "config": {
-                "x": 0,
-                "y": 32,
-                "width": 0,
-                "height": 0
+                "x": 2,
+                "y": 124,
+                "width": 124,
+                "height": 2
             },
             "alpha": 1,
             "blendMode": 0,
@@ -238,14 +178,14 @@
             "visible": true
         },
         {
-            "uid": "F24116EC-2650-4F3B-B423-1446DA2E0D0E",
+            "uid": "52201288-F022-451D-80C1-2FD8430D5C0C",
             "name": "Rectangle builder",
             "plugin": "com_unic8_elan_rectangle_builder",
             "config": {
-                "x": 2,
-                "y": 124,
-                "width": 124,
-                "height": 2
+                "x": 0,
+                "y": 32,
+                "width": 0,
+                "height": 0
             },
             "alpha": 1,
             "blendMode": 0,
@@ -253,18 +193,57 @@
             "visible": true
         },
         {
-            "uid": "D6FB9B6A-22D8-48E6-8EA2-A44952569C92",
+            "uid": "EFB50D84-4C31-4D08-BAA9-C7FC8066DC23",
             "name": "Number calculator",
             "plugin": "com_unic8_elan_number_calculator",
             "config": {
-                "addA": 128,
-                "addB": -4,
-                "subA": 128,
-                "subB": 4,
-                "mltA": 0,
-                "mltB": 0,
-                "divA": 0,
-                "divB": 0
+                "addA": 0,
+                "addB": 0,
+                "subA": 0,
+                "subB": 0,
+                "mltA": 32,
+                "mltB": 0.5,
+                "divA": 32,
+                "divB": 3
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "A73F7411-8B39-4F1A-9206-042917263415",
+            "name": "Number operator",
+            "plugin": "com_unic8_elan_number_operator",
+            "config": {
+                "EqA": 0,
+                "EqB": 0,
+                "GtA": 0,
+                "GtB": 0,
+                "ModA": 0,
+                "ModB": 0,
+                "Floor": 0,
+                "Ceil": 10.666666666666666,
+                "Round": 0,
+                "MinA": 128,
+                "MinB": 128,
+                "MaxA": 0,
+                "MaxB": 0
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "79BF48A0-83F1-48A7-A8BA-70B5F9874CCF",
+            "name": "SONOS",
+            "plugin": "com_unic8_elan_sonos",
+            "config": {
+                "play": false,
+                "pause": false,
+                "previous": false,
+                "next": false
             },
             "alpha": 1,
             "blendMode": 0,
@@ -350,19 +329,9 @@
             "to": "plugins.F24116EC-2650-4F3B-B423-1446DA2E0D0E.input.y"
         },
         {
-            "id": "internals.audioTrigger_plugins.772E7298-2B01-47EC-BF5E-EC1E3CDB4CC4.input.trigger",
-            "from": "internals.audioTrigger",
-            "to": "plugins.772E7298-2B01-47EC-BF5E-EC1E3CDB4CC4.input.trigger"
-        },
-        {
             "id": "plugins.3DC87306-D540-4A76-B45A-2EC6B549B7CC.output.accent_plugins.A8CC9CC1-07FF-4841-A15E-64F26C9ABDB1.input.color",
             "from": "plugins.3DC87306-D540-4A76-B45A-2EC6B549B7CC.output.accent",
             "to": "plugins.A8CC9CC1-07FF-4841-A15E-64F26C9ABDB1.input.color"
-        },
-        {
-            "id": "plugins.3DC87306-D540-4A76-B45A-2EC6B549B7CC.output.average_plugins.772E7298-2B01-47EC-BF5E-EC1E3CDB4CC4.input.color",
-            "from": "plugins.3DC87306-D540-4A76-B45A-2EC6B549B7CC.output.average",
-            "to": "plugins.772E7298-2B01-47EC-BF5E-EC1E3CDB4CC4.input.color"
         },
         {
             "id": "plugins.79BF48A0-83F1-48A7-A8BA-70B5F9874CCF.output.song_plugins.42399F43-64CA-47EA-A04C-2F102A030F48.input.label",
