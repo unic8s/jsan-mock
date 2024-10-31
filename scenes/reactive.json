@@ -1,0 +1,312 @@
+{
+    "layers": [
+        {
+            "uid": "298CB0EC-F204-4C6C-ADE0-7F1C29EE6F45",
+            "name": "Shapes hi",
+            "plugin": "com_unic8_elan_shapes",
+            "config": {
+                "trigger": false,
+                "duration": 1,
+                "square": false,
+                "circle": false,
+                "star": true,
+                "line": 1,
+                "color": "#0000FF",
+                "outline": true,
+                "startSize": 0,
+                "endSize": 50,
+                "startAlpha": 1,
+                "endAlpha": 0,
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                },
+                "randomColor": true,
+                "randomPosition": true,
+                "randomRotation": true,
+                "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            "alpha": 1,
+            "blendMode": 3,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "B1CB5434-3E31-438C-BED2-86980D350B80",
+            "name": "Shapes med",
+            "plugin": "com_unic8_elan_shapes",
+            "config": {
+                "trigger": true,
+                "duration": 1,
+                "square": false,
+                "circle": true,
+                "star": false,
+                "line": 1,
+                "color": "#00FF00",
+                "outline": true,
+                "startSize": 0,
+                "endSize": 50,
+                "startAlpha": 1,
+                "endAlpha": 0,
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                },
+                "randomColor": true,
+                "randomPosition": true,
+                "randomRotation": true,
+                "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            "alpha": 1,
+            "blendMode": 3,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "0C10FB83-A1E2-4560-B4E4-53CB179719DF",
+            "name": "Shapes low",
+            "plugin": "com_unic8_elan_shapes",
+            "config": {
+                "trigger": false,
+                "duration": 1,
+                "square": true,
+                "circle": false,
+                "star": false,
+                "line": 1,
+                "color": "#FF0000",
+                "outline": true,
+                "startSize": 0,
+                "endSize": 50,
+                "startAlpha": 1,
+                "endAlpha": 0,
+                "position": {
+                    "x": 8,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                },
+                "randomColor": true,
+                "randomPosition": true,
+                "randomRotation": true,
+                "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            "alpha": 1,
+            "blendMode": 3,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "FB9EF388-1BA1-44C9-B10D-C36D175E079C",
+            "name": "Strobe",
+            "plugin": "com_unic8_elan_strobe",
+            "config": {
+                "trigger": true,
+                "color": "#e7cf94",
+                "randomColor": false,
+                "duration": 0.5,
+                "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "AD338219-1424-4359-8439-3E29BA6C5332",
+            "name": "Audio analyzer low",
+            "plugin": "com_unic8_elan_audio_analyzer",
+            "config": {
+                "freqMin": 0,
+                "freqMax": 31,
+                "sensitivity": 8
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "62050E28-839A-4CEF-B910-FAB2223B9052",
+            "name": "Audio analyzer med",
+            "plugin": "com_unic8_elan_audio_analyzer",
+            "config": {
+                "freqMin": 32,
+                "freqMax": 63,
+                "sensitivity": 8
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "CF3EB07C-65F3-44F3-AA4C-C6F13A102BB8",
+            "name": "Audio analyzer hi",
+            "plugin": "com_unic8_elan_audio_analyzer",
+            "config": {
+                "freqMin": 64,
+                "freqMax": 128,
+                "sensitivity": 8
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "B205105B-5310-4A26-BE79-E59C541269E6",
+            "name": "Color builder",
+            "plugin": "com_unic8_elan_color",
+            "config": {
+                "red": 0,
+                "green": 0,
+                "blue": 0,
+                "trigger": true,
+                "duration": 0,
+                "random": true
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "3EA187E4-6FB7-498B-97DB-7A8C2B5C3D4E",
+            "name": "Audio analyzer",
+            "plugin": "com_unic8_elan_audio_analyzer",
+            "config": {
+                "freqMin": 0,
+                "freqMax": 128,
+                "sensitivity": 8
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        }
+    ],
+    "variables": [
+        {
+            "name": "sensitivity",
+            "value": 8,
+            "type": "Number"
+        },
+        {
+            "name": "duration",
+            "value": 1,
+            "type": "Number"
+        },
+        {
+            "name": "endSize",
+            "value": 50,
+            "type": "Number"
+        }
+    ],
+    "bindings": [
+        {
+            "id": "plugins.AD338219-1424-4359-8439-3E29BA6C5332.output.trigger_plugins.0C10FB83-A1E2-4560-B4E4-53CB179719DF.input.trigger",
+            "from": "plugins.AD338219-1424-4359-8439-3E29BA6C5332.output.trigger",
+            "to": "plugins.0C10FB83-A1E2-4560-B4E4-53CB179719DF.input.trigger"
+        },
+        {
+            "id": "plugins.62050E28-839A-4CEF-B910-FAB2223B9052.output.trigger_plugins.B1CB5434-3E31-438C-BED2-86980D350B80.input.trigger",
+            "from": "plugins.62050E28-839A-4CEF-B910-FAB2223B9052.output.trigger",
+            "to": "plugins.B1CB5434-3E31-438C-BED2-86980D350B80.input.trigger"
+        },
+        {
+            "id": "plugins.CF3EB07C-65F3-44F3-AA4C-C6F13A102BB8.output.trigger_plugins.298CB0EC-F204-4C6C-ADE0-7F1C29EE6F45.input.trigger",
+            "from": "plugins.CF3EB07C-65F3-44F3-AA4C-C6F13A102BB8.output.trigger",
+            "to": "plugins.298CB0EC-F204-4C6C-ADE0-7F1C29EE6F45.input.trigger"
+        },
+        {
+            "id": "variables.sensitivity_plugins.AD338219-1424-4359-8439-3E29BA6C5332.input.sensitivity",
+            "from": "variables.sensitivity",
+            "to": "plugins.AD338219-1424-4359-8439-3E29BA6C5332.input.sensitivity"
+        },
+        {
+            "id": "variables.sensitivity_plugins.62050E28-839A-4CEF-B910-FAB2223B9052.input.sensitivity",
+            "from": "variables.sensitivity",
+            "to": "plugins.62050E28-839A-4CEF-B910-FAB2223B9052.input.sensitivity"
+        },
+        {
+            "id": "variables.sensitivity_plugins.CF3EB07C-65F3-44F3-AA4C-C6F13A102BB8.input.sensitivity",
+            "from": "variables.sensitivity",
+            "to": "plugins.CF3EB07C-65F3-44F3-AA4C-C6F13A102BB8.input.sensitivity"
+        },
+        {
+            "id": "variables.duration_plugins.0C10FB83-A1E2-4560-B4E4-53CB179719DF.input.duration",
+            "from": "variables.duration",
+            "to": "plugins.0C10FB83-A1E2-4560-B4E4-53CB179719DF.input.duration"
+        },
+        {
+            "id": "variables.duration_plugins.B1CB5434-3E31-438C-BED2-86980D350B80.input.duration",
+            "from": "variables.duration",
+            "to": "plugins.B1CB5434-3E31-438C-BED2-86980D350B80.input.duration"
+        },
+        {
+            "id": "variables.duration_plugins.298CB0EC-F204-4C6C-ADE0-7F1C29EE6F45.input.duration",
+            "from": "variables.duration",
+            "to": "plugins.298CB0EC-F204-4C6C-ADE0-7F1C29EE6F45.input.duration"
+        },
+        {
+            "id": "variables.endSize_plugins.B1CB5434-3E31-438C-BED2-86980D350B80.input.endSize",
+            "from": "variables.endSize",
+            "to": "plugins.B1CB5434-3E31-438C-BED2-86980D350B80.input.endSize"
+        },
+        {
+            "id": "variables.endSize_plugins.0C10FB83-A1E2-4560-B4E4-53CB179719DF.input.endSize",
+            "from": "variables.endSize",
+            "to": "plugins.0C10FB83-A1E2-4560-B4E4-53CB179719DF.input.endSize"
+        },
+        {
+            "id": "variables.endSize_plugins.298CB0EC-F204-4C6C-ADE0-7F1C29EE6F45.input.endSize",
+            "from": "variables.endSize",
+            "to": "plugins.298CB0EC-F204-4C6C-ADE0-7F1C29EE6F45.input.endSize"
+        },
+        {
+            "id": "plugins.B205105B-5310-4A26-BE79-E59C541269E6.output.color_plugins.FB9EF388-1BA1-44C9-B10D-C36D175E079C.input.color",
+            "from": "plugins.B205105B-5310-4A26-BE79-E59C541269E6.output.color",
+            "to": "plugins.FB9EF388-1BA1-44C9-B10D-C36D175E079C.input.color"
+        },
+        {
+            "id": "variables.sensitivity_plugins.3EA187E4-6FB7-498B-97DB-7A8C2B5C3D4E.input.sensitivity",
+            "from": "variables.sensitivity",
+            "to": "plugins.3EA187E4-6FB7-498B-97DB-7A8C2B5C3D4E.input.sensitivity"
+        },
+        {
+            "id": "plugins.3EA187E4-6FB7-498B-97DB-7A8C2B5C3D4E.output.trigger_plugins.FB9EF388-1BA1-44C9-B10D-C36D175E079C.input.trigger",
+            "from": "plugins.3EA187E4-6FB7-498B-97DB-7A8C2B5C3D4E.output.trigger",
+            "to": "plugins.FB9EF388-1BA1-44C9-B10D-C36D175E079C.input.trigger"
+        },
+        {
+            "id": "plugins.3EA187E4-6FB7-498B-97DB-7A8C2B5C3D4E.output.trigger_plugins.B205105B-5310-4A26-BE79-E59C541269E6.input.trigger",
+            "from": "plugins.3EA187E4-6FB7-498B-97DB-7A8C2B5C3D4E.output.trigger",
+            "to": "plugins.B205105B-5310-4A26-BE79-E59C541269E6.input.trigger"
+        }
+    ],
+    "speed": 1
+}
