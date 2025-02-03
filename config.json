@@ -3,6 +3,7 @@
     "devices": [],
     "media": {
         "video": "",
+        "resolution": "",
         "audio": "default",
         "screen": "screen:0:0"
     },
