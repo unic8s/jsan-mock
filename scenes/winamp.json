@@ -8,14 +8,15 @@
                 "track": "#000000",
                 "fill": "#1C7A00",
                 "minimum": 0,
-                "maximum": 142.204,
-                "value": 118.319,
+                "maximum": 109.714,
+                "value": 6.998,
+                "alpha": 1,
                 "scale": 1,
                 "bounds": {
-                    "x": 16,
-                    "y": 215.04,
-                    "width": 230.6306306306306,
-                    "height": 7.68
+                    "x": 8,
+                    "y": 107.52,
+                    "width": 115.3153153153153,
+                    "height": 3.84
                 }
             },
             "alpha": 1,
@@ -29,20 +30,21 @@
             "name": "Text",
             "plugin": "com_unic8_elan_text",
             "config": {
-                "label": "That's Where I Should Be - MA:RK",
+                "label": "Skylight - Chrxs Beats",
                 "font": "Roboto",
-                "size": 11.130434782608695,
+                "size": 5.565217391304348,
                 "color": "#1C7A00",
                 "width": 0,
                 "scroll": true,
-                "smooth": false,
-                "speed": 17.92,
+                "smooth": true,
+                "speed": 8.96,
                 "vertical": false,
+                "alpha": 1,
                 "scale": 1,
                 "bounds": {
-                    "x": 102.4,
-                    "y": 167.3202614379085,
-                    "width": 143.36,
+                    "x": 51.2,
+                    "y": 83.66013071895425,
+                    "width": 71.68,
                     "height": 0
                 }
             },
@@ -58,20 +60,21 @@
             "plugin": "com_unic8_elan_visualizer",
             "config": {
                 "mode": 0,
-                "width": 2,
-                "gap": 2,
+                "width": 1,
+                "gap": 1,
                 "speed": 1,
                 "trail": 1,
                 "scheme": -1,
                 "color": "#1C7A00",
                 "invert x": false,
                 "invert y": false,
+                "alpha": 1,
                 "scale": 1,
                 "bounds": {
-                    "x": 17.92,
-                    "y": 170.66666666666666,
-                    "width": 76.8,
-                    "height": 34.13333333333333
+                    "x": 8.96,
+                    "y": 85.33333333333333,
+                    "width": 38.4,
+                    "height": 17.066666666666666
                 }
             },
             "alpha": 1,
@@ -86,7 +89,7 @@
             "plugin": "com_unic8_elan_image",
             "config": {
                 "path": {
-                    "fileID": "http://localhost:8888/files?id=32da8650-4a44-435d-b49c-e0b2a180321c",
+                    "fileID": "http://localhost:8888/files?id=1178f3af-1ca9-476c-b362-d4a732ec956a",
                     "path": "C:\\Users\\erikl\\Desktop\\winamp.png"
                 },
                 "contains": true,
@@ -94,6 +97,7 @@
                 "frameDelay": -1,
                 "hAlign": 0,
                 "vAlign": 1,
+                "alpha": 1,
                 "scale": 1,
                 "bounds": {
                     "x": 0,
@@ -114,20 +118,21 @@
             "plugin": "com_unic8_elan_image",
             "config": {
                 "path": {
-                    "fileID": "https://i.scdn.co/image/ab67616d00001e02e71ae0799aa67e9854a74d56",
-                    "path": "https://i.scdn.co/image/ab67616d00001e02e71ae0799aa67e9854a74d56"
+                    "fileID": "https://i.scdn.co/image/ab67616d00001e020a62f1a5f67e7cd23c379169",
+                    "path": "https://i.scdn.co/image/ab67616d00001e020a62f1a5f67e7cd23c379169"
                 },
                 "contains": true,
                 "fade": 0.5,
                 "frameDelay": -1,
                 "hAlign": 0,
                 "vAlign": 0,
+                "alpha": 1,
                 "scale": 1,
                 "bounds": {
                     "x": 0,
                     "y": 0,
                     "width": 0,
-                    "height": 148.48
+                    "height": 74.24
                 }
             },
             "alpha": 1,
@@ -141,9 +146,10 @@
             "name": "Color Rectangle",
             "plugin": "com_unic8_elan_colorrectangle",
             "config": {
-                "color": "#0e3d72",
+                "color": "#325464",
                 "radius": 0,
                 "chamfer": false,
+                "alpha": 1,
                 "scale": 1,
                 "bounds": {
                     "x": 0,
@@ -159,38 +165,18 @@
             "visible": true
         },
         {
-            "uid": "5A1C7D3F-5157-4B81-8E31-CDBD0D61C4B3",
-            "name": "Visualizer calc 2",
+            "uid": "8405A353-3AA6-46A1-B564-F7B5AA7F17A8",
+            "name": "Number calculator",
             "plugin": "com_unic8_elan_number_calculator",
             "config": {
                 "addA": 0,
                 "addB": 0,
                 "subA": 0,
                 "subB": 0,
-                "mltA": 256,
-                "mltB": 0.3,
-                "divA": 256,
-                "divB": 7.5
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "scale": 1,
-            "visible": true
-        },
-        {
-            "uid": "2C069246-3831-4A49-BE3F-6478FCAA55DE",
-            "name": "Visualizer calc 1",
-            "plugin": "com_unic8_elan_number_calculator",
-            "config": {
-                "addA": 0,
-                "addB": 0,
-                "subA": 0,
-                "subB": 0,
-                "mltA": 256,
+                "mltA": 128,
                 "mltB": 0.07,
-                "divA": 256,
-                "divB": 1.5
+                "divA": 128,
+                "divB": 128
             },
             "alpha": 1,
             "blendMode": 0,
@@ -199,34 +185,18 @@
             "visible": true
         },
         {
-            "uid": "E06C532B-19EE-461B-9FE1-75EEDC3592F0",
-            "name": "Visualizer rect",
-            "plugin": "com_unic8_elan_rectangle_builder",
-            "config": {
-                "x": 17.92,
-                "y": 170.66666666666666,
-                "width": 76.8,
-                "height": 34.13333333333333
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "scale": 1,
-            "visible": true
-        },
-        {
-            "uid": "A7E1DDAD-2064-4A77-B75C-29A968B1D516",
-            "name": "Progress calc 2",
+            "uid": "BF59E51F-9097-4FA2-8CE7-A5AA44992478",
+            "name": "Text calc 2",
             "plugin": "com_unic8_elan_number_calculator",
             "config": {
                 "addA": 0,
                 "addB": 0,
                 "subA": 0,
                 "subB": 0,
-                "mltA": 256,
-                "mltB": 0.03,
-                "divA": 256,
-                "divB": 1.11
+                "mltA": 128,
+                "mltB": 0.56,
+                "divA": 128,
+                "divB": 23
             },
             "alpha": 1,
             "blendMode": 0,
@@ -235,18 +205,18 @@
             "visible": true
         },
         {
-            "uid": "3C1EBF4C-F9FF-4125-8F5F-5921AE30ED71",
-            "name": "Progress calc 1",
+            "uid": "61F5C869-B14F-4FD3-A414-C7D38F1171DD",
+            "name": "Text calc 1",
             "plugin": "com_unic8_elan_number_calculator",
             "config": {
                 "addA": 0,
                 "addB": 0,
-                "subA": 256,
-                "subB": 16,
-                "mltA": 256,
-                "mltB": 0.84,
-                "divA": 256,
-                "divB": 16
+                "subA": 0,
+                "subB": 0,
+                "mltA": 128,
+                "mltB": 0.4,
+                "divA": 128,
+                "divB": 1.53
             },
             "alpha": 1,
             "blendMode": 0,
@@ -255,14 +225,14 @@
             "visible": true
         },
         {
-            "uid": "188058F2-BFFC-44BE-BD95-19C2D2B06948",
-            "name": "Progress rect",
+            "uid": "34376E48-1A83-4BE7-93E1-F13D7AACA490",
+            "name": "Text rect",
             "plugin": "com_unic8_elan_rectangle_builder",
             "config": {
-                "x": 16,
-                "y": 215.04,
-                "width": 230.6306306306306,
-                "height": 7.68
+                "x": 51.2,
+                "y": 83.66013071895425,
+                "width": 71.68,
+                "height": 0
             },
             "alpha": 1,
             "blendMode": 0,
@@ -271,22 +241,34 @@
             "visible": true
         },
         {
-            "uid": "06C8ECA3-BA2C-444A-9F9C-E2BC75F628CE",
-            "name": "Title + Song",
-            "plugin": "com_unic8_elan_string",
+            "uid": "861B3993-8D0F-4940-B807-FBDFC57E2A24",
+            "name": "Cover rect",
+            "plugin": "com_unic8_elan_rectangle_builder",
             "config": {
-                "Len": "",
-                "hasHay": "",
-                "hasNdl": "",
-                "conA": "That's Where I Should Be",
-                "conB": "MA:RK",
-                "conSep": " - ",
-                "repHay": "",
-                "repNdl": "",
-                "repNew": "",
-                "subSrc": "",
-                "subBgn": 0,
-                "subEnd": 0
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 74.24
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "scale": 1,
+            "visible": true
+        },
+        {
+            "uid": "E999274E-7E0B-4BC9-AB99-3343C89F2590",
+            "name": "Cover offset",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "addA": 0,
+                "addB": 0,
+                "subA": 0,
+                "subB": 0,
+                "mltA": 128,
+                "mltB": 0.58,
+                "divA": 0,
+                "divB": 0
             },
             "alpha": 1,
             "blendMode": 0,
@@ -312,18 +294,22 @@
             "visible": true
         },
         {
-            "uid": "E999274E-7E0B-4BC9-AB99-3343C89F2590",
-            "name": "Cover offset",
-            "plugin": "com_unic8_elan_number_calculator",
+            "uid": "06C8ECA3-BA2C-444A-9F9C-E2BC75F628CE",
+            "name": "Title + Song",
+            "plugin": "com_unic8_elan_string",
             "config": {
-                "addA": 0,
-                "addB": 0,
-                "subA": 0,
-                "subB": 0,
-                "mltA": 256,
-                "mltB": 0.58,
-                "divA": 0,
-                "divB": 0
+                "Len": "",
+                "hasHay": "",
+                "hasNdl": "",
+                "conA": "Skylight",
+                "conB": "Chrxs Beats",
+                "conSep": " - ",
+                "repHay": "",
+                "repNdl": "",
+                "repNew": "",
+                "subSrc": "",
+                "subBgn": 0,
+                "subEnd": 0
             },
             "alpha": 1,
             "blendMode": 0,
@@ -332,14 +318,14 @@
             "visible": true
         },
         {
-            "uid": "861B3993-8D0F-4940-B807-FBDFC57E2A24",
-            "name": "Cover rect",
+            "uid": "188058F2-BFFC-44BE-BD95-19C2D2B06948",
+            "name": "Progress rect",
             "plugin": "com_unic8_elan_rectangle_builder",
             "config": {
-                "x": 0,
-                "y": 0,
-                "width": 0,
-                "height": 148.48
+                "x": 8,
+                "y": 107.52,
+                "width": 115.3153153153153,
+                "height": 3.84
             },
             "alpha": 1,
             "blendMode": 0,
@@ -348,14 +334,54 @@
             "visible": true
         },
         {
-            "uid": "34376E48-1A83-4BE7-93E1-F13D7AACA490",
-            "name": "Text rect",
+            "uid": "3C1EBF4C-F9FF-4125-8F5F-5921AE30ED71",
+            "name": "Progress calc 1",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "addA": 0,
+                "addB": 0,
+                "subA": 256,
+                "subB": 16,
+                "mltA": 128,
+                "mltB": 0.84,
+                "divA": 128,
+                "divB": 16
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "scale": 1,
+            "visible": true
+        },
+        {
+            "uid": "A7E1DDAD-2064-4A77-B75C-29A968B1D516",
+            "name": "Progress calc 2",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "addA": 0,
+                "addB": 0,
+                "subA": 0,
+                "subB": 0,
+                "mltA": 128,
+                "mltB": 0.03,
+                "divA": 128,
+                "divB": 1.11
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "scale": 1,
+            "visible": true
+        },
+        {
+            "uid": "E06C532B-19EE-461B-9FE1-75EEDC3592F0",
+            "name": "Visualizer rect",
             "plugin": "com_unic8_elan_rectangle_builder",
             "config": {
-                "x": 102.4,
-                "y": 167.3202614379085,
-                "width": 143.36,
-                "height": 0
+                "x": 8.96,
+                "y": 85.33333333333333,
+                "width": 38.4,
+                "height": 17.066666666666666
             },
             "alpha": 1,
             "blendMode": 0,
@@ -364,58 +390,87 @@
             "visible": true
         },
         {
-            "uid": "61F5C869-B14F-4FD3-A414-C7D38F1171DD",
-            "name": "Text calc 1",
+            "uid": "2C069246-3831-4A49-BE3F-6478FCAA55DE",
+            "name": "Visualizer calc 1",
             "plugin": "com_unic8_elan_number_calculator",
             "config": {
                 "addA": 0,
                 "addB": 0,
                 "subA": 0,
                 "subB": 0,
-                "mltA": 256,
-                "mltB": 0.4,
-                "divA": 256,
-                "divB": 1.53
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "scale": 1,
-            "visible": true
-        },
-        {
-            "uid": "BF59E51F-9097-4FA2-8CE7-A5AA44992478",
-            "name": "Text calc 2",
-            "plugin": "com_unic8_elan_number_calculator",
-            "config": {
-                "addA": 0,
-                "addB": 0,
-                "subA": 0,
-                "subB": 0,
-                "mltA": 256,
-                "mltB": 0.56,
-                "divA": 256,
-                "divB": 23
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "scale": 1,
-            "visible": true
-        },
-        {
-            "uid": "8405A353-3AA6-46A1-B564-F7B5AA7F17A8",
-            "name": "Number calculator",
-            "plugin": "com_unic8_elan_number_calculator",
-            "config": {
-                "addA": 0,
-                "addB": 0,
-                "subA": 0,
-                "subB": 0,
-                "mltA": 256,
+                "mltA": 128,
                 "mltB": 0.07,
-                "divA": 256,
-                "divB": 128
+                "divA": 128,
+                "divB": 1.5
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "scale": 1,
+            "visible": true
+        },
+        {
+            "uid": "5A1C7D3F-5157-4B81-8E31-CDBD0D61C4B3",
+            "name": "Visualizer calc 2",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "addA": 0,
+                "addB": 0,
+                "subA": 0,
+                "subB": 0,
+                "mltA": 128,
+                "mltB": 0.3,
+                "divA": 128,
+                "divB": 7.5
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "scale": 1,
+            "visible": true
+        },
+        {
+            "uid": "F3D2EE3C-9B49-4F7A-9449-605E4899F381",
+            "name": "String modifier",
+            "plugin": "com_unic8_elan_string",
+            "config": {
+                "Len": "Skylight",
+                "hasHay": "",
+                "hasNdl": "",
+                "conA": "",
+                "conB": "",
+                "conSep": "",
+                "repHay": "",
+                "repNdl": "",
+                "repNew": "",
+                "subSrc": "",
+                "subBgn": 0,
+                "subEnd": 0
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "scale": 1,
+            "visible": true
+        },
+        {
+            "uid": "273F6398-C495-489C-AEC3-D00C52772FE1",
+            "name": "Number operator",
+            "plugin": "com_unic8_elan_number_operator",
+            "config": {
+                "EqA": 0,
+                "EqB": 0,
+                "GtA": 0,
+                "GtB": 0,
+                "ModA": 0,
+                "ModB": 0,
+                "Floor": 0,
+                "Ceil": 0,
+                "Round": 0,
+                "MinA": 0,
+                "MinB": 0,
+                "MaxA": 0,
+                "MaxB": 0
             },
             "alpha": 1,
             "blendMode": 0,
@@ -666,6 +721,21 @@
             "id": "plugins.8405A353-3AA6-46A1-B564-F7B5AA7F17A8.output.Mlt_plugins.24DF4F9A-6BA1-4C9C-94B1-ED376B31869E.input.speed",
             "from": "plugins.8405A353-3AA6-46A1-B564-F7B5AA7F17A8.output.Mlt",
             "to": "plugins.24DF4F9A-6BA1-4C9C-94B1-ED376B31869E.input.speed"
+        },
+        {
+            "id": "plugins.B44AA646-75D8-43DD-9604-E4F82CB7E571.output.song_plugins.F3D2EE3C-9B49-4F7A-9449-605E4899F381.input.Len",
+            "from": "plugins.B44AA646-75D8-43DD-9604-E4F82CB7E571.output.song",
+            "to": "plugins.F3D2EE3C-9B49-4F7A-9449-605E4899F381.input.Len"
+        },
+        {
+            "id": "plugins.F3D2EE3C-9B49-4F7A-9449-605E4899F381.output.Len_plugins.273F6398-C495-489C-AEC3-D00C52772FE1.input.GtA",
+            "from": "plugins.F3D2EE3C-9B49-4F7A-9449-605E4899F381.output.Len",
+            "to": "plugins.273F6398-C495-489C-AEC3-D00C52772FE1.input.GtA"
+        },
+        {
+            "id": "plugins.273F6398-C495-489C-AEC3-D00C52772FE1.output.Gt_plugins.400B6B06-9480-4354-8980-F1BF036EEB6D.input.alpha",
+            "from": "plugins.273F6398-C495-489C-AEC3-D00C52772FE1.output.Gt",
+            "to": "plugins.400B6B06-9480-4354-8980-F1BF036EEB6D.input.alpha"
         }
     ],
     "speed": 1
