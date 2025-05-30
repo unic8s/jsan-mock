@@ -13,7 +13,8 @@
         "background": "#000000",
         "multiplier2d": 4,
         "multiplier3d": 1,
-        "contains": false
+        "contains": false,
+        "aspectRatio": true
     },
     "render": {
         "frameLimit": "60",
