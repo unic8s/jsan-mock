@@ -298,9 +298,7 @@
             "plugin": "com_unic8_elan_math",
             "config": {
                 "abs": 0,
-                "ceil": 0,
                 "cos": 0,
-                "floor": 0,
                 "pow base": 0,
                 "pow exp": 0,
                 "round": 11.313708498984761,
@@ -315,17 +313,21 @@
         {
             "uid": "E3F350CF-584B-409E-8417-EFB6769D5FDF",
             "name": "Math",
-            "plugin": "com_unic8_elan_math",
+            "plugin": "com_unic8_elan_number_operator",
             "config": {
-                "abs": 0,
-                "ceil": 0,
-                "cos": 0,
-                "floor": 6.928203230275509,
-                "pow base": 0,
-                "pow exp": 0,
-                "round": 0,
-                "sin": 0,
-                "sqrt": 0
+                "EqA": 0,
+                "EqB": 0,
+                "GtA": 0,
+                "GtB": 0,
+                "ModA": 0,
+                "ModB": 0,
+                "Floor": 0,
+                "Ceil": 0,
+                "Round": 0,
+                "MinA": 0,
+                "MinB": 0,
+                "MaxA": 0,
+                "MaxB": 0
             },
             "alpha": 1,
             "blendMode": 0,
@@ -533,13 +535,13 @@
             "to": "plugins.A6F7BF96-A414-409B-986A-2935BF349D2B.input.divA"
         },
         {
-            "id": "plugins.A6F7BF96-A414-409B-986A-2935BF349D2B.output.Div_plugins.E3F350CF-584B-409E-8417-EFB6769D5FDF.input.floor",
+            "id": "plugins.A6F7BF96-A414-409B-986A-2935BF349D2B.output.Div_plugins.E3F350CF-584B-409E-8417-EFB6769D5FDF.input.Floor",
             "from": "plugins.A6F7BF96-A414-409B-986A-2935BF349D2B.output.Div",
-            "to": "plugins.E3F350CF-584B-409E-8417-EFB6769D5FDF.input.floor"
+            "to": "plugins.E3F350CF-584B-409E-8417-EFB6769D5FDF.input.Floor"
         },
         {
-            "id": "plugins.E3F350CF-584B-409E-8417-EFB6769D5FDF.output.floor_plugins.A7475D95-DE59-4DD0-9F3F-6DB112E7F04D.input.subA",
-            "from": "plugins.E3F350CF-584B-409E-8417-EFB6769D5FDF.output.floor",
+            "id": "plugins.E3F350CF-584B-409E-8417-EFB6769D5FDF.output.Floor_plugins.A7475D95-DE59-4DD0-9F3F-6DB112E7F04D.input.subA",
+            "from": "plugins.E3F350CF-584B-409E-8417-EFB6769D5FDF.output.Floor",
             "to": "plugins.A7475D95-DE59-4DD0-9F3F-6DB112E7F04D.input.subA"
         },
         {
