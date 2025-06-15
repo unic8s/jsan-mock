@@ -8,8 +8,8 @@
                 "track": "#000000",
                 "fill": "#1C7A00",
                 "minimum": 0,
-                "maximum": 109.714,
-                "value": 6.998,
+                "maximum": 196.413,
+                "value": 1.629,
                 "alpha": 1,
                 "scale": 1,
                 "bounds": {
@@ -30,7 +30,7 @@
             "name": "Text",
             "plugin": "com_unic8_elan_text",
             "config": {
-                "label": "Skylight - Chrxs Beats",
+                "label": "Pieces - AVAION",
                 "font": "Roboto",
                 "size": 5.565217391304348,
                 "color": "#1C7A00",
@@ -62,7 +62,7 @@
                 "mode": 0,
                 "width": 1,
                 "gap": 1,
-                "speed": 1,
+                "speed": 0.2,
                 "trail": 1,
                 "scheme": -1,
                 "color": "#1C7A00",
@@ -89,7 +89,7 @@
             "plugin": "com_unic8_elan_image",
             "config": {
                 "path": {
-                    "fileID": "http://localhost:8888/files?id=1178f3af-1ca9-476c-b362-d4a732ec956a",
+                    "fileID": "http://localhost:8888/files?id=4d82af7e-5c0f-449e-b56e-b402381e1c52",
                     "path": "C:\\Users\\erikl\\Desktop\\winamp.png"
                 },
                 "contains": true,
@@ -118,8 +118,8 @@
             "plugin": "com_unic8_elan_image",
             "config": {
                 "path": {
-                    "fileID": "https://i.scdn.co/image/ab67616d00001e020a62f1a5f67e7cd23c379169",
-                    "path": "https://i.scdn.co/image/ab67616d00001e020a62f1a5f67e7cd23c379169"
+                    "fileID": "https://i.scdn.co/image/ab67616d00001e024f205c7786a248e23179f7f7",
+                    "path": "https://i.scdn.co/image/ab67616d00001e024f205c7786a248e23179f7f7"
                 },
                 "contains": true,
                 "fade": 0.5,
@@ -146,7 +146,7 @@
             "name": "Color Rectangle",
             "plugin": "com_unic8_elan_colorrectangle",
             "config": {
-                "color": "#325464",
+                "color": "#3f5a69",
                 "radius": 0,
                 "chamfer": false,
                 "alpha": 1,
@@ -165,18 +165,23 @@
             "visible": true
         },
         {
-            "uid": "8405A353-3AA6-46A1-B564-F7B5AA7F17A8",
-            "name": "Number calculator",
-            "plugin": "com_unic8_elan_number_calculator",
+            "uid": "273F6398-C495-489C-AEC3-D00C52772FE1",
+            "name": "Number operator",
+            "plugin": "com_unic8_elan_number_operator",
             "config": {
-                "addA": 0,
-                "addB": 0,
-                "subA": 0,
-                "subB": 0,
-                "mltA": 128,
-                "mltB": 0.07,
-                "divA": 128,
-                "divB": 128
+                "EqA": 0,
+                "EqB": 0,
+                "GtA": 6,
+                "GtB": 0,
+                "ModA": 0,
+                "ModB": 0,
+                "Floor": 0,
+                "Ceil": 0,
+                "Round": 0,
+                "MinA": 0,
+                "MinB": 0,
+                "MaxA": 0,
+                "MaxB": 0
             },
             "alpha": 1,
             "blendMode": 0,
@@ -185,223 +190,22 @@
             "visible": true
         },
         {
-            "uid": "BF59E51F-9097-4FA2-8CE7-A5AA44992478",
-            "name": "Text calc 2",
-            "plugin": "com_unic8_elan_number_calculator",
-            "config": {
-                "addA": 0,
-                "addB": 0,
-                "subA": 0,
-                "subB": 0,
-                "mltA": 128,
-                "mltB": 0.56,
-                "divA": 128,
-                "divB": 23
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "scale": 1,
-            "visible": true
-        },
-        {
-            "uid": "61F5C869-B14F-4FD3-A414-C7D38F1171DD",
-            "name": "Text calc 1",
-            "plugin": "com_unic8_elan_number_calculator",
-            "config": {
-                "addA": 0,
-                "addB": 0,
-                "subA": 0,
-                "subB": 0,
-                "mltA": 128,
-                "mltB": 0.4,
-                "divA": 128,
-                "divB": 1.53
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "scale": 1,
-            "visible": true
-        },
-        {
-            "uid": "34376E48-1A83-4BE7-93E1-F13D7AACA490",
-            "name": "Text rect",
-            "plugin": "com_unic8_elan_rectangle_builder",
-            "config": {
-                "x": 51.2,
-                "y": 83.66013071895425,
-                "width": 71.68,
-                "height": 0
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "scale": 1,
-            "visible": true
-        },
-        {
-            "uid": "861B3993-8D0F-4940-B807-FBDFC57E2A24",
-            "name": "Cover rect",
-            "plugin": "com_unic8_elan_rectangle_builder",
-            "config": {
-                "x": 0,
-                "y": 0,
-                "width": 0,
-                "height": 74.24
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "scale": 1,
-            "visible": true
-        },
-        {
-            "uid": "E999274E-7E0B-4BC9-AB99-3343C89F2590",
-            "name": "Cover offset",
-            "plugin": "com_unic8_elan_number_calculator",
-            "config": {
-                "addA": 0,
-                "addB": 0,
-                "subA": 0,
-                "subB": 0,
-                "mltA": 128,
-                "mltB": 0.58,
-                "divA": 0,
-                "divB": 0
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "scale": 1,
-            "visible": true
-        },
-        {
-            "uid": "B44AA646-75D8-43DD-9604-E4F82CB7E571",
-            "name": "Spotify",
-            "plugin": "com_unic8_elan_spotify",
-            "config": {
-                "Image size": -1,
-                "play": false,
-                "pause": false,
-                "previous": false,
-                "next": false
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "scale": 1,
-            "visible": true
-        },
-        {
-            "uid": "06C8ECA3-BA2C-444A-9F9C-E2BC75F628CE",
-            "name": "Title + Song",
+            "uid": "F3D2EE3C-9B49-4F7A-9449-605E4899F381",
+            "name": "String modifier",
             "plugin": "com_unic8_elan_string",
             "config": {
-                "Len": "",
+                "Len": "Pieces",
                 "hasHay": "",
                 "hasNdl": "",
-                "conA": "Skylight",
-                "conB": "Chrxs Beats",
-                "conSep": " - ",
+                "conA": "",
+                "conB": "",
+                "conSep": "",
                 "repHay": "",
                 "repNdl": "",
                 "repNew": "",
                 "subSrc": "",
                 "subBgn": 0,
                 "subEnd": 0
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "scale": 1,
-            "visible": true
-        },
-        {
-            "uid": "188058F2-BFFC-44BE-BD95-19C2D2B06948",
-            "name": "Progress rect",
-            "plugin": "com_unic8_elan_rectangle_builder",
-            "config": {
-                "x": 8,
-                "y": 107.52,
-                "width": 115.3153153153153,
-                "height": 3.84
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "scale": 1,
-            "visible": true
-        },
-        {
-            "uid": "3C1EBF4C-F9FF-4125-8F5F-5921AE30ED71",
-            "name": "Progress calc 1",
-            "plugin": "com_unic8_elan_number_calculator",
-            "config": {
-                "addA": 0,
-                "addB": 0,
-                "subA": 256,
-                "subB": 16,
-                "mltA": 128,
-                "mltB": 0.84,
-                "divA": 128,
-                "divB": 16
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "scale": 1,
-            "visible": true
-        },
-        {
-            "uid": "A7E1DDAD-2064-4A77-B75C-29A968B1D516",
-            "name": "Progress calc 2",
-            "plugin": "com_unic8_elan_number_calculator",
-            "config": {
-                "addA": 0,
-                "addB": 0,
-                "subA": 0,
-                "subB": 0,
-                "mltA": 128,
-                "mltB": 0.03,
-                "divA": 128,
-                "divB": 1.11
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "scale": 1,
-            "visible": true
-        },
-        {
-            "uid": "E06C532B-19EE-461B-9FE1-75EEDC3592F0",
-            "name": "Visualizer rect",
-            "plugin": "com_unic8_elan_rectangle_builder",
-            "config": {
-                "x": 8.96,
-                "y": 85.33333333333333,
-                "width": 38.4,
-                "height": 17.066666666666666
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "scale": 1,
-            "visible": true
-        },
-        {
-            "uid": "2C069246-3831-4A49-BE3F-6478FCAA55DE",
-            "name": "Visualizer calc 1",
-            "plugin": "com_unic8_elan_number_calculator",
-            "config": {
-                "addA": 0,
-                "addB": 0,
-                "subA": 0,
-                "subB": 0,
-                "mltA": 128,
-                "mltB": 0.07,
-                "divA": 128,
-                "divB": 1.5
             },
             "alpha": 1,
             "blendMode": 0,
@@ -430,16 +234,108 @@
             "visible": true
         },
         {
-            "uid": "F3D2EE3C-9B49-4F7A-9449-605E4899F381",
-            "name": "String modifier",
+            "uid": "2C069246-3831-4A49-BE3F-6478FCAA55DE",
+            "name": "Visualizer calc 1",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "addA": 0,
+                "addB": 0,
+                "subA": 0,
+                "subB": 0,
+                "mltA": 128,
+                "mltB": 0.07,
+                "divA": 128,
+                "divB": 1.5
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "scale": 1,
+            "visible": true
+        },
+        {
+            "uid": "E06C532B-19EE-461B-9FE1-75EEDC3592F0",
+            "name": "Visualizer rect",
+            "plugin": "com_unic8_elan_rectangle_builder",
+            "config": {
+                "x": 8.96,
+                "y": 85.33333333333333,
+                "width": 38.4,
+                "height": 17.066666666666666
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "scale": 1,
+            "visible": true
+        },
+        {
+            "uid": "A7E1DDAD-2064-4A77-B75C-29A968B1D516",
+            "name": "Progress calc 2",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "addA": 0,
+                "addB": 0,
+                "subA": 0,
+                "subB": 0,
+                "mltA": 128,
+                "mltB": 0.03,
+                "divA": 128,
+                "divB": 1.11
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "scale": 1,
+            "visible": true
+        },
+        {
+            "uid": "3C1EBF4C-F9FF-4125-8F5F-5921AE30ED71",
+            "name": "Progress calc 1",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "addA": 0,
+                "addB": 0,
+                "subA": 256,
+                "subB": 16,
+                "mltA": 128,
+                "mltB": 0.84,
+                "divA": 128,
+                "divB": 16
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "scale": 1,
+            "visible": true
+        },
+        {
+            "uid": "188058F2-BFFC-44BE-BD95-19C2D2B06948",
+            "name": "Progress rect",
+            "plugin": "com_unic8_elan_rectangle_builder",
+            "config": {
+                "x": 8,
+                "y": 107.52,
+                "width": 115.3153153153153,
+                "height": 3.84
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "scale": 1,
+            "visible": true
+        },
+        {
+            "uid": "06C8ECA3-BA2C-444A-9F9C-E2BC75F628CE",
+            "name": "Title + Song",
             "plugin": "com_unic8_elan_string",
             "config": {
-                "Len": "Skylight",
+                "Len": "",
                 "hasHay": "",
                 "hasNdl": "",
-                "conA": "",
-                "conB": "",
-                "conSep": "",
+                "conA": "Pieces",
+                "conB": "AVAION",
+                "conSep": " - ",
                 "repHay": "",
                 "repNdl": "",
                 "repNew": "",
@@ -454,23 +350,127 @@
             "visible": true
         },
         {
-            "uid": "273F6398-C495-489C-AEC3-D00C52772FE1",
-            "name": "Number operator",
-            "plugin": "com_unic8_elan_number_operator",
+            "uid": "B44AA646-75D8-43DD-9604-E4F82CB7E571",
+            "name": "Spotify",
+            "plugin": "com_unic8_elan_spotify",
             "config": {
-                "EqA": 0,
-                "EqB": 0,
-                "GtA": 0,
-                "GtB": 0,
-                "ModA": 0,
-                "ModB": 0,
-                "Floor": 0,
-                "Ceil": 0,
-                "Round": 0,
-                "MinA": 0,
-                "MinB": 0,
-                "MaxA": 0,
-                "MaxB": 0
+                "Image size": -1,
+                "play": false,
+                "pause": false,
+                "previous": false,
+                "next": false
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "scale": 1,
+            "visible": true
+        },
+        {
+            "uid": "E999274E-7E0B-4BC9-AB99-3343C89F2590",
+            "name": "Cover offset",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "addA": 0,
+                "addB": 0,
+                "subA": 0,
+                "subB": 0,
+                "mltA": 128,
+                "mltB": 0.58,
+                "divA": 0,
+                "divB": 0
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "scale": 1,
+            "visible": true
+        },
+        {
+            "uid": "861B3993-8D0F-4940-B807-FBDFC57E2A24",
+            "name": "Cover rect",
+            "plugin": "com_unic8_elan_rectangle_builder",
+            "config": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 74.24
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "scale": 1,
+            "visible": true
+        },
+        {
+            "uid": "34376E48-1A83-4BE7-93E1-F13D7AACA490",
+            "name": "Text rect",
+            "plugin": "com_unic8_elan_rectangle_builder",
+            "config": {
+                "x": 51.2,
+                "y": 83.66013071895425,
+                "width": 71.68,
+                "height": 0
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "scale": 1,
+            "visible": true
+        },
+        {
+            "uid": "61F5C869-B14F-4FD3-A414-C7D38F1171DD",
+            "name": "Text calc 1",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "addA": 0,
+                "addB": 0,
+                "subA": 0,
+                "subB": 0,
+                "mltA": 128,
+                "mltB": 0.4,
+                "divA": 128,
+                "divB": 1.53
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "scale": 1,
+            "visible": true
+        },
+        {
+            "uid": "BF59E51F-9097-4FA2-8CE7-A5AA44992478",
+            "name": "Text calc 2",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "addA": 0,
+                "addB": 0,
+                "subA": 0,
+                "subB": 0,
+                "mltA": 128,
+                "mltB": 0.56,
+                "divA": 128,
+                "divB": 23
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "scale": 1,
+            "visible": true
+        },
+        {
+            "uid": "8405A353-3AA6-46A1-B564-F7B5AA7F17A8",
+            "name": "Number calculator",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "addA": 0,
+                "addB": 0,
+                "subA": 0,
+                "subB": 0,
+                "mltA": 128,
+                "mltB": 0.07,
+                "divA": 128,
+                "divB": 128
             },
             "alpha": 1,
             "blendMode": 0,
