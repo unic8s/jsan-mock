@@ -14,6 +14,8 @@
                 "smooth": true,
                 "speed": 11,
                 "vertical": false,
+                "alpha": 1,
+                "scale": 1,
                 "bounds": {
                     "x": 0,
                     "y": 0,
@@ -22,7 +24,7 @@
                 }
             },
             "alpha": 1,
-            "blendMode": 1,
+            "blendMode": 0,
             "rotation": 0,
             "visible": true
         },
@@ -40,6 +42,8 @@
                 "smooth": true,
                 "speed": 16,
                 "vertical": false,
+                "alpha": 1,
+                "scale": 1,
                 "bounds": {
                     "x": 0,
                     "y": 32,
@@ -48,7 +52,7 @@
                 }
             },
             "alpha": 1,
-            "blendMode": 1,
+            "blendMode": 0,
             "rotation": 0,
             "visible": true
         },
@@ -62,6 +66,8 @@
                 "minimum": 0,
                 "maximum": 1,
                 "value": 0,
+                "alpha": 1,
+                "scale": 1,
                 "bounds": {
                     "x": 2,
                     "y": 124,
@@ -83,11 +89,13 @@
                 "width": 1,
                 "gap": 1,
                 "speed": 0.5,
-                "trail": 20,
+                "trail": 90,
                 "scheme": -1,
                 "color": "#070505",
                 "invert x": false,
                 "invert y": false,
+                "alpha": 1,
+                "scale": 1,
                 "bounds": {
                     "x": 0,
                     "y": 0,
@@ -106,12 +114,16 @@
             "plugin": "com_unic8_elan_image",
             "config": {
                 "path": {
-                    "fileID": "http://localhost:8888/files?id=157ba5fc-6330-4993-8ac7-1ead5a0da4e0",
-                    "path": "http://localhost:8888/files?id=157ba5fc-6330-4993-8ac7-1ead5a0da4e0"
+                    "fileID": "http://localhost:8888/files?id=427b6c01-6a04-46f5-bc4f-fd7a33315b34",
+                    "path": "http://localhost:8888/files?id=427b6c01-6a04-46f5-bc4f-fd7a33315b34"
                 },
                 "contains": false,
                 "fade": 0.5,
                 "frameDelay": -1,
+                "hAlign": 0,
+                "vAlign": 0,
+                "alpha": 1,
+                "scale": 1,
                 "bounds": {
                     "x": 0,
                     "y": 0,
@@ -125,86 +137,14 @@
             "visible": true
         },
         {
-            "uid": "D6FB9B6A-22D8-48E6-8EA2-A44952569C92",
-            "name": "Number calculator",
-            "plugin": "com_unic8_elan_number_calculator",
+            "uid": "79BF48A0-83F1-48A7-A8BA-70B5F9874CCF",
+            "name": "SONOS",
+            "plugin": "com_unic8_elan_sonos",
             "config": {
-                "addA": 128,
-                "addB": -4,
-                "subA": 128,
-                "subB": 4,
-                "mltA": 0,
-                "mltB": 0,
-                "divA": 0,
-                "divB": 0
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "F24116EC-2650-4F3B-B423-1446DA2E0D0E",
-            "name": "Rectangle builder",
-            "plugin": "com_unic8_elan_rectangle_builder",
-            "config": {
-                "x": 2,
-                "y": 124,
-                "width": 124,
-                "height": 2
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "A9E3B07B-B354-47D8-A61F-BE5ED0DD311A",
-            "name": "Number calculator",
-            "plugin": "com_unic8_elan_number_calculator",
-            "config": {
-                "addA": 0,
-                "addB": 0,
-                "subA": 0,
-                "subB": 0,
-                "mltA": 128,
-                "mltB": 0.5,
-                "divA": 128,
-                "divB": 4
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "52201288-F022-451D-80C1-2FD8430D5C0C",
-            "name": "Rectangle builder",
-            "plugin": "com_unic8_elan_rectangle_builder",
-            "config": {
-                "x": 0,
-                "y": 32,
-                "width": 0,
-                "height": 0
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "EFB50D84-4C31-4D08-BAA9-C7FC8066DC23",
-            "name": "Number calculator",
-            "plugin": "com_unic8_elan_number_calculator",
-            "config": {
-                "addA": 0,
-                "addB": 0,
-                "subA": 0,
-                "subB": 0,
-                "mltA": 32,
-                "mltB": 0.5,
-                "divA": 32,
-                "divB": 3
+                "play": false,
+                "pause": false,
+                "previous": false,
+                "next": false
             },
             "alpha": 1,
             "blendMode": 0,
@@ -236,14 +176,86 @@
             "visible": true
         },
         {
-            "uid": "79BF48A0-83F1-48A7-A8BA-70B5F9874CCF",
-            "name": "SONOS",
-            "plugin": "com_unic8_elan_sonos",
+            "uid": "EFB50D84-4C31-4D08-BAA9-C7FC8066DC23",
+            "name": "Number calculator",
+            "plugin": "com_unic8_elan_number_calculator",
             "config": {
-                "play": false,
-                "pause": false,
-                "previous": false,
-                "next": false
+                "addA": 0,
+                "addB": 0,
+                "subA": 0,
+                "subB": 0,
+                "mltA": 32,
+                "mltB": 0.5,
+                "divA": 32,
+                "divB": 3
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "52201288-F022-451D-80C1-2FD8430D5C0C",
+            "name": "Rectangle builder",
+            "plugin": "com_unic8_elan_rectangle_builder",
+            "config": {
+                "x": 0,
+                "y": 32,
+                "width": 0,
+                "height": 0
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "A9E3B07B-B354-47D8-A61F-BE5ED0DD311A",
+            "name": "Number calculator",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "addA": 0,
+                "addB": 0,
+                "subA": 0,
+                "subB": 0,
+                "mltA": 128,
+                "mltB": 0.5,
+                "divA": 128,
+                "divB": 4
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "F24116EC-2650-4F3B-B423-1446DA2E0D0E",
+            "name": "Rectangle builder",
+            "plugin": "com_unic8_elan_rectangle_builder",
+            "config": {
+                "x": 2,
+                "y": 124,
+                "width": 124,
+                "height": 2
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "D6FB9B6A-22D8-48E6-8EA2-A44952569C92",
+            "name": "Number calculator",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "addA": 128,
+                "addB": -4,
+                "subA": 128,
+                "subB": 4,
+                "mltA": 0,
+                "mltB": 0,
+                "divA": 0,
+                "divB": 0
             },
             "alpha": 1,
             "blendMode": 0,

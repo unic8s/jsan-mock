@@ -5,15 +5,17 @@
             "name": "Artist",
             "plugin": "com_unic8_elan_text",
             "config": {
-                "label": "",
+                "label": "Janet Jackson",
                 "font": "Arial",
                 "size": 32,
-                "color": "#1bca5a",
+                "color": "#cf6241",
                 "width": 0,
                 "scroll": true,
                 "smooth": true,
                 "speed": 11,
                 "vertical": false,
+                "alpha": 1,
+                "scale": 1,
                 "bounds": {
                     "x": 0,
                     "y": 0,
@@ -22,7 +24,7 @@
                 }
             },
             "alpha": 1,
-            "blendMode": 1,
+            "blendMode": 0,
             "rotation": 0,
             "visible": true
         },
@@ -31,15 +33,17 @@
             "name": "Song",
             "plugin": "com_unic8_elan_text",
             "config": {
-                "label": "",
+                "label": "Got 'Til It's Gone",
                 "font": "Arial",
                 "size": 64,
-                "color": "#12a449",
+                "color": "#c44c3a",
                 "width": 0,
                 "scroll": true,
                 "smooth": true,
                 "speed": 16,
                 "vertical": false,
+                "alpha": 1,
+                "scale": 1,
                 "bounds": {
                     "x": 0,
                     "y": 32,
@@ -48,7 +52,7 @@
                 }
             },
             "alpha": 1,
-            "blendMode": 1,
+            "blendMode": 0,
             "rotation": 0,
             "visible": true
         },
@@ -58,10 +62,12 @@
             "plugin": "com_unic8_elan_progress",
             "config": {
                 "track": "#000000",
-                "fill": "#12a449",
+                "fill": "#c44c3a",
                 "minimum": 0,
-                "maximum": 0,
-                "value": 0,
+                "maximum": 241.76,
+                "value": 80.626,
+                "alpha": 1,
+                "scale": 1,
                 "bounds": {
                     "x": 2,
                     "y": 124,
@@ -83,11 +89,13 @@
                 "width": 1,
                 "gap": 1,
                 "speed": 0.5,
-                "trail": 20,
+                "trail": 90,
                 "scheme": -1,
-                "color": "#12a449",
+                "color": "#c44c3a",
                 "invert x": false,
                 "invert y": false,
+                "alpha": 1,
+                "scale": 1,
                 "bounds": {
                     "x": 0,
                     "y": 0,
@@ -106,12 +114,16 @@
             "plugin": "com_unic8_elan_image",
             "config": {
                 "path": {
-                    "fileID": "http://localhost:8888/files?id=df5c4f6a-3e08-41f2-8700-995a0580ba25",
-                    "path": "assets/spotify.png"
+                    "fileID": "https://i.scdn.co/image/ab67616d00001e022416d363e4220c21c5454efe",
+                    "path": "https://i.scdn.co/image/ab67616d00001e022416d363e4220c21c5454efe"
                 },
                 "contains": false,
                 "fade": 0.5,
                 "frameDelay": -1,
+                "hAlign": 0,
+                "vAlign": 0,
+                "alpha": 1,
+                "scale": 1,
                 "bounds": {
                     "x": 0,
                     "y": 0,
@@ -125,42 +137,18 @@
             "visible": true
         },
         {
-            "uid": "A73F7411-8B39-4F1A-9206-042917263415",
-            "name": "Number operator",
-            "plugin": "com_unic8_elan_number_operator",
-            "config": {
-                "EqA": 0,
-                "EqB": 0,
-                "GtA": 0,
-                "GtB": 0,
-                "ModA": 0,
-                "ModB": 0,
-                "Floor": 0,
-                "Ceil": 10.666666666666666,
-                "Round": 0,
-                "MinA": 128,
-                "MinB": 128,
-                "MaxA": 0,
-                "MaxB": 0
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "EFB50D84-4C31-4D08-BAA9-C7FC8066DC23",
+            "uid": "D6FB9B6A-22D8-48E6-8EA2-A44952569C92",
             "name": "Number calculator",
             "plugin": "com_unic8_elan_number_calculator",
             "config": {
-                "addA": 0,
-                "addB": 0,
-                "subA": 0,
-                "subB": 0,
-                "mltA": 32,
-                "mltB": 0.5,
-                "divA": 32,
-                "divB": 3
+                "addA": 128,
+                "addB": -4,
+                "subA": 128,
+                "subB": 4,
+                "mltA": 0,
+                "mltB": 0,
+                "divA": 0,
+                "divB": 0
             },
             "alpha": 1,
             "blendMode": 0,
@@ -168,14 +156,30 @@
             "visible": true
         },
         {
-            "uid": "52201288-F022-451D-80C1-2FD8430D5C0C",
+            "uid": "F24116EC-2650-4F3B-B423-1446DA2E0D0E",
             "name": "Rectangle builder",
             "plugin": "com_unic8_elan_rectangle_builder",
             "config": {
-                "x": 0,
-                "y": 32,
-                "width": 0,
-                "height": 0
+                "x": 2,
+                "y": 124,
+                "width": 124,
+                "height": 2
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "010DEA8E-5333-4CF1-8976-A61387E5CD0A",
+            "name": "Spotify",
+            "plugin": "com_unic8_elan_spotify",
+            "config": {
+                "Image size": -1,
+                "play": false,
+                "pause": false,
+                "previous": false,
+                "next": false
             },
             "alpha": 1,
             "blendMode": 0,
@@ -202,30 +206,14 @@
             "visible": true
         },
         {
-            "uid": "010DEA8E-5333-4CF1-8976-A61387E5CD0A",
-            "name": "Spotify",
-            "plugin": "com_unic8_elan_spotify",
-            "config": {
-                "Image size": -1,
-                "play": false,
-                "pause": false,
-                "previous": false,
-                "next": false
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "F24116EC-2650-4F3B-B423-1446DA2E0D0E",
+            "uid": "52201288-F022-451D-80C1-2FD8430D5C0C",
             "name": "Rectangle builder",
             "plugin": "com_unic8_elan_rectangle_builder",
             "config": {
-                "x": 2,
-                "y": 124,
-                "width": 124,
-                "height": 2
+                "x": 0,
+                "y": 32,
+                "width": 0,
+                "height": 0
             },
             "alpha": 1,
             "blendMode": 0,
@@ -233,18 +221,42 @@
             "visible": true
         },
         {
-            "uid": "D6FB9B6A-22D8-48E6-8EA2-A44952569C92",
+            "uid": "EFB50D84-4C31-4D08-BAA9-C7FC8066DC23",
             "name": "Number calculator",
             "plugin": "com_unic8_elan_number_calculator",
             "config": {
-                "addA": 128,
-                "addB": -4,
-                "subA": 128,
-                "subB": 4,
-                "mltA": 0,
-                "mltB": 0,
-                "divA": 0,
-                "divB": 0
+                "addA": 0,
+                "addB": 0,
+                "subA": 0,
+                "subB": 0,
+                "mltA": 32,
+                "mltB": 0.5,
+                "divA": 32,
+                "divB": 3
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "A73F7411-8B39-4F1A-9206-042917263415",
+            "name": "Number operator",
+            "plugin": "com_unic8_elan_number_operator",
+            "config": {
+                "EqA": 0,
+                "EqB": 0,
+                "GtA": 0,
+                "GtB": 0,
+                "ModA": 0,
+                "ModB": 0,
+                "Floor": 0,
+                "Ceil": 10.666666666666666,
+                "Round": 0,
+                "MinA": 128,
+                "MinB": 128,
+                "MaxA": 0,
+                "MaxB": 0
             },
             "alpha": 1,
             "blendMode": 0,
