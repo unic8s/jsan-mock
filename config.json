@@ -18,7 +18,8 @@
     },
     "render": {
         "frameLimit": "60",
-        "antiAlias": true
+        "antiAlias": true,
+        "previewFormat": 0
     },
     "edit": {
         "dropCentral": true,
