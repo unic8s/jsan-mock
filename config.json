@@ -35,7 +35,7 @@
     "services": {
         "mqtt": false,
         "webhooks": false,
-        "https": false
+        "https": true
     },
     "options": {
         "developer": true,
