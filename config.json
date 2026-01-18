@@ -11,7 +11,7 @@
         "width": 128,
         "height": 128,
         "background": "#000000",
-        "multiplier2d": 4,
+        "multiplier2d": 1,
         "multiplier3d": 1,
         "contains": false,
         "aspectRatio": true
@@ -34,7 +34,8 @@
     },
     "services": {
         "mqtt": false,
-        "webhooks": false
+        "webhooks": false,
+        "https": false
     },
     "options": {
         "developer": true,
