@@ -34,8 +34,7 @@
     },
     "services": {
         "mqtt": false,
-        "webhooks": false,
-        "https": true
+        "webhooks": false
     },
     "options": {
         "developer": true,
