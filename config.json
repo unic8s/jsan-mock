@@ -19,7 +19,8 @@
     "render": {
         "frameLimit": "60",
         "antiAlias": true,
-        "previewFormat": 0
+        "previewFormat": 0,
+        "useXVFB": false
     },
     "edit": {
         "dropCentral": true,
