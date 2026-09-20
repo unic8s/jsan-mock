@@ -2,7 +2,10 @@
     "scene": "(empty)",
     "devices": [],
     "media": {
-        "video": "",
+        "video": {
+            "source": "csi",
+            "rotation": 2
+        },
         "resolution": "",
         "audio": "default",
         "screen": "screen:0:0"
