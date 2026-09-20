@@ -3,8 +3,8 @@
     "devices": [],
     "media": {
         "video": {
-            "source": "csi",
-            "rotation": 2
+            "source": "",
+            "rotation": 0
         },
         "resolution": "",
         "audio": "default",
