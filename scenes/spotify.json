@@ -5,10 +5,10 @@
             "name": "Artist",
             "plugin": "com_unic8_elan_text",
             "config": {
-                "label": "Janet Jackson",
+                "label": "longleggss",
                 "font": "Arial",
                 "size": 32,
-                "color": "#cf6241",
+                "color": "#272122",
                 "width": 0,
                 "scroll": true,
                 "smooth": true,
@@ -33,10 +33,10 @@
             "name": "Song",
             "plugin": "com_unic8_elan_text",
             "config": {
-                "label": "Got 'Til It's Gone",
+                "label": "same room",
                 "font": "Arial",
                 "size": 64,
-                "color": "#c44c3a",
+                "color": "#685148",
                 "width": 0,
                 "scroll": true,
                 "smooth": true,
@@ -62,10 +62,10 @@
             "plugin": "com_unic8_elan_progress",
             "config": {
                 "track": "#000000",
-                "fill": "#c44c3a",
+                "fill": "#685148",
                 "minimum": 0,
-                "maximum": 241.76,
-                "value": 80.626,
+                "maximum": 121.76,
+                "value": 54.472,
                 "alpha": 1,
                 "scale": 1,
                 "bounds": {
@@ -75,7 +75,7 @@
                     "height": 2
                 }
             },
-            "alpha": 0.5,
+            "alpha": 1,
             "blendMode": 0,
             "rotation": 0,
             "visible": true
@@ -91,7 +91,7 @@
                 "speed": 0.5,
                 "trail": 90,
                 "scheme": -1,
-                "color": "#c44c3a",
+                "color": "#685148",
                 "invert x": false,
                 "invert y": false,
                 "alpha": 1,
@@ -109,13 +109,44 @@
             "visible": true
         },
         {
+            "uid": "B7EA5C73-6E87-49E3-8D8F-1B969692D128",
+            "name": "Video",
+            "plugin": "com_unic8_elan_video",
+            "config": {
+                "path": {
+                    "fileID": "https://canvaz.scdn.co/upload/artist/7D3gDtnJfhcPo7Js624Mej/video/71f668d811414887840f31e85c1c3659.cnvs.mp4",
+                    "path": "https://canvaz.scdn.co/upload/artist/7D3gDtnJfhcPo7Js624Mej/video/71f668d811414887840f31e85c1c3659.cnvs.mp4"
+                },
+                "contains": false,
+                "autoplay": true,
+                "loop": true,
+                "muted": true,
+                "paused": false,
+                "progress": 0,
+                "speed": 1,
+                "alpha": 0.5,
+                "scale": 1,
+                "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            "alpha": 0.5,
+            "blendMode": 1,
+            "rotation": 0,
+            "scale": 1,
+            "visible": false
+        },
+        {
             "uid": "3DC87306-D540-4A76-B45A-2EC6B549B7CC",
             "name": "Image",
             "plugin": "com_unic8_elan_image",
             "config": {
                 "path": {
-                    "fileID": "https://i.scdn.co/image/ab67616d00001e022416d363e4220c21c5454efe",
-                    "path": "https://i.scdn.co/image/ab67616d00001e022416d363e4220c21c5454efe"
+                    "fileID": "https://i.scdn.co/image/ab67616d00001e020f599e8d7bf0ada036bf9474",
+                    "path": "https://i.scdn.co/image/ab67616d00001e020f599e8d7bf0ada036bf9474"
                 },
                 "contains": false,
                 "fade": 0.5,
@@ -130,109 +161,6 @@
                     "width": 0,
                     "height": 0
                 }
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "D6FB9B6A-22D8-48E6-8EA2-A44952569C92",
-            "name": "Number calculator",
-            "plugin": "com_unic8_elan_number_calculator",
-            "config": {
-                "addA": 128,
-                "addB": -4,
-                "subA": 128,
-                "subB": 4,
-                "mltA": 0,
-                "mltB": 0,
-                "divA": 0,
-                "divB": 0
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "F24116EC-2650-4F3B-B423-1446DA2E0D0E",
-            "name": "Rectangle builder",
-            "plugin": "com_unic8_elan_rectangle_builder",
-            "config": {
-                "x": 2,
-                "y": 124,
-                "width": 124,
-                "height": 2
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "010DEA8E-5333-4CF1-8976-A61387E5CD0A",
-            "name": "Spotify",
-            "plugin": "com_unic8_elan_spotify",
-            "config": {
-                "Image size": -1,
-                "play": false,
-                "pause": false,
-                "previous": false,
-                "next": false
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "A9E3B07B-B354-47D8-A61F-BE5ED0DD311A",
-            "name": "Number calculator",
-            "plugin": "com_unic8_elan_number_calculator",
-            "config": {
-                "addA": 0,
-                "addB": 0,
-                "subA": 0,
-                "subB": 0,
-                "mltA": 128,
-                "mltB": 0.5,
-                "divA": 128,
-                "divB": 4
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "52201288-F022-451D-80C1-2FD8430D5C0C",
-            "name": "Rectangle builder",
-            "plugin": "com_unic8_elan_rectangle_builder",
-            "config": {
-                "x": 0,
-                "y": 32,
-                "width": 0,
-                "height": 0
-            },
-            "alpha": 1,
-            "blendMode": 0,
-            "rotation": 0,
-            "visible": true
-        },
-        {
-            "uid": "EFB50D84-4C31-4D08-BAA9-C7FC8066DC23",
-            "name": "Number calculator",
-            "plugin": "com_unic8_elan_number_calculator",
-            "config": {
-                "addA": 0,
-                "addB": 0,
-                "subA": 0,
-                "subB": 0,
-                "mltA": 32,
-                "mltB": 0.5,
-                "divA": 32,
-                "divB": 3
             },
             "alpha": 1,
             "blendMode": 0,
@@ -261,6 +189,123 @@
             "alpha": 1,
             "blendMode": 0,
             "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "EFB50D84-4C31-4D08-BAA9-C7FC8066DC23",
+            "name": "Number calculator",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "addA": 0,
+                "addB": 0,
+                "subA": 0,
+                "subB": 0,
+                "mltA": 32,
+                "mltB": 0.5,
+                "divA": 32,
+                "divB": 3
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "52201288-F022-451D-80C1-2FD8430D5C0C",
+            "name": "Rectangle builder",
+            "plugin": "com_unic8_elan_rectangle_builder",
+            "config": {
+                "x": 0,
+                "y": 32,
+                "width": 0,
+                "height": 0
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "A9E3B07B-B354-47D8-A61F-BE5ED0DD311A",
+            "name": "Number calculator",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "addA": 0,
+                "addB": 0,
+                "subA": 0,
+                "subB": 0,
+                "mltA": 128,
+                "mltB": 0.5,
+                "divA": 128,
+                "divB": 4
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "010DEA8E-5333-4CF1-8976-A61387E5CD0A",
+            "name": "Spotify",
+            "plugin": "com_unic8_elan_spotify",
+            "config": {
+                "Image size": -1,
+                "play": false,
+                "pause": false,
+                "previous": false,
+                "next": false
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "F24116EC-2650-4F3B-B423-1446DA2E0D0E",
+            "name": "Rectangle builder",
+            "plugin": "com_unic8_elan_rectangle_builder",
+            "config": {
+                "x": 2,
+                "y": 124,
+                "width": 124,
+                "height": 2
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "D6FB9B6A-22D8-48E6-8EA2-A44952569C92",
+            "name": "Number calculator",
+            "plugin": "com_unic8_elan_number_calculator",
+            "config": {
+                "addA": 128,
+                "addB": -4,
+                "subA": 128,
+                "subB": 4,
+                "mltA": 0,
+                "mltB": 0,
+                "divA": 0,
+                "divB": 0
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "visible": true
+        },
+        {
+            "uid": "3CC0BD35-6B6F-4B70-AB44-A3B1272DAE87",
+            "name": "URL file converter",
+            "plugin": "com_unic8_elan_url",
+            "config": {
+                "fileA": "",
+                "urlB": "https://canvaz.scdn.co/upload/artist/7D3gDtnJfhcPo7Js624Mej/video/71f668d811414887840f31e85c1c3659.cnvs.mp4"
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "scale": 1,
             "visible": true
         }
     ],
@@ -400,6 +445,16 @@
             "id": "plugins.A73F7411-8B39-4F1A-9206-042917263415.output.Min_plugins.D6FB9B6A-22D8-48E6-8EA2-A44952569C92.input.subA",
             "from": "plugins.A73F7411-8B39-4F1A-9206-042917263415.output.Min",
             "to": "plugins.D6FB9B6A-22D8-48E6-8EA2-A44952569C92.input.subA"
+        },
+        {
+            "id": "plugins.010DEA8E-5333-4CF1-8976-A61387E5CD0A.output.canvasURL_plugins.3CC0BD35-6B6F-4B70-AB44-A3B1272DAE87.input.urlB",
+            "from": "plugins.010DEA8E-5333-4CF1-8976-A61387E5CD0A.output.canvasURL",
+            "to": "plugins.3CC0BD35-6B6F-4B70-AB44-A3B1272DAE87.input.urlB"
+        },
+        {
+            "id": "plugins.3CC0BD35-6B6F-4B70-AB44-A3B1272DAE87.output.fileB_plugins.B7EA5C73-6E87-49E3-8D8F-1B969692D128.input.path",
+            "from": "plugins.3CC0BD35-6B6F-4B70-AB44-A3B1272DAE87.output.fileB",
+            "to": "plugins.B7EA5C73-6E87-49E3-8D8F-1B969692D128.input.path"
         }
     ],
     "speed": 1
