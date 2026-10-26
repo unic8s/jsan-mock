@@ -135,10 +135,10 @@
                 }
             },
             "alpha": 0.5,
-            "blendMode": 1,
+            "blendMode": 0,
             "rotation": 0,
             "scale": 1,
-            "visible": false
+            "visible": true
         },
         {
             "uid": "3DC87306-D540-4A76-B45A-2EC6B549B7CC",
