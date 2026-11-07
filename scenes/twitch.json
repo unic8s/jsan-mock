@@ -1,0 +1,104 @@
+{
+    "layers": [
+        {
+            "uid": "93DDAB72-9531-4202-B570-418CB3B469EA",
+            "name": "Text",
+            "plugin": "com_unic8_elan_text",
+            "config": {
+                "label": "handofblood",
+                "font": "Roboto",
+                "size": 12,
+                "color": "#FFFFFF",
+                "width": 0,
+                "scroll": false,
+                "smooth": true,
+                "speed": 10,
+                "vertical": false,
+                "alpha": 1,
+                "scale": 1,
+                "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "scale": 1,
+            "visible": true
+        },
+        {
+            "uid": "7C7EABC5-9904-497B-A4AB-808196936300",
+            "name": "Video",
+            "plugin": "com_unic8_elan_video",
+            "config": {
+                "path": {
+                    "fileID": "https://euc11.playlist.ttvnw.net/v1/playlist/CrMF6bCQXhp3sPNnCft0swEc9SVrG5F9fEMRl-_2El4MjgMOyEn6O0tzhMcsK1jRDTEEeg659XFCsCm3e0o4PCP3A64g0SRw4nHdBI3BVQ0H1K-at1zNHY4FXneclCt2gOUtPdBuo0_rN0SM8TBCkMaA7Q5qbHB7IwfvwQVs3YG0SL0U4eSHap3lb19_vitCK6utw6cq2DGH6QW6qX2Kon7Q3LTBjM52IiFo1WLv6UPVMN5zNLyAUx7e-ir46xPeTI1inVXoha8XVTgrLwCmjLaspw-qohHGEe-NekKKPbus21b3ZXzb_v4JnHth1A1Q6X8aHdTr_2NRHxFhor3BJ7QjibSeo22vp2tUyFDX1SH-tvYM2TlQhqRIPVHUZO6NBXpBZJgLGe0CLp0c2U3JLXo6pY3MoaTsnTNDAmQY3FBaOdTuata-6CxvxyYxhtZA5THWwPFwUJZ1d_hINVnz7SJMJF_4t6m8IYmdq8qYwOKOEt3pjRD0eDzRmPh4GE-zeoaOIACPO9EYD_DOtlJiElzGOPC-8N1nbZBSrE0XqrO06Ot1EZVoOTLTBOFhGEnusyJO1olyvRVQQnJx5rkeSd3mrY0SfvZepmsKFNjfO6IPMg79VmnI_QMgWlQqRP6GRDsAd9zB7TM52jgvIoZPqUnBibiB5fshw9MKsgYx24CIRpIglWSs9bPg0vvX2if-NJsnpZ10oSdIS0XfRU6AT92Cj8pItr6uYyr9GlKvTWfm8-piuNFJHlvTLeXfQfovhmEHPiHcWS_2JL1igrEn0ftM8UC3ESpANwD4RpUvb4UDOhpjm4z_KwF_o6ZsD8xEh5hXdsTzlURNsa-CmDVl19yi6nD1sO_CKHT-uC74wphpAhUpgnTp9BvureLADx4_A6D509H_Dzf7rzhwmDGK9VaSqMphJxoM4hGO8TeCKjv1ok9IIAEqCWV1LXdlc3QtMjDBEA.m3u8",
+                    "path": "https://euc11.playlist.ttvnw.net/v1/playlist/CrMF6bCQXhp3sPNnCft0swEc9SVrG5F9fEMRl-_2El4MjgMOyEn6O0tzhMcsK1jRDTEEeg659XFCsCm3e0o4PCP3A64g0SRw4nHdBI3BVQ0H1K-at1zNHY4FXneclCt2gOUtPdBuo0_rN0SM8TBCkMaA7Q5qbHB7IwfvwQVs3YG0SL0U4eSHap3lb19_vitCK6utw6cq2DGH6QW6qX2Kon7Q3LTBjM52IiFo1WLv6UPVMN5zNLyAUx7e-ir46xPeTI1inVXoha8XVTgrLwCmjLaspw-qohHGEe-NekKKPbus21b3ZXzb_v4JnHth1A1Q6X8aHdTr_2NRHxFhor3BJ7QjibSeo22vp2tUyFDX1SH-tvYM2TlQhqRIPVHUZO6NBXpBZJgLGe0CLp0c2U3JLXo6pY3MoaTsnTNDAmQY3FBaOdTuata-6CxvxyYxhtZA5THWwPFwUJZ1d_hINVnz7SJMJF_4t6m8IYmdq8qYwOKOEt3pjRD0eDzRmPh4GE-zeoaOIACPO9EYD_DOtlJiElzGOPC-8N1nbZBSrE0XqrO06Ot1EZVoOTLTBOFhGEnusyJO1olyvRVQQnJx5rkeSd3mrY0SfvZepmsKFNjfO6IPMg79VmnI_QMgWlQqRP6GRDsAd9zB7TM52jgvIoZPqUnBibiB5fshw9MKsgYx24CIRpIglWSs9bPg0vvX2if-NJsnpZ10oSdIS0XfRU6AT92Cj8pItr6uYyr9GlKvTWfm8-piuNFJHlvTLeXfQfovhmEHPiHcWS_2JL1igrEn0ftM8UC3ESpANwD4RpUvb4UDOhpjm4z_KwF_o6ZsD8xEh5hXdsTzlURNsa-CmDVl19yi6nD1sO_CKHT-uC74wphpAhUpgnTp9BvureLADx4_A6D509H_Dzf7rzhwmDGK9VaSqMphJxoM4hGO8TeCKjv1ok9IIAEqCWV1LXdlc3QtMjDBEA.m3u8"
+                },
+                "contains": false,
+                "autoplay": true,
+                "loop": true,
+                "muted": true,
+                "paused": false,
+                "progress": 0,
+                "speed": 1,
+                "fade": 0,
+                "alpha": 1,
+                "scale": 1,
+                "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "scale": 1,
+            "visible": true
+        },
+        {
+            "uid": "C94B1CE9-213D-4BC4-9959-F76009B4A64E",
+            "name": "Twitch",
+            "plugin": "com_unic8_elan_twitch",
+            "config": {
+                "channel": "handofblood",
+                "quality": 3
+            },
+            "alpha": 1,
+            "blendMode": 0,
+            "rotation": 0,
+            "scale": 1,
+            "visible": true
+        }
+    ],
+    "variables": [
+        {
+            "name": "channel",
+            "value": "handofblood",
+            "type": "String"
+        }
+    ],
+    "bindings": [
+        {
+            "id": "variables.channel_plugins.93DDAB72-9531-4202-B570-418CB3B469EA.input.label",
+            "from": "variables.channel",
+            "to": "plugins.93DDAB72-9531-4202-B570-418CB3B469EA.input.label"
+        },
+        {
+            "id": "plugins.C94B1CE9-213D-4BC4-9959-F76009B4A64E.output.stream_plugins.7C7EABC5-9904-497B-A4AB-808196936300.input.path",
+            "from": "plugins.C94B1CE9-213D-4BC4-9959-F76009B4A64E.output.stream",
+            "to": "plugins.7C7EABC5-9904-497B-A4AB-808196936300.input.path"
+        },
+        {
+            "id": "variables.channel_plugins.C94B1CE9-213D-4BC4-9959-F76009B4A64E.input.channel",
+            "from": "variables.channel",
+            "to": "plugins.C94B1CE9-213D-4BC4-9959-F76009B4A64E.input.channel"
+        }
+    ],
+    "speed": 1
+}
