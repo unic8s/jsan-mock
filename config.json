@@ -34,7 +34,8 @@
         "scalePreview": true,
         "variableIcons": true,
         "detailedTooltips": true,
-        "mediaPreview": true
+        "mediaPreview": true,
+        "presetEdit": true
     },
     "services": {
         "mqtt": false,
